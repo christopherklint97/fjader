@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Spike C" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <title>Spike C: screenplay pagination</title>
+  </head>
+  <body>
+    <header id="bar">
+      <div class="controls">
+        <select id="sample" aria-label="Script">
+          <option value="stress-120">Stress script, ~120 pages (generated)</option>
+          <option value="stress-500">Stress script, ~500 pages (generated)</option>
+          <option value="rules">Rules sample (short)</option>
+        </select>
+        <select id="profile" aria-label="Profile">
+          <option value="us-feature">US feature (Final Draft-like rules)</option>
+          <option value="afterwriting-usletter">afterwriting rules</option>
+        </select>
+        <button id="load">Load</button>
+        <label class="file">Open file<input id="file" type="file" accept=".fountain,.txt,.fdx,text/plain" /></label>
+        <button id="paste">Paste</button>
+        <button id="full">Re-paginate</button>
+        <button id="pdf">PDF</button>
+        <a id="dl" hidden>Download PDF</a>
+      </div>
+      <div id="status">Loading…</div>
+    </header>
+    <main id="pages"></main>
+    <section id="editor" hidden>
+      <div class="ed-head"><span id="ed-label"></span>
+        <span><button id="ed-prev">◀</button> <button id="ed-next">▶</button> <button id="ed-close">Close</button></span></div>
+      <textarea id="ed-text" rows="4" spellcheck="false"></textarea>
+    </section>
+    <dialog id="paste-dlg"><form method="dialog">
+      <p>Paste a Fountain script</p><textarea id="paste-text" rows="12"></textarea>
+      <p><button value="ok">Load</button> <button value="cancel">Cancel</button></p></form></dialog>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

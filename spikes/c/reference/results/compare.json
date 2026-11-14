@@ -1,0 +1,820 @@
+{
+ "note": "Row text from the fountain.io sample scripts (Brick & Steel, The Last Birthday Card, Big Fish) is replaced by [omitted]; rerun tools/compare.ts after tools/fetch-refs.sh to regenerate it.",
+ "results": [
+  {
+   "script": "brick-and-steel",
+   "reference": "afterwriting 1.17.3",
+   "profile": "afterwriting-usletter",
+   "ourPages": 3,
+   "refPages": 3,
+   "identicalPages": 3,
+   "rowsIdenticalPages": 3,
+   "skippedRefPages": [],
+   "firstDivergence": null,
+   "independentBreaks": 2,
+   "independentAgree": 2,
+   "independentDiffs": [],
+   "located": 2
+  },
+  {
+   "script": "the-last-birthday-card",
+   "reference": "afterwriting 1.17.3",
+   "profile": "afterwriting-usletter",
+   "ourPages": 19,
+   "refPages": 19,
+   "identicalPages": 19,
+   "rowsIdenticalPages": 19,
+   "skippedRefPages": [],
+   "firstDivergence": null,
+   "independentBreaks": 18,
+   "independentAgree": 18,
+   "independentDiffs": [],
+   "located": 18
+  },
+  {
+   "script": "big-fish",
+   "reference": "afterwriting 1.17.3",
+   "profile": "afterwriting-usletter",
+   "ourPages": 121,
+   "refPages": 121,
+   "identicalPages": 121,
+   "rowsIdenticalPages": 121,
+   "skippedRefPages": [],
+   "firstDivergence": null,
+   "independentBreaks": 120,
+   "independentAgree": 120,
+   "independentDiffs": [],
+   "located": 120
+  },
+  {
+   "script": "aw-test",
+   "reference": "afterwriting 1.17.3",
+   "profile": "afterwriting-usletter",
+   "ourPages": 4,
+   "refPages": 4,
+   "identicalPages": 4,
+   "rowsIdenticalPages": 4,
+   "skippedRefPages": [],
+   "firstDivergence": null,
+   "independentBreaks": 3,
+   "independentAgree": 2,
+   "independentDiffs": [
+    {
+     "page": 3,
+     "ref": "quält jeden größeren zwerg.",
+     "ours": "action.",
+     "ourKind": "action",
+     "context": "ref page rows 41, ours 53"
+    }
+   ],
+   "located": 3
+  },
+  {
+   "script": "aw-printing-trouble",
+   "reference": "afterwriting 1.17.3",
+   "profile": "afterwriting-usletter",
+   "ourPages": 11,
+   "refPages": 11,
+   "identicalPages": 11,
+   "rowsIdenticalPages": 11,
+   "skippedRefPages": [],
+   "firstDivergence": null,
+   "independentBreaks": 10,
+   "independentAgree": 10,
+   "independentDiffs": [],
+   "located": 10
+  },
+  {
+   "script": "aw-my-living-memory",
+   "reference": "afterwriting 1.17.3",
+   "profile": "afterwriting-usletter",
+   "ourPages": 15,
+   "refPages": 15,
+   "identicalPages": 15,
+   "rowsIdenticalPages": 15,
+   "skippedRefPages": [],
+   "firstDivergence": null,
+   "independentBreaks": 14,
+   "independentAgree": 14,
+   "independentDiffs": [],
+   "located": 14
+  },
+  {
+   "script": "stress-30",
+   "reference": "afterwriting 1.17.3",
+   "profile": "afterwriting-usletter",
+   "ourPages": 30,
+   "refPages": 30,
+   "identicalPages": 30,
+   "rowsIdenticalPages": 24,
+   "skippedRefPages": [],
+   "firstDivergence": null,
+   "independentBreaks": 29,
+   "independentAgree": 29,
+   "independentDiffs": [],
+   "located": 29
+  },
+  {
+   "script": "stress-120",
+   "reference": "afterwriting 1.17.3",
+   "profile": "afterwriting-usletter",
+   "ourPages": 115,
+   "refPages": 115,
+   "identicalPages": 115,
+   "rowsIdenticalPages": 102,
+   "skippedRefPages": [],
+   "firstDivergence": null,
+   "independentBreaks": 114,
+   "independentAgree": 114,
+   "independentDiffs": [],
+   "located": 114
+  },
+  {
+   "script": "stress-500",
+   "reference": "afterwriting 1.17.3",
+   "profile": "afterwriting-usletter",
+   "ourPages": 485,
+   "refPages": 491,
+   "identicalPages": 481,
+   "rowsIdenticalPages": 445,
+   "skippedRefPages": [
+    231,
+    232,
+    233,
+    403,
+    404,
+    405
+   ],
+   "firstDivergence": 230,
+   "independentBreaks": 490,
+   "independentAgree": 479,
+   "independentDiffs": [
+    {
+     "page": 230,
+     "ref": "pulls waits light half-open",
+     "ours": "tired rain runs!",
+     "ourKind": "dialogue line 3/3",
+     "context": "ref page rows 48, ours 51"
+    },
+    {
+     "page": 233,
+     "ref": "heavy!",
+     "ours": "glass window twenty-two half-open",
+     "ourKind": "dialogue line 10/12",
+     "context": "ref page rows 4, ours 52"
+    },
+    {
+     "page": 268,
+     "ref": "empty looks hand and kitchen letter slowly to field pushes.",
+     "ours": "empty looks hand and kitchen slowly letter to field pushes.",
+     "ourKind": "dialogue line 3/5",
+     "context": "ref page rows 43, ours 43"
+    },
+    {
+     "page": 402,
+     "ref": "pulls waits light half-open",
+     "ours": "tired rain runs!",
+     "ourKind": "dialogue line 3/3",
+     "context": "ref page rows 48, ours 51"
+    },
+    {
+     "page": 405,
+     "ref": "heavy!",
+     "ours": "glass window twenty-two half-open",
+     "ourKind": "dialogue line 10/12",
+     "context": "ref page rows 4, ours 52"
+    },
+    {
+     "page": 440,
+     "ref": "empty looks hand and kitchen letter slowly to field pushes.",
+     "ours": "empty looks hand and kitchen slowly letter to field pushes.",
+     "ourKind": "dialogue line 3/5",
+     "context": "ref page rows 43, ours 43"
+    }
+   ],
+   "located": 485
+  },
+  {
+   "script": "brick-and-steel",
+   "reference": "Final Draft (fountain.io PDF, 2012)",
+   "profile": "fd-brick-and-steel",
+   "ourPages": 3,
+   "refPages": 4,
+   "identicalPages": 0,
+   "rowsIdenticalPages": 0,
+   "skippedRefPages": [],
+   "firstDivergence": 1,
+   "independentBreaks": 3,
+   "independentAgree": 1,
+   "independentDiffs": [
+    {
+     "page": 1,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/2",
+     "context": "ref page rows 34, ours 37"
+    },
+    {
+     "page": 3,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 33, ours 35"
+    }
+   ],
+   "located": 3
+  },
+  {
+   "script": "the-last-birthday-card",
+   "reference": "Final Draft (fountain.io PDF, 2012)",
+   "profile": "fd-the-last-birthday-card",
+   "ourPages": 19,
+   "refPages": 20,
+   "identicalPages": 0,
+   "rowsIdenticalPages": 0,
+   "skippedRefPages": [],
+   "firstDivergence": 1,
+   "independentBreaks": 19,
+   "independentAgree": 5,
+   "independentDiffs": [
+    {
+     "page": 1,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 3/3",
+     "context": "ref page rows 35, ours 38"
+    },
+    {
+     "page": 2,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 37, ours 39"
+    },
+    {
+     "page": 3,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 36, ours 39"
+    },
+    {
+     "page": 4,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 33, ours 35"
+    },
+    {
+     "page": 6,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 7,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 4/6",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 8,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/2",
+     "context": "ref page rows 37, ours 40"
+    },
+    {
+     "page": 9,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 4/4",
+     "context": "ref page rows 34, ours 36"
+    },
+    {
+     "page": 10,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 35, ours 38"
+    },
+    {
+     "page": 12,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 37, ours 39"
+    },
+    {
+     "page": 14,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 16,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/2",
+     "context": "ref page rows 34, ours 37"
+    },
+    {
+     "page": 17,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 35, ours 37"
+    },
+    {
+     "page": 19,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 37, ours 38"
+    }
+   ],
+   "located": 19
+  },
+  {
+   "script": "big-fish",
+   "reference": "Final Draft (fountain.io PDF, 2012)",
+   "profile": "fd-big-fish",
+   "ourPages": 115,
+   "refPages": 120,
+   "identicalPages": 2,
+   "rowsIdenticalPages": 2,
+   "skippedRefPages": [
+    44,
+    45
+   ],
+   "firstDivergence": 1,
+   "independentBreaks": 119,
+   "independentAgree": 48,
+   "independentDiffs": [
+    {
+     "page": 1,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 3/7",
+     "context": "ref page rows 39, ours 43"
+    },
+    {
+     "page": 2,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 39, ours 40"
+    },
+    {
+     "page": 5,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 41, ours 43"
+    },
+    {
+     "page": 6,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 3/5",
+     "context": "ref page rows 32, ours 36"
+    },
+    {
+     "page": 8,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 3/3",
+     "context": "ref page rows 38, ours 41"
+    },
+    {
+     "page": 10,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 12,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 4/4",
+     "context": "ref page rows 37, ours 41"
+    },
+    {
+     "page": 14,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/3",
+     "context": "ref page rows 39, ours 41"
+    },
+    {
+     "page": 15,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 4/6",
+     "context": "ref page rows 32, ours 36"
+    },
+    {
+     "page": 17,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 37, ours 39"
+    },
+    {
+     "page": 18,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 20,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 38, ours 40"
+    },
+    {
+     "page": 21,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/4",
+     "context": "ref page rows 37, ours 40"
+    },
+    {
+     "page": 22,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 4/4",
+     "context": "ref page rows 38, ours 40"
+    },
+    {
+     "page": 24,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 7/11",
+     "context": "ref page rows 36, ours 40"
+    },
+    {
+     "page": 29,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 37, ours 39"
+    },
+    {
+     "page": 31,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 3/3",
+     "context": "ref page rows 38, ours 41"
+    },
+    {
+     "page": 33,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 3/3",
+     "context": "ref page rows 36, ours 40"
+    },
+    {
+     "page": 35,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 38, ours 40"
+    },
+    {
+     "page": 37,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 3/3",
+     "context": "ref page rows 37, ours 40"
+    },
+    {
+     "page": 38,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 37, ours 38"
+    },
+    {
+     "page": 39,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/2",
+     "context": "ref page rows 37, ours 40"
+    },
+    {
+     "page": 40,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/4",
+     "context": "ref page rows 35, ours 37"
+    },
+    {
+     "page": 41,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/4",
+     "context": "ref page rows 37, ours 39"
+    },
+    {
+     "page": 42,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 38, ours 41"
+    },
+    {
+     "page": 43,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/2",
+     "context": "ref page rows 38, ours 40"
+    },
+    {
+     "page": 45,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 38, ours 41"
+    },
+    {
+     "page": 48,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 40, ours 42"
+    },
+    {
+     "page": 49,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 4/15",
+     "context": "ref page rows 42, ours 44"
+    },
+    {
+     "page": 52,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 6/6",
+     "context": "ref page rows 39, ours 42"
+    },
+    {
+     "page": 54,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 4/4",
+     "context": "ref page rows 34, ours 36"
+    },
+    {
+     "page": 57,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 3/3",
+     "context": "ref page rows 37, ours 41"
+    },
+    {
+     "page": 58,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/4",
+     "context": "ref page rows 40, ours 42"
+    },
+    {
+     "page": 59,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 64,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/4",
+     "context": "ref page rows 34, ours 37"
+    },
+    {
+     "page": 65,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 34, ours 37"
+    },
+    {
+     "page": 66,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 37, ours 38"
+    },
+    {
+     "page": 71,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 5/5",
+     "context": "ref page rows 40, ours 42"
+    },
+    {
+     "page": 74,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "transition",
+     "context": "ref page rows 37, ours 39"
+    },
+    {
+     "page": 75,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/2",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 76,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 3/3",
+     "context": "ref page rows 33, ours 37"
+    },
+    {
+     "page": 78,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 40, ours 42"
+    },
+    {
+     "page": 79,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 80,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 6/14",
+     "context": "ref page rows 43, ours 46"
+    },
+    {
+     "page": 82,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/2",
+     "context": "ref page rows 38, ours 41"
+    },
+    {
+     "page": 87,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 39, ours 40"
+    },
+    {
+     "page": 89,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 36, ours 37"
+    },
+    {
+     "page": 92,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/2",
+     "context": "ref page rows 36, ours 39"
+    },
+    {
+     "page": 93,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 42, ours 44"
+    },
+    {
+     "page": 97,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 4/4",
+     "context": "ref page rows 39, ours 41"
+    },
+    {
+     "page": 99,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 35, ours 36"
+    },
+    {
+     "page": 100,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 33, ours 36"
+    },
+    {
+     "page": 101,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 37, ours 38"
+    },
+    {
+     "page": 102,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/2",
+     "context": "ref page rows 32, ours 35"
+    },
+    {
+     "page": 104,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 37, ours 40"
+    },
+    {
+     "page": 105,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 34, ours 36"
+    },
+    {
+     "page": 106,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 37, ours 39"
+    },
+    {
+     "page": 107,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 5/7",
+     "context": "ref page rows 36, ours 39"
+    },
+    {
+     "page": 109,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 40, ours 42"
+    },
+    {
+     "page": 110,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue",
+     "context": "ref page rows 34, ours 36"
+    },
+    {
+     "page": 113,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "transition",
+     "context": "ref page rows 32, ours 34"
+    },
+    {
+     "page": 116,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 117,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "action line 2/2",
+     "context": "ref page rows 36, ours 38"
+    },
+    {
+     "page": 119,
+     "ref": "[omitted]",
+     "ours": "[omitted]",
+     "ourKind": "dialogue line 2/4",
+     "context": "ref page rows 37, ours 40"
+    }
+   ],
+   "located": 112
+  }
+ ],
+ "predicted": {
+  "brick-and-steel": 4,
+  "the-last-birthday-card": 20,
+  "big-fish": 124,
+  "aw-test": 4,
+  "aw-printing-trouble": 11,
+  "aw-my-living-memory": 15,
+  "stress-30": 32,
+  "stress-120": 120,
+  "stress-500": 501
+ }
+}

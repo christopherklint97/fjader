@@ -1,0 +1,17 @@
+import { serveDist, launch, openPage, sleep } from './lib.mjs'
+const browserName = process.argv[2] ?? 'webkit'
+const { server, origin } = await serveDist()
+const browser = await launch(browserName)
+const { page } = await openPage(browser, browserName)
+await page.goto(origin + '/' + (process.argv[3] ?? ''))
+await page.waitForFunction(() => window.__spike?.m.fullMs.length > 0, null, { timeout: 60000 })
+await page.evaluate(() => { window.__gaps = []; let last = performance.now(); const f = () => { const t = performance.now(); window.__gaps.push(t - last); last = t; requestAnimationFrame(f) }; requestAnimationFrame(f) })
+await page.click('.page[data-n="' + (process.env.PG ?? 10) + '"] .row[data-e]:not([data-e="-1"])')
+await sleep(2000)
+await page.evaluate(() => { window.__gaps = [] })
+await page.locator('#ed-text').press('End')
+await page.keyboard.type(' and some more words typed here and more.', { delay: 80 })
+await sleep(1000)
+const r = await page.evaluate(() => ({ i2f: window.__spike.m.inputToFrame.map(Math.round), handler: window.__spike.m.handlerMs.map(Math.round), input: window.__spike.m.inputHandlerMs.map(Math.round), gaps: window.__gaps.filter((g) => g > 30).map(Math.round), frames: window.__gaps.length }))
+console.log(JSON.stringify(r))
+await browser.close(); server.close()

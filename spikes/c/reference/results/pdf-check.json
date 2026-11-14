@@ -1,0 +1,66 @@
+[
+ {
+  "name": "stress-120",
+  "profile": "us-feature",
+  "pages": 120,
+  "pdfPages": 120,
+  "identicalPages": 120,
+  "paginateMs": 12,
+  "pdfMs": 324,
+  "bytes": 226487,
+  "rssBeforeMB": 84,
+  "rssPeakMB": 111,
+  "fonts": [
+   "BZZZZZ+CourierPrime-Regular CID TrueType Identity-H yes yes yes 8 0"
+  ],
+  "problems": []
+ },
+ {
+  "name": "stress-500",
+  "profile": "us-feature",
+  "pages": 501,
+  "pdfPages": 501,
+  "identicalPages": 501,
+  "paginateMs": 26.3,
+  "pdfMs": 980,
+  "bytes": 899497,
+  "rssBeforeMB": 128,
+  "rssPeakMB": 148,
+  "fonts": [
+   "BZZZZZ+CourierPrime-Regular CID TrueType Identity-H yes yes yes 8 0"
+  ],
+  "problems": []
+ },
+ {
+  "name": "big-fish",
+  "profile": "us-feature",
+  "pages": 124,
+  "pdfPages": 124,
+  "identicalPages": 124,
+  "paginateMs": 5.9,
+  "pdfMs": 308,
+  "bytes": 222716,
+  "rssBeforeMB": 203,
+  "rssPeakMB": 212,
+  "fonts": [
+   "BZZZZZ+CourierPrime-Regular CID TrueType Identity-H yes yes yes 8 0"
+  ],
+  "problems": []
+ },
+ {
+  "name": "big-fish",
+  "profile": "afterwriting-usletter",
+  "pages": 121,
+  "pdfPages": 121,
+  "identicalPages": 121,
+  "paginateMs": 5.9,
+  "pdfMs": 286,
+  "bytes": 233977,
+  "rssBeforeMB": 208,
+  "rssPeakMB": 222,
+  "fonts": [
+   "BZZZZZ+CourierPrime-Regular CID TrueType Identity-H yes yes yes 8 0"
+  ],
+  "problems": []
+ }
+]

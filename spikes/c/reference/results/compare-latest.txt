@@ -1,0 +1,32 @@
+| Script | Reference | Ours | Ref | Identical pages (first+last row) | All rows identical | Ref pages skipped | First divergence | Independent breaks agreeing |
+|---|---|---|---|---|---|---|---|---|
+| brick-and-steel | afterwriting 1.17.3 | 3 | 3 | 3/3 (100.0%) | 3 | - | - | 2/2 (100.0%) located 2 |
+| the-last-birthday-card | afterwriting 1.17.3 | 19 | 19 | 19/19 (100.0%) | 19 | - | - | 18/18 (100.0%) located 18 |
+| big-fish | afterwriting 1.17.3 | 121 | 121 | 121/121 (100.0%) | 121 | - | - | 120/120 (100.0%) located 120 |
+| aw-test | afterwriting 1.17.3 | 4 | 4 | 4/4 (100.0%) | 4 | - | - | 2/3 (66.7%) located 3 |
+    p3: ref ends "quält jeden größeren zwerg." | ours "action." [action] ref page rows 41, ours 53
+| aw-printing-trouble | afterwriting 1.17.3 | 11 | 11 | 11/11 (100.0%) | 11 | - | - | 10/10 (100.0%) located 10 |
+| aw-my-living-memory | afterwriting 1.17.3 | 15 | 15 | 15/15 (100.0%) | 15 | - | - | 14/14 (100.0%) located 14 |
+| stress-30 | afterwriting 1.17.3 | 30 | 30 | 30/30 (100.0%) | 24 | - | - | 29/29 (100.0%) located 29 |
+| stress-120 | afterwriting 1.17.3 | 115 | 115 | 115/115 (100.0%) | 102 | - | - | 114/114 (100.0%) located 114 |
+| stress-500 | afterwriting 1.17.3 | 485 | 491 | 481/491 (98.0%) | 445 | 231 232 233 403 404 405 | 230 | 479/490 (97.8%) located 485 |
+    p230: ref ends "pulls waits light half-open" | ours "tired rain runs!" [dialogue line 3/3] ref page rows 48, ours 51
+    p233: ref ends "heavy!" | ours "glass window twenty-two half-open" [dialogue line 10/12] ref page rows 4, ours 52
+    p268: ref ends "empty looks hand and kitchen letter slowly to fiel" | ours "empty looks hand and kitchen slowly letter to fiel" [dialogue line 3/5] ref page rows 43, ours 43
+    p402: ref ends "pulls waits light half-open" | ours "tired rain runs!" [dialogue line 3/3] ref page rows 48, ours 51
+    p405: ref ends "heavy!" | ours "glass window twenty-two half-open" [dialogue line 10/12] ref page rows 4, ours 52
+    p440: ref ends "empty looks hand and kitchen letter slowly to fiel" | ours "empty looks hand and kitchen slowly letter to fiel" [dialogue line 3/5] ref page rows 43, ours 43
+| brick-and-steel | Final Draft (fountain.io PDF, 2012) | 4 | 4 | 4/4 (100.0%) | 4 | - | - | 3/3 (100.0%) located 3 |
+| the-last-birthday-card | Final Draft (fountain.io PDF, 2012) | 20 | 20 | 20/20 (100.0%) | 19 | - | - | 19/19 (100.0%) located 19 |
+| big-fish | Final Draft (fountain.io PDF, 2012) | 120 | 120 | 115/120 (95.8%) | 114 | - | 72 | 112/119 (94.1%) located 112 |
+
+Predicted page counts, us-feature profile (fd rules, Final Draft default element settings, 54 lines):
+  brick-and-steel: 4
+  the-last-birthday-card: 20
+  big-fish: 124
+  aw-test: 4
+  aw-printing-trouble: 11
+  aw-my-living-memory: 15
+  stress-30: 32
+  stress-120: 120
+  stress-500: 501

@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #e8e8e8; font-family: system-ui, sans-serif; }
+#bar { position: sticky; top: 0; z-index: 3; background: #fafafa; border-bottom: 1px solid #ccc; padding: 6px 8px env(safe-area-inset-top); font-size: 13px; }
+.controls { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.controls select, .controls button, .controls .file, .controls a { font-size: 13px; padding: 4px 6px; }
+.file input { display: none; }
+.file { border: 1px solid #999; border-radius: 3px; background: #fff; cursor: pointer; }
+#status { margin-top: 4px; font-variant-numeric: tabular-nums; color: #222; height: 3.9em; overflow: hidden; contain: strict; }
+#pages {
+  /* one character cell; the page is 85 cells wide, so it fits the screen width */
+  --u: min(calc((100vw - 16px) / 85), 9.6px);
+  --lh: calc(var(--u) * 10 / 6);
+  padding: 8px;
+  padding-bottom: 50vh;
+}
+.page {
+  position: relative; width: calc(85 * var(--u)); height: calc(110 * var(--u)); margin: 0 auto 8px;
+  background: #fff; outline: 1px solid #bbb; /* no box-shadow: it made every WebKit frame take ~0.5-1.2 s on this host */
+  font-family: 'Courier Prime', monospace; font-size: calc(var(--u) / 0.6); line-height: var(--lh);
+  content-visibility: auto; contain-intrinsic-size: auto calc(85 * var(--u)) auto calc(110 * var(--u));
+  contain: strict; /* fixed-size page: edits inside never re-lay-out other pages */
+}
+.row { position: absolute; white-space: pre; cursor: text; }
+.row.num { color: #444; }
+.row.on { background: #fff3a0; }
+.row.k-more, .row.k-contd { color: #a00; }
+#editor { contain: layout paint; position: fixed; left: 0; right: 0; bottom: 0; z-index: 4; background: #fafafa; border-top: 1px solid #aaa; padding: 6px 8px calc(6px + env(safe-area-inset-bottom)); }
+.ed-head { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 4px; }
+#ed-text { width: 100%; font: 16px 'Courier Prime', monospace; }
+dialog textarea { width: min(90vw, 600px); }
+
+body.nocv .page { content-visibility: visible; }
+body.noshadow .page { box-shadow: none; outline: 1px solid #bbb; }
+body.static #bar { position: static; }
+body.static #editor { position: static; }

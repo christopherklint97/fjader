@@ -1,0 +1,264 @@
+{
+ "browser": "webkit",
+ "version": "27.2",
+ "throttle": 1,
+ "load": [
+  0.99,
+  0.85,
+  0.77
+ ],
+ "when": "2026-11-14T12:51:38.642Z",
+ "scripts": {
+  "stress-120": {
+   "pages": 120,
+   "elements": 1902,
+   "firstLoadMs": 83,
+   "fullMs": {
+    "median": 8,
+    "min": 4,
+    "max": 12,
+    "runs": [
+     9,
+     6,
+     12,
+     8,
+     4
+    ]
+   },
+   "typing": {
+    "start": {
+     "element": 38,
+     "keys": 33,
+     "updates": 33,
+     "workerMs": {
+      "median": 3,
+      "p95": 6,
+      "max": 6
+     },
+     "roundTripMs": {
+      "median": 4,
+      "p95": 6,
+      "max": 7
+     },
+     "inputToFrameMs": {
+      "median": 11,
+      "p95": 17,
+      "max": 18
+     },
+     "recomputedPages": 4,
+     "resynced": 33,
+     "coalescedMax": 1,
+     "pagesAfter": 120
+    },
+    "middle": {
+     "element": 951,
+     "keys": 33,
+     "updates": 33,
+     "workerMs": {
+      "median": 2,
+      "p95": 8,
+      "max": 15
+     },
+     "roundTripMs": {
+      "median": 3,
+      "p95": 10,
+      "max": 16
+     },
+     "inputToFrameMs": {
+      "median": 9,
+      "p95": 16,
+      "max": 17
+     },
+     "recomputedPages": 3,
+     "resynced": 33,
+     "coalescedMax": 1,
+     "pagesAfter": 120
+    },
+    "end": {
+     "element": 1845,
+     "keys": 33,
+     "updates": 33,
+     "workerMs": {
+      "median": 2,
+      "p95": 5,
+      "max": 6
+     },
+     "roundTripMs": {
+      "median": 4,
+      "p95": 7,
+      "max": 11
+     },
+     "inputToFrameMs": {
+      "median": 10,
+      "p95": 16,
+      "max": 17
+     },
+     "recomputedPages": 4,
+     "resynced": 33,
+     "coalescedMax": 1,
+     "pagesAfter": 120
+    }
+   },
+   "pdf": [
+    {
+     "workerMs": 619,
+     "totalMs": 652,
+     "cloneMs": 12,
+     "bytes": 235721,
+     "pages": 120,
+     "rssBaseMB": 154,
+     "rssPeakDeltaMB": 8,
+     "largestProcPeakMB": 116
+    },
+    {
+     "workerMs": 404,
+     "totalMs": 431,
+     "cloneMs": 13,
+     "bytes": 235721,
+     "pages": 120,
+     "rssBaseMB": 161,
+     "rssPeakDeltaMB": 2,
+     "largestProcPeakMB": 117
+    },
+    {
+     "workerMs": 329,
+     "totalMs": 352,
+     "cloneMs": 11,
+     "bytes": 235721,
+     "pages": 120,
+     "rssBaseMB": 161,
+     "rssPeakDeltaMB": 2,
+     "largestProcPeakMB": 117
+    }
+   ]
+  },
+  "stress-500": {
+   "pages": 501,
+   "elements": 7944,
+   "firstLoadMs": 200,
+   "fullMs": {
+    "median": 24,
+    "min": 23,
+    "max": 33,
+    "runs": [
+     24,
+     23,
+     24,
+     33,
+     30
+    ]
+   },
+   "typing": {
+    "start": {
+     "element": 159,
+     "keys": 33,
+     "updates": 33,
+     "workerMs": {
+      "median": 12,
+      "p95": 22,
+      "max": 24
+     },
+     "roundTripMs": {
+      "median": 14,
+      "p95": 22,
+      "max": 25
+     },
+     "inputToFrameMs": {
+      "median": 10,
+      "p95": 18,
+      "max": 38
+     },
+     "recomputedPages": 4,
+     "resynced": 33,
+     "coalescedMax": 1,
+     "pagesAfter": 501
+    },
+    "middle": {
+     "element": 3972,
+     "keys": 33,
+     "updates": 33,
+     "workerMs": {
+      "median": 13,
+      "p95": 28,
+      "max": 46
+     },
+     "roundTripMs": {
+      "median": 15,
+      "p95": 30,
+      "max": 46
+     },
+     "inputToFrameMs": {
+      "median": 10,
+      "p95": 20,
+      "max": 20
+     },
+     "recomputedPages": 2,
+     "resynced": 33,
+     "coalescedMax": 1,
+     "pagesAfter": 501
+    },
+    "end": {
+     "element": 7705,
+     "keys": 33,
+     "updates": 33,
+     "workerMs": {
+      "median": 12,
+      "p95": 27,
+      "max": 35
+     },
+     "roundTripMs": {
+      "median": 13,
+      "p95": 27,
+      "max": 35
+     },
+     "inputToFrameMs": {
+      "median": 8,
+      "p95": 18,
+      "max": 18
+     },
+     "recomputedPages": 3,
+     "resynced": 33,
+     "coalescedMax": 1,
+     "pagesAfter": 501
+    }
+   },
+   "pdf": [
+    {
+     "workerMs": 1559,
+     "totalMs": 1674,
+     "cloneMs": 71,
+     "bytes": 938016,
+     "pages": 501,
+     "rssBaseMB": 208,
+     "rssPeakDeltaMB": 10,
+     "largestProcPeakMB": 172
+    },
+    {
+     "workerMs": 1319,
+     "totalMs": 1401,
+     "cloneMs": 51,
+     "bytes": 938016,
+     "pages": 501,
+     "rssBaseMB": 216,
+     "rssPeakDeltaMB": 4,
+     "largestProcPeakMB": 174
+    },
+    {
+     "workerMs": 1118,
+     "totalMs": 1197,
+     "cloneMs": 49,
+     "bytes": 938016,
+     "pages": 501,
+     "rssBaseMB": 213,
+     "rssPeakDeltaMB": 2,
+     "largestProcPeakMB": 169
+    }
+   ]
+  }
+ },
+ "loadAfter": [
+  1.57,
+  0.99,
+  0.82
+ ]
+}
