@@ -1,0 +1,561 @@
+{
+ "browser": "webkit",
+ "mode": "plain",
+ "seconds": 20,
+ "rounds": 3,
+ "runs": [
+  {
+   "vfs": "sahpool",
+   "profile": "default",
+   "batchMs": 250,
+   "round": 1,
+   "load": "0.57",
+   "journal": "delete",
+   "sync": 2,
+   "locking": "normal",
+   "importMs": 1026,
+   "batch_": {
+    "n": 67,
+    "first": 6,
+    "median": 7,
+    "p95": 9,
+    "max": 13
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 156,
+    "p95": 258,
+    "p99": 263,
+    "max": 268
+   },
+   "cal": 16
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "truncate",
+   "batchMs": 250,
+   "round": 1,
+   "load": "0.41",
+   "journal": "truncate",
+   "sync": 2,
+   "locking": "normal",
+   "importMs": 1098,
+   "batch_": {
+    "n": 67,
+    "first": 6,
+    "median": 6,
+    "p95": 8,
+    "max": 11
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 156,
+    "p95": 258,
+    "p99": 262,
+    "max": 269
+   },
+   "cal": 11
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "wal-limit",
+   "batchMs": 250,
+   "round": 1,
+   "load": "1.07",
+   "journal": "wal",
+   "sync": 1,
+   "locking": "exclusive",
+   "importMs": 1184,
+   "batch_": {
+    "n": 67,
+    "first": 5,
+    "median": 1,
+    "p95": 1,
+    "max": 5
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 150,
+    "p95": 251,
+    "p99": 257,
+    "max": 262
+   },
+   "cal": 16
+  },
+  {
+   "vfs": "coop",
+   "profile": "default",
+   "batchMs": 250,
+   "round": 1,
+   "load": "0.77",
+   "journal": "delete",
+   "sync": 2,
+   "locking": "normal",
+   "importMs": 1065,
+   "batch_": {
+    "n": 67,
+    "first": 5,
+    "median": 5,
+    "p95": 6,
+    "max": 7
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 155,
+    "p95": 257,
+    "p99": 259,
+    "max": 264
+   },
+   "cal": 16
+  },
+  {
+   "vfs": "coop",
+   "profile": "sync-normal",
+   "batchMs": 250,
+   "round": 1,
+   "load": "0.56",
+   "journal": "delete",
+   "sync": 1,
+   "locking": "normal",
+   "importMs": 1070,
+   "batch_": {
+    "n": 67,
+    "first": 4,
+    "median": 4,
+    "p95": 6,
+    "max": 8
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 155,
+    "p95": 256,
+    "p99": 259,
+    "max": 272
+   },
+   "cal": 17
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "default",
+   "batchMs": 250,
+   "round": 2,
+   "load": "0.67",
+   "journal": "delete",
+   "sync": 2,
+   "locking": "normal",
+   "batch_": {
+    "n": 67,
+    "first": 7,
+    "median": 7,
+    "p95": 9,
+    "max": 10
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 157,
+    "p95": 259,
+    "p99": 260,
+    "max": 271
+   },
+   "cal": 17
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "truncate",
+   "batchMs": 250,
+   "round": 2,
+   "load": "0.48",
+   "journal": "truncate",
+   "sync": 2,
+   "locking": "normal",
+   "batch_": {
+    "n": 67,
+    "first": 7,
+    "median": 5,
+    "p95": 8,
+    "max": 8
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 156,
+    "p95": 258,
+    "p99": 259,
+    "max": 271
+   },
+   "cal": 14
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "wal-limit",
+   "batchMs": 250,
+   "round": 2,
+   "load": "0.56",
+   "journal": "wal",
+   "sync": 1,
+   "locking": "exclusive",
+   "batch_": {
+    "n": 67,
+    "first": 2,
+    "median": 0,
+    "p95": 2,
+    "max": 8
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 151,
+    "p95": 252,
+    "p99": 259,
+    "max": 264
+   },
+   "cal": 15
+  },
+  {
+   "vfs": "coop",
+   "profile": "default",
+   "batchMs": 250,
+   "round": 2,
+   "load": "0.40",
+   "journal": "delete",
+   "sync": 2,
+   "locking": "normal",
+   "batch_": {
+    "n": 67,
+    "first": 7,
+    "median": 5,
+    "p95": 7,
+    "max": 9
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 156,
+    "p95": 257,
+    "p99": 261,
+    "max": 273
+   },
+   "cal": 15
+  },
+  {
+   "vfs": "coop",
+   "profile": "sync-normal",
+   "batchMs": 250,
+   "round": 2,
+   "load": "0.32",
+   "journal": "delete",
+   "sync": 1,
+   "locking": "normal",
+   "batch_": {
+    "n": 67,
+    "first": 5,
+    "median": 4,
+    "p95": 6,
+    "max": 10
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 154,
+    "p95": 256,
+    "p99": 261,
+    "max": 264
+   },
+   "cal": 16
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "default",
+   "batchMs": 250,
+   "round": 3,
+   "load": "0.36",
+   "journal": "delete",
+   "sync": 2,
+   "locking": "normal",
+   "batch_": {
+    "n": 67,
+    "first": 8,
+    "median": 6,
+    "p95": 8,
+    "max": 9
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 158,
+    "p95": 258,
+    "p99": 261,
+    "max": 270
+   },
+   "cal": 16
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "truncate",
+   "batchMs": 250,
+   "round": 3,
+   "load": "0.32",
+   "journal": "truncate",
+   "sync": 2,
+   "locking": "normal",
+   "batch_": {
+    "n": 67,
+    "first": 7,
+    "median": 6,
+    "p95": 8,
+    "max": 9
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 156,
+    "p95": 258,
+    "p99": 260,
+    "max": 269
+   },
+   "cal": 16
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "wal-limit",
+   "batchMs": 250,
+   "round": 3,
+   "load": "0.23",
+   "journal": "wal",
+   "sync": 1,
+   "locking": "exclusive",
+   "batch_": {
+    "n": 67,
+    "first": 2,
+    "median": 1,
+    "p95": 1,
+    "max": 2
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 151,
+    "p95": 251,
+    "p99": 252,
+    "max": 254
+   },
+   "cal": 16
+  },
+  {
+   "vfs": "coop",
+   "profile": "default",
+   "batchMs": 250,
+   "round": 3,
+   "load": "0.16",
+   "journal": "delete",
+   "sync": 2,
+   "locking": "normal",
+   "batch_": {
+    "n": 67,
+    "first": 6,
+    "median": 5,
+    "p95": 7,
+    "max": 10
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 155,
+    "p95": 257,
+    "p99": 259,
+    "max": 264
+   },
+   "cal": 11
+  },
+  {
+   "vfs": "coop",
+   "profile": "sync-normal",
+   "batchMs": 250,
+   "round": 3,
+   "load": "0.11",
+   "journal": "delete",
+   "sync": 1,
+   "locking": "normal",
+   "batch_": {
+    "n": 67,
+    "first": 6,
+    "median": 4,
+    "p95": 6,
+    "max": 7
+   },
+   "batchSize": 3,
+   "ackLag": {
+    "n": 200,
+    "median": 155,
+    "p95": 256,
+    "p99": 259,
+    "max": 268
+   },
+   "cal": 16
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "tuned",
+   "batchMs": 0,
+   "round": "sweep",
+   "load": "0.59",
+   "journal": "wal",
+   "sync": 1,
+   "locking": "exclusive",
+   "importMs": 1258,
+   "batch_": {
+    "n": 200,
+    "first": 5,
+    "median": 0,
+    "p95": 1,
+    "max": 9
+   },
+   "batchSize": 1,
+   "ackLag": {
+    "n": 200,
+    "median": 1,
+    "p95": 2,
+    "p99": 12,
+    "max": 13
+   },
+   "cal": 15
+  },
+  {
+   "vfs": "coop",
+   "profile": "tuned",
+   "batchMs": 0,
+   "round": "sweep",
+   "load": "0.57",
+   "journal": "delete",
+   "sync": 2,
+   "locking": "normal",
+   "importMs": 1098,
+   "batch_": {
+    "n": 200,
+    "first": 17,
+    "median": 4,
+    "p95": 5,
+    "max": 17
+   },
+   "batchSize": 1,
+   "ackLag": {
+    "n": 200,
+    "median": 4,
+    "p95": 6,
+    "p99": 19,
+    "max": 24
+   },
+   "cal": 15
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "tuned",
+   "batchMs": 100,
+   "round": "sweep",
+   "load": "0.49",
+   "journal": "wal",
+   "sync": 1,
+   "locking": "exclusive",
+   "batch_": {
+    "n": 103,
+    "first": 2,
+    "median": 0,
+    "p95": 1,
+    "max": 9
+   },
+   "batchSize": 2,
+   "ackLag": {
+    "n": 200,
+    "median": 101,
+    "p95": 102,
+    "p99": 114,
+    "max": 114
+   },
+   "cal": 15
+  },
+  {
+   "vfs": "coop",
+   "profile": "tuned",
+   "batchMs": 100,
+   "round": "sweep",
+   "load": "0.83",
+   "journal": "delete",
+   "sync": 2,
+   "locking": "normal",
+   "batch_": {
+    "n": 101,
+    "first": 8,
+    "median": 4,
+    "p95": 24,
+    "max": 503
+   },
+   "batchSize": 2,
+   "ackLag": {
+    "n": 200,
+    "median": 104,
+    "p95": 125,
+    "p99": 518,
+    "max": 604
+   },
+   "cal": 14
+  },
+  {
+   "vfs": "sahpool",
+   "profile": "tuned",
+   "batchMs": 500,
+   "round": "sweep",
+   "load": "0.66",
+   "journal": "wal",
+   "sync": 1,
+   "locking": "exclusive",
+   "batch_": {
+    "n": 34,
+    "first": 3,
+    "median": 1,
+    "p95": 2,
+    "max": 3
+   },
+   "batchSize": 6,
+   "ackLag": {
+    "n": 200,
+    "median": 301,
+    "p95": 502,
+    "p99": 505,
+    "max": 510
+   },
+   "cal": 15
+  },
+  {
+   "vfs": "coop",
+   "profile": "tuned",
+   "batchMs": 500,
+   "round": "sweep",
+   "load": "0.61",
+   "journal": "delete",
+   "sync": 2,
+   "locking": "normal",
+   "batch_": {
+    "n": 34,
+    "first": 12,
+    "median": 6,
+    "p95": 8,
+    "max": 12
+   },
+   "batchSize": 6,
+   "ackLag": {
+    "n": 200,
+    "median": 305,
+    "p95": 508,
+    "p99": 514,
+    "max": 524
+   },
+   "cal": 14
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "browser": "webkit",
+ "mode": "plain",
+ "seconds": 20,
+ "vfs": {
+  "sahpool": {
+   "noLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 252,
+     "lockWaitMs": 0
+    },
+    "tab2": {
+     "ok": false,
+     "ms": 202,
+     "error": "The object is in an invalid state."
+    }
+   },
+   "webLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 190,
+     "lockWaitMs": 0
+    },
+    "tab2WhileTab1Open": {
+     "ready": false,
+     "banner": "Another tab holds this database. Waiting for it to close (read-only until then)."
+    },
+    "tab2AfterTab1Closed": {
+     "ok": true,
+     "ms": 2109,
+     "lockWaitMs": 1951
+    },
+    "takeoverMs": 108,
+    "tab2CanWrite": {
+     "changes": 30,
+     "storedEqualsLive": true
+    },
+    "integrity": {
+     "ok": true,
+     "integrityCheck": "ok",
+     "fts": "ok",
+     "integrityMs": 253,
+     "ftsCheckMs": 245
+    }
+   }
+  },
+  "coop": {
+   "noLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 257,
+     "lockWaitMs": 0
+    },
+    "tab2": {
+     "ok": true,
+     "ms": 222,
+     "lockWaitMs": 0
+    },
+    "typingTab1": {
+     "changes": 200,
+     "storedEqualsLive": true,
+     "batchMs": {
+      "n": 67,
+      "first": 8,
+      "median": 7,
+      "p95": 9,
+      "max": 11
+     },
+     "ackLagMs": {
+      "n": 200,
+      "median": 157,
+      "p95": 258,
+      "p99": 261,
+      "max": 261
+     },
+     "flushErrors": 0
+    },
+    "typingTab2": {
+     "changes": 200,
+     "storedEqualsLive": true,
+     "batchMs": {
+      "n": 67,
+      "first": 7,
+      "median": 6,
+      "p95": 8,
+      "max": 47
+     },
+     "ackLagMs": {
+      "n": 200,
+      "median": 156,
+      "p95": 257,
+      "p99": 259,
+      "max": 265
+     },
+     "flushErrors": 0
+    },
+    "verifyTab1Scene": {
+     "durableSeq": 200,
+     "stateSeq": 200,
+     "pendingUpdates": 0,
+     "contiguous": true,
+     "textMatch": true,
+     "integrityOk": true,
+     "integrity": "ok",
+     "fts": "ok",
+     "ok": true,
+     "verifyMs": 1018
+    },
+    "verifyTab2Scene": {
+     "durableSeq": 200,
+     "stateSeq": 200,
+     "pendingUpdates": 0,
+     "contiguous": true,
+     "textMatch": true,
+     "integrityOk": true,
+     "integrity": "ok",
+     "fts": "ok",
+     "ok": true,
+     "verifyMs": 654
+    },
+    "readWhileOtherTabWrites": {
+     "reads": {
+      "n": 153,
+      "median": 2,
+      "p95": 5,
+      "max": 13,
+      "errors": 0,
+      "firstError": null
+     },
+     "writes": {
+      "changes": 80,
+      "storedEqualsLive": true,
+      "batchMs": {
+       "n": 27,
+       "first": 9,
+       "median": 7,
+       "p95": 9,
+       "max": 13
+      },
+      "ackLagMs": {
+       "n": 80,
+       "median": 157,
+       "p95": 259,
+       "p99": 263,
+       "max": 263
+      },
+      "flushErrors": 0
+     }
+    }
+   },
+   "webLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 225,
+     "lockWaitMs": 1
+    },
+    "tab2WhileTab1Open": {
+     "ready": false,
+     "banner": "Another tab holds this database. Waiting for it to close (read-only until then)."
+    },
+    "tab2AfterTab1Closed": {
+     "ok": true,
+     "ms": 2106,
+     "lockWaitMs": 1953
+    },
+    "takeoverMs": 105,
+    "tab2CanWrite": {
+     "changes": 30,
+     "storedEqualsLive": true
+    },
+    "integrity": {
+     "ok": true,
+     "integrityCheck": "ok",
+     "fts": "ok",
+     "integrityMs": 389,
+     "ftsCheckMs": 283
+    }
+   }
+  }
+ }
+}

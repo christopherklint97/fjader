@@ -1,0 +1,297 @@
+[chromium plain] round 1 sahpool/default (delete, sync 2) batch 250: n=67 median 5.40 p95 15.90 max 48.90 ms; lag p95 257.6; cal 36.3; load 2.02
+[chromium plain] round 1 sahpool/truncate (truncate, sync 2) batch 250: n=67 median 5.10 p95 8.00 max 11.60 ms; lag p95 257.1; cal 32.2; load 2.29
+[chromium plain] round 1 sahpool/wal-limit (wal, sync 1) batch 250: n=67 median 0.30 p95 0.50 max 4.20 ms; lag p95 251; cal 32.4; load 1.93
+[chromium plain] round 1 coop/default (delete, sync 2) batch 250: n=67 median 4.10 p95 5.90 max 11.00 ms; lag p95 256.1; cal 32; load 1.77
+[chromium plain] round 1 coop/sync-normal (delete, sync 1) batch 250: n=67 median 3.70 p95 6.30 max 11.40 ms; lag p95 255.3; cal 32.1; load 1.75
+[chromium plain] round 2 sahpool/default (delete, sync 2) batch 250: n=67 median 5.40 p95 9.60 max 23.60 ms; lag p95 257.8; cal 33.4; load 1.54
+[chromium plain] round 2 sahpool/truncate (truncate, sync 2) batch 250: n=67 median 5.20 p95 9.10 max 46.10 ms; lag p95 257.3; cal 32.1; load 1.61
+[chromium plain] round 2 sahpool/wal-limit (wal, sync 1) batch 250: n=67 median 0.50 p95 4.50 max 10.00 ms; lag p95 251.8; cal 34.1; load 1.75
+[chromium plain] round 2 coop/default (delete, sync 2) batch 250: n=67 median 5.10 p95 8.30 max 13.70 ms; lag p95 256.8; cal 32.6; load 2.19
+[chromium plain] round 2 coop/sync-normal (delete, sync 1) batch 250: n=67 median 3.80 p95 6.20 max 8.80 ms; lag p95 255.8; cal 32.1; load 2.21
+[chromium plain] round 3 sahpool/default (delete, sync 2) batch 250: n=67 median 5.30 p95 7.50 max 12.20 ms; lag p95 257.1; cal 32.7; load 1.85
+[chromium plain] round 3 sahpool/truncate (truncate, sync 2) batch 250: n=67 median 4.90 p95 7.50 max 11.00 ms; lag p95 256.7; cal 35.8; load 1.67
+[chromium plain] round 3 sahpool/wal-limit (wal, sync 1) batch 250: n=67 median 0.40 p95 0.60 max 4.50 ms; lag p95 250.9; cal 32; load 1.49
+[chromium plain] round 3 coop/default (delete, sync 2) batch 250: n=67 median 4.20 p95 6.30 max 10.10 ms; lag p95 256.2; cal 32; load 1.42
+[chromium plain] round 3 coop/sync-normal (delete, sync 1) batch 250: n=67 median 3.70 p95 6.10 max 11.40 ms; lag p95 255.4; cal 32.3; load 1.38
+[chromium plain] round sweep sahpool/tuned (wal, sync 1) batch 0: n=200 median 0.30 p95 0.50 max 8.10 ms; lag p95 2.3; cal 32.2; load 1.14
+[chromium plain] round sweep coop/tuned (delete, sync 2) batch 0: n=200 median 3.10 p95 5.90 max 15.70 ms; lag p95 6.4; cal 32; load 1.37
+[chromium plain] round sweep sahpool/tuned (wal, sync 1) batch 100: n=125 median 0.30 p95 0.60 max 7.40 ms; lag p95 101.9; cal 32; load 1.56
+[chromium plain] round sweep coop/tuned (delete, sync 2) batch 100: n=122 median 3.20 p95 5.30 max 9.70 ms; lag p95 107.3; cal 33.2; load 1.39
+[chromium plain] round sweep sahpool/tuned (wal, sync 1) batch 500: n=35 median 0.50 p95 4.70 max 6.50 ms; lag p95 501.9; cal 33.8; load 1.35
+[chromium plain] round sweep coop/tuned (delete, sync 2) batch 500: n=34 median 4.50 p95 7.00 max 15.20 ms; lag p95 505.9; cal 32.1; load 1.47
+[chromium plain sahpool] userAgent ok (8 ms)
+[chromium plain sahpool] info ok (281 ms)
+[chromium plain sahpool] import ok (2279 ms)
+[chromium plain sahpool] diskAfterImport ok (4 ms)
+[chromium plain sahpool] integrityAfterImport ok (605 ms)
+[chromium plain sahpool] vacuumAfterImport ok (221 ms)
+[chromium plain sahpool] diskAfterVacuum ok (2 ms)
+[chromium plain sahpool] cold opens: nav->tree 405, 437, 420, 410, 460 ms
+[chromium plain sahpool] search ok (661 ms)
+[chromium plain sahpool] typing ok (300814 ms)
+[chromium plain sahpool] diskAfterTyping ok (10 ms)
+[chromium plain sahpool] verifyTypingScene ok (781 ms)
+[chromium plain sahpool] compaction ok (3954 ms)
+[chromium plain sahpool] snapshots ok (2301 ms)
+[chromium plain sahpool] ftsVariants ok (2353 ms)
+[chromium plain sahpool] sizesEnd ok (62 ms)
+[chromium plain sahpool] diskEnd ok (2 ms)
+[chromium plain sahpool] integrityEnd ok (602 ms)
+[chromium plain sahpool] vacuum ok (460 ms)
+[chromium plain sahpool] diskAfterFinalVacuum ok (2 ms)
+[chromium plain sahpool] heap ok (3 ms)
+[chromium plain coop] userAgent ok (7 ms)
+[chromium plain coop] info ok (203 ms)
+[chromium plain coop] import ok (2168 ms)
+[chromium plain coop] diskAfterImport ok (3 ms)
+[chromium plain coop] integrityAfterImport ok (835 ms)
+[chromium plain coop] vacuumAfterImport ok (1108 ms)
+[chromium plain coop] diskAfterVacuum ok (2 ms)
+[chromium plain coop] cold opens: nav->tree 511, 511, 667, 599, 591 ms
+[chromium plain coop] search ok (1070 ms)
+[chromium plain coop] typing ok (300615 ms)
+[chromium plain coop] diskAfterTyping ok (1 ms)
+[chromium plain coop] verifyTypingScene ok (1033 ms)
+[chromium plain coop] compaction ok (3784 ms)
+[chromium plain coop] snapshots ok (3174 ms)
+[chromium plain coop] ftsVariants ok (1768 ms)
+[chromium plain coop] sizesEnd ok (58 ms)
+[chromium plain coop] diskEnd ok (2 ms)
+[chromium plain coop] integrityEnd ok (743 ms)
+[chromium plain coop] vacuum ok (2321 ms)
+[chromium plain coop] diskAfterFinalVacuum ok (2 ms)
+[chromium plain coop] heap ok (5 ms)
+[chromium plain sahpool] {"ok":10,"failures":0,"navToTreeMs":{"min":326.5,"median":343.9,"max":909.7},"navToFirstDocMs":{"min":338.8,"median":383.1,"max":973},"workerStartToTreeMs":{"min":201.2,"median":223.1,"max":532.9},"initMs":{"min":100.8,"median":107.2,"max":302.2},"wasmInitMs":{"min":54.7,"median":60,"max":143.8},"vfsInstallMs":{"min":9.8,"median":11.2,"max":62.6},"dbOpenMs":{"min":5.3,"median":5.5,"max":8.5},"pragmaMs":{"min":25.3,"median":27.1,"max":84},"schemaMs":{"min":1.6,"median":2.2,"max":6.5},"treeQueryMs":{"min":31.7,"median":42.3,"max":99.6},"firstDocMs":{"min":8.4,"median":42.2,"max":63.3},"warmTypicalDocMedianMs":{"min":0.7,"median":0.9,"max":2},"warmTypicalDocP95Ms":{"min":2.6,"median":7.2,"max":52.9},"warmBigDocMedianMs":{"min":1.9,"median":2.2,"max":6.9}}
+[chromium plain coop] {"ok":10,"failures":0,"navToTreeMs":{"min":297.3,"median":310.9,"max":363.4},"navToFirstDocMs":{"min":314.2,"median":345.5,"max":384.2},"workerStartToTreeMs":{"min":169.1,"median":193.5,"max":215.1},"initMs":{"min":77.5,"median":88.7,"max":97.8},"wasmInitMs":{"min":23,"median":26.1,"max":34.2},"vfsInstallMs":{"min":13.5,"median":15.7,"max":29.5},"dbOpenMs":{"min":11,"median":12,"max":12.9},"pragmaMs":{"min":0,"median":0.1,"max":0.2},"schemaMs":{"min":29.1,"median":31.2,"max":34.1},"treeQueryMs":{"min":22.8,"median":26.3,"max":40.4},"firstDocMs":{"min":11.3,"median":20.5,"max":52},"warmTypicalDocMedianMs":{"min":0.9,"median":1,"max":1.1},"warmTypicalDocP95Ms":{"min":2.8,"median":6.8,"max":8.7},"warmBigDocMedianMs":{"min":1.9,"median":2.7,"max":4.7}}
+[chromium coi opfs] userAgent ok (7 ms)
+[chromium coi opfs] info ok (457 ms)
+[chromium coi opfs] import ok (2330 ms)
+[chromium coi opfs] diskAfterImport ok (4 ms)
+[chromium coi opfs] integrityAfterImport ok (590 ms)
+[chromium coi opfs] vacuumAfterImport ok (4035 ms)
+[chromium coi opfs] diskAfterVacuum ok (3 ms)
+[chromium coi opfs] cold opens: nav->tree 499, 702, 590, 855, 498 ms
+[chromium coi opfs] search ok (1079 ms)
+[chromium coi opfs] typing ok (300871 ms)
+[chromium coi opfs] diskAfterTyping ok (2 ms)
+[chromium coi opfs] verifyTypingScene ok (792 ms)
+[chromium coi opfs] compaction ok (4951 ms)
+[chromium coi opfs] snapshots ok (11942 ms)
+[chromium coi opfs] ftsVariants ok (9751 ms)
+[chromium coi opfs] sizesEnd ok (742 ms)
+[chromium coi opfs] diskEnd ok (54 ms)
+[chromium coi opfs] integrityEnd ok (1115 ms)
+[chromium coi opfs] vacuum ok (16687 ms)
+[chromium coi opfs] diskAfterFinalVacuum ok (1 ms)
+[chromium coi opfs] heap ok (6 ms)
+[chromium coi opfs-wl] userAgent ok (54 ms)
+[chromium coi opfs-wl] info ok (1327 ms)
+[chromium coi opfs-wl] import ok (6734 ms)
+[chromium coi opfs-wl] diskAfterImport ok (2 ms)
+[chromium coi opfs-wl] integrityAfterImport ok (977 ms)
+[chromium coi opfs-wl] vacuumAfterImport ok (5199 ms)
+[chromium coi opfs-wl] diskAfterVacuum ok (2 ms)
+[chromium coi opfs-wl] cold opens: nav->tree 909, 1120, 1099, 1027, 1129 ms
+[chromium coi opfs-wl] search ok (2076 ms)
+[chromium coi opfs-wl] typing ok (301032 ms)
+[chromium coi opfs-wl] diskAfterTyping ok (2 ms)
+[chromium coi opfs-wl] verifyTypingScene ok (724 ms)
+[chromium coi opfs-wl] compaction ok (4155 ms)
+[chromium coi opfs-wl] snapshots ok (5763 ms)
+[chromium coi opfs-wl] ftsVariants ok (2328 ms)
+[chromium coi opfs-wl] sizesEnd ok (100 ms)
+[chromium coi opfs-wl] diskEnd ok (1 ms)
+[chromium coi opfs-wl] integrityEnd ok (616 ms)
+[chromium coi opfs-wl] vacuum ok (5016 ms)
+[chromium coi opfs-wl] diskAfterFinalVacuum ok (1 ms)
+[chromium coi opfs-wl] heap ok (2 ms)
+[chromium coi opfs] no lock: tab1 {"ok":true,"ms":358,"lockWaitMs":0} tab2 {"ok":true,"ms":251,"lockWaitMs":0}
+[chromium coi opfs] both typing: tab1 p95 20.795000076293945 max 312.1199998855591 errs 0; tab2 p95 20.69000005722046 max 26.119999885559082 errs 0; verify true/true; reads {"n":25,"median":6.050000190734863,"p95":313.84499979019165,"max":6312.599999904633,"errors":0,"firstError":null}
+[chromium coi opfs] web lock: waiting={"ready":false,"banner":"Another tab holds this database. Waiting for it to close (read-only until then)."} takeover 273 ms -> {"ok":true,"ms":2265,"lockWaitMs":1966} write {"changes":30,"storedEqualsLive":true}
+[chromium coi opfs-wl] no lock: tab1 {"ok":true,"ms":366,"lockWaitMs":0} tab2 {"ok":true,"ms":280,"lockWaitMs":0}
+[chromium coi opfs-wl] both typing: tab1 p95 18.94000005722046 max 21.615000247955322 errs 0; tab2 p95 24.039999961853027 max 164.75500011444092 errs 0; verify true/true; reads {"n":126,"median":6.744999885559082,"p95":13.640000343322754,"max":180.92999982833862,"errors":0,"firstError":null}
+[chromium coi opfs-wl] web lock: waiting={"ready":false,"banner":"Another tab holds this database. Waiting for it to close (read-only until then)."} takeover 209 ms -> {"ok":true,"ms":2210,"lockWaitMs":1953} write {"changes":30,"storedEqualsLive":true}
+[chromium coi sahpool] userAgent ok (5 ms)
+[chromium coi sahpool] info ok (233 ms)
+[chromium coi sahpool] import ok (1438 ms)
+[chromium coi sahpool] diskAfterImport ok (3 ms)
+[chromium coi sahpool] integrityAfterImport ok (581 ms)
+[chromium coi sahpool] vacuumAfterImport ok (186 ms)
+[chromium coi sahpool] diskAfterVacuum ok (2 ms)
+[chromium coi sahpool] cold opens: nav->tree 357, 349, 333 ms
+[chromium coi sahpool] search ok (543 ms)
+[chromium coi sahpool] typing ok (60190 ms)
+[chromium coi sahpool] diskAfterTyping ok (2 ms)
+[chromium coi sahpool] verifyTypingScene ok (715 ms)
+[chromium coi sahpool] compaction ok (2703 ms)
+[chromium coi sahpool] snapshots ok (1504 ms)
+[chromium coi sahpool] ftsVariants ok (1505 ms)
+[chromium coi sahpool] sizesEnd ok (33 ms)
+[chromium coi sahpool] diskEnd ok (2 ms)
+[chromium coi sahpool] integrityEnd ok (612 ms)
+[chromium coi sahpool] vacuum ok (257 ms)
+[chromium coi sahpool] diskAfterFinalVacuum ok (2 ms)
+[chromium coi sahpool] heap ok (1 ms)
+[chromium coi coop] userAgent ok (8 ms)
+[chromium coi coop] info ok (201 ms)
+[chromium coi coop] import ok (1481 ms)
+[chromium coi coop] diskAfterImport ok (2 ms)
+[chromium coi coop] integrityAfterImport ok (669 ms)
+[chromium coi coop] vacuumAfterImport ok (495 ms)
+[chromium coi coop] diskAfterVacuum ok (2 ms)
+[chromium coi coop] cold opens: nav->tree 294, 331, 300 ms
+[chromium coi coop] search ok (729 ms)
+[chromium coi coop] typing ok (60252 ms)
+[chromium coi coop] diskAfterTyping ok (1 ms)
+[chromium coi coop] verifyTypingScene ok (805 ms)
+[chromium coi coop] compaction ok (2603 ms)
+[chromium coi coop] snapshots ok (1831 ms)
+[chromium coi coop] ftsVariants ok (1642 ms)
+[chromium coi coop] sizesEnd ok (47 ms)
+[chromium coi coop] diskEnd ok (2 ms)
+[chromium coi coop] integrityEnd ok (724 ms)
+[chromium coi coop] vacuum ok (687 ms)
+[chromium coi coop] diskAfterFinalVacuum ok (2 ms)
+[chromium coi coop] heap ok (1 ms)
+[chromium coi opfs] #1 sigkill-all/normal: sent 42 durable 39 -> recovered 42; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #2 sigkill-all/normal: sent 81 durable 81 -> recovered 81; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #3 sigkill-renderer/normal: sent 129 durable 129 -> recovered 132; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #4 sigkill-all/normal: sent 194 durable 192 -> recovered 192; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #5 page-close/normal: sent 228 durable 225 -> recovered 225; lost 3 (300 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #6 sigkill-all/normal: sent 278 durable 276 -> recovered 276; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #7 sigkill-renderer/normal: sent 312 durable 310 -> recovered 313; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #8 sigkill-all/normal: sent 351 durable 349 -> recovered 349; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #9 context-close/normal: sent 394 durable 391 -> recovered 391; lost 3 (300 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #10 sigkill-all/normal: sent 438 durable 436 -> recovered 436; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #11 sigkill-all/normal: sent 487 durable 487 -> recovered 487; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #12 sigkill-all/normal: sent 543 durable 541 -> recovered 541; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #13 sigkill-renderer/normal: sent 598 durable 598 -> recovered 601; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #14 sigkill-all/normal: sent 645 durable 644 -> recovered 644; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #15 page-close/normal: sent 694 durable 692 -> recovered 692; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #16 sigkill-all/normal: sent 719 durable 719 -> recovered 719; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #17 sigkill-all/stress: sent 1991 durable 1988 -> recovered 1991; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #18 sigkill-all/stress: sent 2525 durable 2521 -> recovered 2524; lost 1 (5 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #19 sigkill-renderer/stress: sent 3530 durable 3523 -> recovered 3590; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #20 sigkill-all/stress: sent 4679 durable 4677 -> recovered 4679; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #21 page-close/stress: sent 5925 durable 5921 -> recovered 5921; lost 4 (20 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #22 sigkill-all/stress: sent 7095 durable 7091 -> recovered 7093; lost 2 (10 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #23 sigkill-renderer/stress: sent 7945 durable 7941 -> recovered 8006; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #24 sigkill-all/stress: sent 8539 durable 8535 -> recovered 8537; lost 2 (10 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #25 context-close/stress: sent 9437 durable 9433 -> recovered 9433; lost 4 (20 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #26 sigkill-all/stress: sent 10575 durable 10538 -> recovered 10573; lost 2 (10 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #27 sigkill-all/stress: sent 11253 durable 11250 -> recovered 11252; lost 1 (5 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #28 sigkill-all/stress: sent 12019 durable 12015 -> recovered 12017; lost 2 (10 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #29 sigkill-renderer/stress: sent 12688 durable 12642 -> recovered 12750; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #30 sigkill-all/stress: sent 13532 durable 13529 -> recovered 13531; lost 1 (5 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #31 page-close/stress: sent 14183 durable 14180 -> recovered 14180; lost 3 (15 ms) ackedButLost 0 ok=true
+[chromium coi opfs] #32 sigkill-all/stress: sent 15254 durable 15250 -> recovered 15253; lost 1 (5 ms) ackedButLost 0 ok=true
+[chromium coi opfs] summary {"all":{"runs":32,"failures":0,"ackedButLost":0,"maxLostMs":300,"medianLostMs":10,"maxReopenMs":282},"normal":{"runs":16,"failures":0,"ackedButLost":0,"maxLostMs":300,"medianLostMs":200,"maxReopenMs":282},"stress":{"runs":16,"failures":0,"ackedButLost":0,"maxLostMs":20,"medianLostMs":5,"maxReopenMs":280},"sigkillAllNormal":{"runs":10,"failures":0,"ackedButLost":0,"maxLostMs":200,"medianLostMs":200,"maxReopenMs":274},"sigkillRenderer":{"runs":6,"failures":0,"ackedButLost":0,"maxLostMs":0,"medianLostMs":0,"maxReopenMs":282},"localStorageLost":0,"localStorageMaxLagChanges":0}
+CHROMIUM-CHAIN-DONE
+[webkit plain sahpool] userAgent ok (9 ms)
+[webkit plain sahpool] info ok (254 ms)
+[webkit plain sahpool] import ok (1484 ms)
+[webkit plain sahpool] diskAfterImport ok (2 ms)
+[webkit plain sahpool] integrityAfterImport ok (418 ms)
+[webkit plain sahpool] vacuumAfterImport ok (146 ms)
+[webkit plain sahpool] diskAfterVacuum ok (1 ms)
+[webkit plain sahpool] cold opens: nav->tree 414, 383, 369, 378, 379 ms
+[webkit plain sahpool] search ok (764 ms)
+[webkit plain sahpool] typing ok (300586 ms)
+[webkit plain sahpool] diskAfterTyping ok (1 ms)
+[webkit plain sahpool] verifyTypingScene ok (1833 ms)
+[webkit plain sahpool] compaction ok (6875 ms)
+[webkit plain sahpool] snapshots ok (2815 ms)
+[webkit plain sahpool] ftsVariants ok (1357 ms)
+[webkit plain sahpool] sizesEnd ok (64 ms)
+[webkit plain sahpool] diskEnd ok (1 ms)
+[webkit plain sahpool] integrityEnd ok (448 ms)
+[webkit plain sahpool] vacuum ok (191 ms)
+[webkit plain sahpool] diskAfterFinalVacuum ok (1 ms)
+[webkit plain sahpool] heap ok (2 ms)
+[webkit plain coop] userAgent ok (4 ms)
+[webkit plain coop] info ok (253 ms)
+[webkit plain coop] import ok (1498 ms)
+[webkit plain coop] diskAfterImport ok (1 ms)
+[webkit plain coop] integrityAfterImport ok (542 ms)
+[webkit plain coop] vacuumAfterImport ok (392 ms)
+[webkit plain coop] diskAfterVacuum ok (1 ms)
+[webkit plain coop] cold opens: nav->tree 334, 361, 372, 412, 350 ms
+[webkit plain coop] search ok (1056 ms)
+[webkit plain coop] typing ok (300607 ms)
+[webkit plain coop] diskAfterTyping ok (1 ms)
+[webkit plain coop] verifyTypingScene ok (1792 ms)
+[webkit plain coop] compaction ok (6436 ms)
+[webkit plain coop] snapshots ok (2101 ms)
+[webkit plain coop] ftsVariants ok (1463 ms)
+[webkit plain coop] sizesEnd ok (54 ms)
+[webkit plain coop] diskEnd ok (1 ms)
+[webkit plain coop] integrityEnd ok (566 ms)
+[webkit plain coop] vacuum ok (483 ms)
+[webkit plain coop] diskAfterFinalVacuum ok (1 ms)
+[webkit plain coop] heap ok (1 ms)
+[webkit plain sahpool] {"ok":10,"failures":0,"navToTreeMs":{"min":368,"median":386,"max":440},"navToFirstDocMs":{"min":377,"median":406,"max":449},"workerStartToTreeMs":{"min":250,"median":263,"max":300},"initMs":{"min":133,"median":153,"max":190},"wasmInitMs":{"min":100,"median":110,"max":155},"vfsInstallMs":{"min":8,"median":12,"max":17},"dbOpenMs":{"min":3,"median":4,"max":7},"pragmaMs":{"min":6,"median":10,"max":33},"schemaMs":{"min":3,"median":5,"max":25},"treeQueryMs":{"min":25,"median":35,"max":60},"firstDocMs":{"min":9,"median":10,"max":20},"warmTypicalDocMedianMs":{"min":1,"median":1,"max":1},"warmTypicalDocP95Ms":{"min":3,"median":4,"max":7},"warmBigDocMedianMs":{"min":2,"median":3,"max":3}}
+[webkit plain coop] {"ok":10,"failures":0,"navToTreeMs":{"min":344,"median":358,"max":392},"navToFirstDocMs":{"min":353,"median":367,"max":405},"workerStartToTreeMs":{"min":229,"median":242,"max":272},"initMs":{"min":122,"median":138,"max":171},"wasmInitMs":{"min":51,"median":87,"max":94},"vfsInstallMs":{"min":11,"median":21,"max":45},"dbOpenMs":{"min":8,"median":14,"max":44},"pragmaMs":{"min":0,"median":0,"max":1},"schemaMs":{"min":11,"median":15,"max":47},"treeQueryMs":{"min":15,"median":22,"max":46},"firstDocMs":{"min":9,"median":9,"max":25},"warmTypicalDocMedianMs":{"min":1,"median":1,"max":1},"warmTypicalDocP95Ms":{"min":3,"median":4,"max":9},"warmBigDocMedianMs":{"min":3,"median":4,"max":5}}
+[webkit plain] round 1 sahpool/default (delete, sync 2) batch 250: n=67 median 7.00 p95 9.00 max 13.00 ms; lag p95 258; cal 16; load 0.57
+[webkit plain] round 1 sahpool/truncate (truncate, sync 2) batch 250: n=67 median 6.00 p95 8.00 max 11.00 ms; lag p95 258; cal 11; load 0.41
+[webkit plain] round 1 sahpool/wal-limit (wal, sync 1) batch 250: n=67 median 1.00 p95 1.00 max 5.00 ms; lag p95 251; cal 16; load 1.07
+[webkit plain] round 1 coop/default (delete, sync 2) batch 250: n=67 median 5.00 p95 6.00 max 7.00 ms; lag p95 257; cal 16; load 0.77
+[webkit plain] round 1 coop/sync-normal (delete, sync 1) batch 250: n=67 median 4.00 p95 6.00 max 8.00 ms; lag p95 256; cal 17; load 0.56
+[webkit plain] round 2 sahpool/default (delete, sync 2) batch 250: n=67 median 7.00 p95 9.00 max 10.00 ms; lag p95 259; cal 17; load 0.67
+[webkit plain] round 2 sahpool/truncate (truncate, sync 2) batch 250: n=67 median 5.00 p95 8.00 max 8.00 ms; lag p95 258; cal 14; load 0.48
+[webkit plain] round 2 sahpool/wal-limit (wal, sync 1) batch 250: n=67 median 0.00 p95 2.00 max 8.00 ms; lag p95 252; cal 15; load 0.56
+[webkit plain] round 2 coop/default (delete, sync 2) batch 250: n=67 median 5.00 p95 7.00 max 9.00 ms; lag p95 257; cal 15; load 0.40
+[webkit plain] round 2 coop/sync-normal (delete, sync 1) batch 250: n=67 median 4.00 p95 6.00 max 10.00 ms; lag p95 256; cal 16; load 0.32
+[webkit plain] round 3 sahpool/default (delete, sync 2) batch 250: n=67 median 6.00 p95 8.00 max 9.00 ms; lag p95 258; cal 16; load 0.36
+[webkit plain] round 3 sahpool/truncate (truncate, sync 2) batch 250: n=67 median 6.00 p95 8.00 max 9.00 ms; lag p95 258; cal 16; load 0.32
+[webkit plain] round 3 sahpool/wal-limit (wal, sync 1) batch 250: n=67 median 1.00 p95 1.00 max 2.00 ms; lag p95 251; cal 16; load 0.23
+[webkit plain] round 3 coop/default (delete, sync 2) batch 250: n=67 median 5.00 p95 7.00 max 10.00 ms; lag p95 257; cal 11; load 0.16
+[webkit plain] round 3 coop/sync-normal (delete, sync 1) batch 250: n=67 median 4.00 p95 6.00 max 7.00 ms; lag p95 256; cal 16; load 0.11
+[webkit plain] round sweep sahpool/tuned (wal, sync 1) batch 0: n=200 median 0.00 p95 1.00 max 9.00 ms; lag p95 2; cal 15; load 0.59
+[webkit plain] round sweep coop/tuned (delete, sync 2) batch 0: n=200 median 4.00 p95 5.00 max 17.00 ms; lag p95 6; cal 15; load 0.57
+[webkit plain] round sweep sahpool/tuned (wal, sync 1) batch 100: n=103 median 0.00 p95 1.00 max 9.00 ms; lag p95 102; cal 15; load 0.49
+[webkit plain] round sweep coop/tuned (delete, sync 2) batch 100: n=101 median 4.00 p95 24.00 max 503.00 ms; lag p95 125; cal 14; load 0.83
+[webkit plain] round sweep sahpool/tuned (wal, sync 1) batch 500: n=34 median 1.00 p95 2.00 max 3.00 ms; lag p95 502; cal 15; load 0.66
+[webkit plain] round sweep coop/tuned (delete, sync 2) batch 500: n=34 median 6.00 p95 8.00 max 12.00 ms; lag p95 508; cal 14; load 0.61
+[webkit coi sahpool] userAgent ok (3 ms)
+[webkit coi sahpool] info ok (299 ms)
+[webkit coi sahpool] import ok (1559 ms)
+[webkit coi sahpool] diskAfterImport ok (2 ms)
+[webkit coi sahpool] integrityAfterImport ok (437 ms)
+[webkit coi sahpool] vacuumAfterImport ok (149 ms)
+[webkit coi sahpool] diskAfterVacuum ok (1 ms)
+[webkit coi sahpool] cold opens: nav->tree 627, 656, 619 ms
+[webkit coi sahpool] search ok (780 ms)
+[webkit coi sahpool] typing ok (60214 ms)
+[webkit coi sahpool] diskAfterTyping ok (1 ms)
+[webkit coi sahpool] verifyTypingScene ok (1274 ms)
+[webkit coi sahpool] compaction ok (3542 ms)
+[webkit coi sahpool] snapshots ok (1757 ms)
+[webkit coi sahpool] ftsVariants ok (1280 ms)
+[webkit coi sahpool] sizesEnd ok (33 ms)
+[webkit coi sahpool] diskEnd ok (1 ms)
+[webkit coi sahpool] integrityEnd ok (473 ms)
+[webkit coi sahpool] vacuum ok (190 ms)
+[webkit coi sahpool] diskAfterFinalVacuum ok (1 ms)
+[webkit coi sahpool] heap ok (2 ms)
+[webkit coi coop] userAgent ok (3 ms)
+[webkit coi coop] info ok (289 ms)
+[webkit coi coop] import ok (1515 ms)
+[webkit coi coop] diskAfterImport ok (1 ms)
+[webkit coi coop] integrityAfterImport ok (558 ms)
+[webkit coi coop] vacuumAfterImport ok (358 ms)
+[webkit coi coop] diskAfterVacuum ok (1 ms)
+[webkit coi coop] cold opens: nav->tree 572, 594, 580 ms
+[webkit coi coop] search ok (1064 ms)
+[webkit coi coop] typing ok (60247 ms)
+[webkit coi coop] diskAfterTyping ok (1 ms)
+[webkit coi coop] verifyTypingScene ok (1418 ms)
+[webkit coi coop] compaction ok (3418 ms)
+[webkit coi coop] snapshots ok (1990 ms)
+[webkit coi coop] ftsVariants ok (1486 ms)
+[webkit coi coop] sizesEnd ok (47 ms)
+[webkit coi coop] diskEnd ok (1 ms)
+[webkit coi coop] integrityEnd ok (592 ms)
+[webkit coi coop] vacuum ok (529 ms)
+[webkit coi coop] diskAfterFinalVacuum ok (1 ms)
+[webkit coi coop] heap ok (1 ms)
+WEBKIT-CHAIN-DONE

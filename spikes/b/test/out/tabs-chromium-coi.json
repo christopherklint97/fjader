@@ -1,0 +1,273 @@
+{
+ "browser": "chromium",
+ "mode": "coi",
+ "seconds": 20,
+ "vfs": {
+  "opfs": {
+   "noLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 358,
+     "lockWaitMs": 0
+    },
+    "tab2": {
+     "ok": true,
+     "ms": 251,
+     "lockWaitMs": 0
+    },
+    "typingTab1": {
+     "changes": 200,
+     "storedEqualsLive": true,
+     "batchMs": {
+      "n": 67,
+      "first": 12.240000247955322,
+      "median": 12.085000038146973,
+      "p95": 20.795000076293945,
+      "max": 312.1199998855591
+     },
+     "ackLagMs": {
+      "n": 200,
+      "median": 162.99,
+      "p95": 267.32,
+      "p99": 411.61,
+      "max": 512.06
+     },
+     "flushErrors": 0
+    },
+    "typingTab2": {
+     "changes": 200,
+     "storedEqualsLive": true,
+     "batchMs": {
+      "n": 67,
+      "first": 22.414999961853027,
+      "median": 13.775000095367432,
+      "p95": 20.69000005722046,
+      "max": 26.119999885559082
+     },
+     "ackLagMs": {
+      "n": 200,
+      "median": 163.98,
+      "p95": 267.73,
+      "p99": 275.56,
+      "max": 276.53
+     },
+     "flushErrors": 0
+    },
+    "verifyTab1Scene": {
+     "durableSeq": 200,
+     "stateSeq": 200,
+     "pendingUpdates": 0,
+     "contiguous": true,
+     "textMatch": true,
+     "integrityOk": true,
+     "integrity": "ok",
+     "fts": "ok",
+     "ok": true,
+     "verifyMs": 587
+    },
+    "verifyTab2Scene": {
+     "durableSeq": 200,
+     "stateSeq": 200,
+     "pendingUpdates": 0,
+     "contiguous": true,
+     "textMatch": true,
+     "integrityOk": true,
+     "integrity": "ok",
+     "fts": "ok",
+     "ok": true,
+     "verifyMs": 696
+    },
+    "readWhileOtherTabWrites": {
+     "reads": {
+      "n": 25,
+      "median": 6.050000190734863,
+      "p95": 313.84499979019165,
+      "max": 6312.599999904633,
+      "errors": 0,
+      "firstError": null
+     },
+     "writes": {
+      "changes": 80,
+      "storedEqualsLive": true,
+      "batchMs": {
+       "n": 27,
+       "first": 13.825000286102295,
+       "median": 12.90999984741211,
+       "p95": 17.524999618530273,
+       "max": 18.74500036239624
+      },
+      "ackLagMs": {
+       "n": 80,
+       "median": 163.67,
+       "p95": 267.54,
+       "p99": 272.28,
+       "max": 272.28
+      },
+      "flushErrors": 0
+     }
+    }
+   },
+   "webLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 246,
+     "lockWaitMs": 1
+    },
+    "tab2WhileTab1Open": {
+     "ready": false,
+     "banner": "Another tab holds this database. Waiting for it to close (read-only until then)."
+    },
+    "tab2AfterTab1Closed": {
+     "ok": true,
+     "ms": 2265,
+     "lockWaitMs": 1966
+    },
+    "takeoverMs": 273,
+    "tab2CanWrite": {
+     "changes": 30,
+     "storedEqualsLive": true
+    },
+    "integrity": {
+     "ok": true,
+     "integrityCheck": "ok",
+     "fts": "ok",
+     "integrityMs": 248.05999994277954,
+     "ftsCheckMs": 317.7849998474121
+    }
+   }
+  },
+  "opfs-wl": {
+   "noLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 366,
+     "lockWaitMs": 0
+    },
+    "tab2": {
+     "ok": true,
+     "ms": 280,
+     "lockWaitMs": 0
+    },
+    "typingTab1": {
+     "changes": 200,
+     "storedEqualsLive": true,
+     "batchMs": {
+      "n": 67,
+      "first": 15.269999980926514,
+      "median": 17.519999980926514,
+      "p95": 18.94000005722046,
+      "max": 21.615000247955322
+     },
+     "ackLagMs": {
+      "n": 200,
+      "median": 167.78,
+      "p95": 268.85,
+      "p99": 271.52,
+      "max": 271.98
+     },
+     "flushErrors": 0
+    },
+    "typingTab2": {
+     "changes": 200,
+     "storedEqualsLive": true,
+     "batchMs": {
+      "n": 67,
+      "first": 21.375,
+      "median": 19.045000076293945,
+      "p95": 24.039999961853027,
+      "max": 164.75500011444092
+     },
+     "ackLagMs": {
+      "n": 200,
+      "median": 169.47,
+      "p95": 271.99,
+      "p99": 275.91,
+      "max": 365.64
+     },
+     "flushErrors": 0
+    },
+    "verifyTab1Scene": {
+     "durableSeq": 200,
+     "stateSeq": 200,
+     "pendingUpdates": 0,
+     "contiguous": true,
+     "textMatch": true,
+     "integrityOk": true,
+     "integrity": "ok",
+     "fts": "ok",
+     "ok": true,
+     "verifyMs": 664
+    },
+    "verifyTab2Scene": {
+     "durableSeq": 200,
+     "stateSeq": 200,
+     "pendingUpdates": 0,
+     "contiguous": true,
+     "textMatch": true,
+     "integrityOk": true,
+     "integrity": "ok",
+     "fts": "ok",
+     "ok": true,
+     "verifyMs": 666
+    },
+    "readWhileOtherTabWrites": {
+     "reads": {
+      "n": 126,
+      "median": 6.744999885559082,
+      "p95": 13.640000343322754,
+      "max": 180.92999982833862,
+      "errors": 0,
+      "firstError": null
+     },
+     "writes": {
+      "changes": 80,
+      "storedEqualsLive": true,
+      "batchMs": {
+       "n": 26,
+       "first": 15.960000038146973,
+       "median": 14.980000019073486,
+       "p95": 166.72500038146973,
+       "max": 170.37999963760376
+      },
+      "ackLagMs": {
+       "n": 80,
+       "median": 178.8,
+       "p95": 414.85,
+       "p99": 420.78,
+       "max": 420.78
+      },
+      "flushErrors": 0
+     }
+    }
+   },
+   "webLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 314,
+     "lockWaitMs": 1
+    },
+    "tab2WhileTab1Open": {
+     "ready": false,
+     "banner": "Another tab holds this database. Waiting for it to close (read-only until then)."
+    },
+    "tab2AfterTab1Closed": {
+     "ok": true,
+     "ms": 2210,
+     "lockWaitMs": 1953
+    },
+    "takeoverMs": 209,
+    "tab2CanWrite": {
+     "changes": 30,
+     "storedEqualsLive": true
+    },
+    "integrity": {
+     "ok": true,
+     "integrityCheck": "ok",
+     "fts": "ok",
+     "integrityMs": 277.4700002670288,
+     "ftsCheckMs": 333.5199999809265
+    }
+   }
+  }
+ }
+}

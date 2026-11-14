@@ -1,0 +1,1163 @@
+{
+ "browser": "webkit",
+ "mode": "plain",
+ "runs": 10,
+ "vfs": {
+  "sahpool": {
+   "summary": {
+    "ok": 10,
+    "failures": 0,
+    "navToTreeMs": {
+     "min": 368,
+     "median": 386,
+     "max": 440
+    },
+    "navToFirstDocMs": {
+     "min": 377,
+     "median": 406,
+     "max": 449
+    },
+    "workerStartToTreeMs": {
+     "min": 250,
+     "median": 263,
+     "max": 300
+    },
+    "initMs": {
+     "min": 133,
+     "median": 153,
+     "max": 190
+    },
+    "wasmInitMs": {
+     "min": 100,
+     "median": 110,
+     "max": 155
+    },
+    "vfsInstallMs": {
+     "min": 8,
+     "median": 12,
+     "max": 17
+    },
+    "dbOpenMs": {
+     "min": 3,
+     "median": 4,
+     "max": 7
+    },
+    "pragmaMs": {
+     "min": 6,
+     "median": 10,
+     "max": 33
+    },
+    "schemaMs": {
+     "min": 3,
+     "median": 5,
+     "max": 25
+    },
+    "treeQueryMs": {
+     "min": 25,
+     "median": 35,
+     "max": 60
+    },
+    "firstDocMs": {
+     "min": 9,
+     "median": 10,
+     "max": 20
+    },
+    "warmTypicalDocMedianMs": {
+     "min": 1,
+     "median": 1,
+     "max": 1
+    },
+    "warmTypicalDocP95Ms": {
+     "min": 3,
+     "median": 4,
+     "max": 7
+    },
+    "warmBigDocMedianMs": {
+     "min": 2,
+     "median": 3,
+     "max": 3
+    }
+   },
+   "rows": [
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 2,
+       "wasmInitMs": 113,
+       "vfsInstallMs": 17,
+       "dbOpenMs": 4,
+       "pragmaMs": 13,
+       "schemaMs": 4,
+       "initTotalMs": 153
+      },
+      "initDoneMs": 249,
+      "treeLoadedMs": 276,
+      "treeQueryMs": 25,
+      "treeRoundTripMs": 27,
+      "firstDocMs": 10,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 414,
+      "pageClockAtDocMs": 424
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 7,
+       "p99": 16,
+       "max": 16
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 4,
+       "p99": 4,
+       "max": 4
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 0,
+       "wasmInitMs": 155,
+       "vfsInstallMs": 13,
+       "dbOpenMs": 5,
+       "pragmaMs": 10,
+       "schemaMs": 5,
+       "initTotalMs": 190
+      },
+      "initDoneMs": 270,
+      "treeLoadedMs": 300,
+      "treeQueryMs": 27,
+      "treeRoundTripMs": 30,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 440,
+      "pageClockAtDocMs": 449
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 3,
+       "p99": 4,
+       "max": 4
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 3,
+       "p99": 3,
+       "max": 3
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 28,
+       "wasmInitMs": 120,
+       "vfsInstallMs": 8,
+       "dbOpenMs": 3,
+       "pragmaMs": 7,
+       "schemaMs": 5,
+       "initTotalMs": 172
+      },
+      "initDoneMs": 222,
+      "treeLoadedMs": 250,
+      "treeQueryMs": 26,
+      "treeRoundTripMs": 28,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 408,
+      "pageClockAtDocMs": 417
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 3,
+       "p99": 12,
+       "max": 12
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 3,
+       "p99": 3,
+       "max": 3
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 2,
+       "wasmInitMs": 107,
+       "vfsInstallMs": 11,
+       "dbOpenMs": 4,
+       "pragmaMs": 6,
+       "schemaMs": 21,
+       "initTotalMs": 151
+      },
+      "initDoneMs": 217,
+      "treeLoadedMs": 257,
+      "treeQueryMs": 38,
+      "treeRoundTripMs": 40,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 368,
+      "pageClockAtDocMs": 377
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 4,
+       "p99": 6,
+       "max": 6
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 4,
+       "p99": 4,
+       "max": 4
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 8
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 1,
+       "wasmInitMs": 110,
+       "vfsInstallMs": 11,
+       "dbOpenMs": 3,
+       "pragmaMs": 6,
+       "schemaMs": 17,
+       "initTotalMs": 148
+      },
+      "initDoneMs": 224,
+      "treeLoadedMs": 262,
+      "treeQueryMs": 35,
+      "treeRoundTripMs": 38,
+      "firstDocMs": 10,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 373,
+      "pageClockAtDocMs": 383
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 5,
+       "p99": 5,
+       "max": 5
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 3,
+       "p99": 3,
+       "max": 3
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 1,
+       "wasmInitMs": 109,
+       "vfsInstallMs": 14,
+       "dbOpenMs": 3,
+       "pragmaMs": 11,
+       "schemaMs": 3,
+       "initTotalMs": 141
+      },
+      "initDoneMs": 225,
+      "treeLoadedMs": 287,
+      "treeQueryMs": 60,
+      "treeRoundTripMs": 62,
+      "firstDocMs": 10,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 420,
+      "pageClockAtDocMs": 430
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 3,
+       "p99": 5,
+       "max": 5
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 3,
+       "p99": 3,
+       "max": 3
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 2,
+      "initBreakdown": {
+       "workerBootToInitMs": 2,
+       "lockWaitMs": 2,
+       "wasmInitMs": 111,
+       "vfsInstallMs": 9,
+       "dbOpenMs": 7,
+       "pragmaMs": 19,
+       "schemaMs": 5,
+       "initTotalMs": 153
+      },
+      "initDoneMs": 235,
+      "treeLoadedMs": 263,
+      "treeQueryMs": 25,
+      "treeRoundTripMs": 28,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 371,
+      "pageClockAtDocMs": 380
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 4,
+       "p99": 5,
+       "max": 5
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 3,
+       "p99": 3,
+       "max": 3
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 3,
+       "wasmInitMs": 100,
+       "vfsInstallMs": 12,
+       "dbOpenMs": 3,
+       "pragmaMs": 6,
+       "schemaMs": 25,
+       "initTotalMs": 150
+      },
+      "initDoneMs": 221,
+      "treeLoadedMs": 259,
+      "treeQueryMs": 35,
+      "treeRoundTripMs": 38,
+      "firstDocMs": 20,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 386,
+      "pageClockAtDocMs": 406
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 4,
+       "p99": 5,
+       "max": 5
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 3,
+       "p99": 3,
+       "max": 3
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 1,
+       "wasmInitMs": 108,
+       "vfsInstallMs": 9,
+       "dbOpenMs": 3,
+       "pragmaMs": 33,
+       "schemaMs": 4,
+       "initTotalMs": 160
+      },
+      "initDoneMs": 233,
+      "treeLoadedMs": 262,
+      "treeQueryMs": 27,
+      "treeRoundTripMs": 29,
+      "firstDocMs": 10,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 372,
+      "pageClockAtDocMs": 382
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 5,
+       "p99": 7,
+       "max": 7
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2,
+       "p95": 3,
+       "p99": 3,
+       "max": 3
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 2,
+      "initBreakdown": {
+       "workerBootToInitMs": 2,
+       "lockWaitMs": 1,
+       "wasmInitMs": 103,
+       "vfsInstallMs": 12,
+       "dbOpenMs": 4,
+       "pragmaMs": 8,
+       "schemaMs": 4,
+       "initTotalMs": 133
+      },
+      "initDoneMs": 229,
+      "treeLoadedMs": 271,
+      "treeQueryMs": 39,
+      "treeRoundTripMs": 42,
+      "firstDocMs": 10,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 375,
+      "pageClockAtDocMs": 385
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 4,
+       "p99": 5,
+       "max": 5
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 7,
+       "p99": 7,
+       "max": 7
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    }
+   ]
+  },
+  "coop": {
+   "summary": {
+    "ok": 10,
+    "failures": 0,
+    "navToTreeMs": {
+     "min": 344,
+     "median": 358,
+     "max": 392
+    },
+    "navToFirstDocMs": {
+     "min": 353,
+     "median": 367,
+     "max": 405
+    },
+    "workerStartToTreeMs": {
+     "min": 229,
+     "median": 242,
+     "max": 272
+    },
+    "initMs": {
+     "min": 122,
+     "median": 138,
+     "max": 171
+    },
+    "wasmInitMs": {
+     "min": 51,
+     "median": 87,
+     "max": 94
+    },
+    "vfsInstallMs": {
+     "min": 11,
+     "median": 21,
+     "max": 45
+    },
+    "dbOpenMs": {
+     "min": 8,
+     "median": 14,
+     "max": 44
+    },
+    "pragmaMs": {
+     "min": 0,
+     "median": 0,
+     "max": 1
+    },
+    "schemaMs": {
+     "min": 11,
+     "median": 15,
+     "max": 47
+    },
+    "treeQueryMs": {
+     "min": 15,
+     "median": 22,
+     "max": 46
+    },
+    "firstDocMs": {
+     "min": 9,
+     "median": 9,
+     "max": 25
+    },
+    "warmTypicalDocMedianMs": {
+     "min": 1,
+     "median": 1,
+     "max": 1
+    },
+    "warmTypicalDocP95Ms": {
+     "min": 3,
+     "median": 4,
+     "max": 9
+    },
+    "warmBigDocMedianMs": {
+     "min": 3,
+     "median": 4,
+     "max": 5
+    }
+   },
+   "rows": [
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 2,
+      "initBreakdown": {
+       "workerBootToInitMs": 2,
+       "lockWaitMs": 1,
+       "wasmInitMs": 81,
+       "vfsInstallMs": 13,
+       "dbOpenMs": 16,
+       "pragmaMs": 0,
+       "schemaMs": 11,
+       "initTotalMs": 122
+      },
+      "initDoneMs": 198,
+      "treeLoadedMs": 233,
+      "treeQueryMs": 32,
+      "treeRoundTripMs": 35,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 382,
+      "pageClockAtDocMs": 391
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 9,
+       "p99": 16,
+       "max": 16
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 2,
+       "p99": 6,
+       "max": 6
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 5,
+       "p95": 33,
+       "p99": 33,
+       "max": 33
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 8
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 3,
+       "wasmInitMs": 94,
+       "vfsInstallMs": 13,
+       "dbOpenMs": 44,
+       "pragmaMs": 1,
+       "schemaMs": 15,
+       "initTotalMs": 171
+      },
+      "initDoneMs": 219,
+      "treeLoadedMs": 235,
+      "treeQueryMs": 15,
+      "treeRoundTripMs": 16,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 350,
+      "pageClockAtDocMs": 359
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 4,
+       "p99": 8,
+       "max": 8
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 1,
+       "p99": 7,
+       "max": 7
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 4,
+       "p95": 6,
+       "p99": 6,
+       "max": 6
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 2,
+       "wasmInitMs": 87,
+       "vfsInstallMs": 12,
+       "dbOpenMs": 15,
+       "pragmaMs": 0,
+       "schemaMs": 16,
+       "initTotalMs": 132
+      },
+      "initDoneMs": 210,
+      "treeLoadedMs": 242,
+      "treeQueryMs": 30,
+      "treeRoundTripMs": 32,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 346,
+      "pageClockAtDocMs": 355
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 3,
+       "p99": 6,
+       "max": 6
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 3,
+       "max": 3
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 4,
+       "p99": 4,
+       "max": 4
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 14
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 5,
+      "initBreakdown": {
+       "workerBootToInitMs": 5,
+       "lockWaitMs": 3,
+       "wasmInitMs": 86,
+       "vfsInstallMs": 23,
+       "dbOpenMs": 10,
+       "pragmaMs": 0,
+       "schemaMs": 15,
+       "initTotalMs": 138
+      },
+      "initDoneMs": 214,
+      "treeLoadedMs": 235,
+      "treeQueryMs": 20,
+      "treeRoundTripMs": 21,
+      "firstDocMs": 25,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 378,
+      "pageClockAtDocMs": 403
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 4,
+       "p99": 4,
+       "max": 4
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 4,
+       "p99": 4,
+       "max": 4
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 1,
+       "wasmInitMs": 83,
+       "vfsInstallMs": 25,
+       "dbOpenMs": 12,
+       "pragmaMs": 0,
+       "schemaMs": 13,
+       "initTotalMs": 136
+      },
+      "initDoneMs": 218,
+      "treeLoadedMs": 242,
+      "treeQueryMs": 22,
+      "treeRoundTripMs": 24,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 358,
+      "pageClockAtDocMs": 367
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 4,
+       "p99": 6,
+       "max": 6
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 5,
+       "p95": 8,
+       "p99": 8,
+       "max": 8
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 10
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 2,
+       "wasmInitMs": 92,
+       "vfsInstallMs": 11,
+       "dbOpenMs": 8,
+       "pragmaMs": 0,
+       "schemaMs": 15,
+       "initTotalMs": 129
+      },
+      "initDoneMs": 211,
+      "treeLoadedMs": 229,
+      "treeQueryMs": 15,
+      "treeRoundTripMs": 18,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 344,
+      "pageClockAtDocMs": 353
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 3,
+       "p99": 16,
+       "max": 16
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 4,
+       "p99": 4,
+       "max": 4
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 1,
+       "wasmInitMs": 85,
+       "vfsInstallMs": 13,
+       "dbOpenMs": 10,
+       "pragmaMs": 1,
+       "schemaMs": 47,
+       "initTotalMs": 157
+      },
+      "initDoneMs": 216,
+      "treeLoadedMs": 239,
+      "treeQueryMs": 21,
+      "treeRoundTripMs": 23,
+      "firstDocMs": 10,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 350,
+      "pageClockAtDocMs": 360
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 6,
+       "p99": 12,
+       "max": 12
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 4,
+       "p95": 5,
+       "p99": 5,
+       "max": 5
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 8
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 1,
+       "wasmInitMs": 90,
+       "vfsInstallMs": 21,
+       "dbOpenMs": 14,
+       "pragmaMs": 0,
+       "schemaMs": 15,
+       "initTotalMs": 141
+      },
+      "initDoneMs": 224,
+      "treeLoadedMs": 272,
+      "treeQueryMs": 46,
+      "treeRoundTripMs": 48,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 353,
+      "pageClockAtDocMs": 362
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 4,
+       "p99": 7,
+       "max": 7
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3,
+       "p95": 4,
+       "p99": 4,
+       "max": 4
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 2,
+       "wasmInitMs": 91,
+       "vfsInstallMs": 22,
+       "dbOpenMs": 9,
+       "pragmaMs": 0,
+       "schemaMs": 16,
+       "initTotalMs": 140
+      },
+      "initDoneMs": 212,
+      "treeLoadedMs": 261,
+      "treeQueryMs": 43,
+      "treeRoundTripMs": 49,
+      "firstDocMs": 22,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 383,
+      "pageClockAtDocMs": 405
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 4,
+       "p99": 5,
+       "max": 5
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 4,
+       "p95": 5,
+       "p99": 5,
+       "max": 5
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 9
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 4,
+      "initBreakdown": {
+       "workerBootToInitMs": 4,
+       "lockWaitMs": 6,
+       "wasmInitMs": 51,
+       "vfsInstallMs": 45,
+       "dbOpenMs": 21,
+       "pragmaMs": 0,
+       "schemaMs": 11,
+       "initTotalMs": 136
+      },
+      "initDoneMs": 219,
+      "treeLoadedMs": 253,
+      "treeQueryMs": 17,
+      "treeRoundTripMs": 34,
+      "firstDocMs": 9,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 392,
+      "pageClockAtDocMs": 401
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 3,
+       "p99": 4,
+       "max": 4
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 1,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 4,
+       "p95": 5,
+       "p99": 5,
+       "max": 5
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 8
+     },
+     "error": ""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "all matching rowids, no order": {
+  "first": 10,
+  "median": 7,
+  "max": 49
+ },
+ "top 20 by rank, no snippet": {
+  "first": 71,
+  "median": 6,
+  "max": 71
+ },
+ "first 20 in document order, with snippet": {
+  "first": 85,
+  "median": 5,
+  "max": 85
+ },
+ "top 20 by rank, with snippet (as measured)": {
+  "first": 50,
+  "median": 11,
+  "max": 50
+ },
+ "top 20 by rank, with highlight-free excerpt": {
+  "first": 3,
+  "median": 3,
+  "max": 42
+ }
+}

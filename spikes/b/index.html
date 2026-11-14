@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Spike B" />
+    <title>Spike B: storage</title>
+    <style>
+      :root { color-scheme: light dark; font: 15px/1.4 system-ui, sans-serif; }
+      body { margin: 0; padding: 12px; padding-top: max(12px, env(safe-area-inset-top)); max-width: 760px; }
+      h1 { font-size: 18px; margin: 0 0 4px; }
+      h2 { font-size: 15px; margin: 18px 0 6px; border-top: 1px solid #8884; padding-top: 10px; }
+      button { font: inherit; padding: 10px 12px; margin: 3px 3px 3px 0; border-radius: 8px; border: 1px solid #8888; background: #8882; min-height: 44px; }
+      button:disabled { opacity: .45; }
+      button.primary { background: #2563eb; color: #fff; border-color: #2563eb; }
+      button.danger { border-color: #dc2626; color: #dc2626; }
+      select, input { font: inherit; padding: 8px; min-height: 40px; }
+      label { margin-right: 10px; white-space: nowrap; }
+      pre { white-space: pre-wrap; word-break: break-word; font: 12px/1.35 ui-monospace, monospace; background: #8881; padding: 8px; border-radius: 6px; max-height: 50vh; overflow: auto; }
+      table { border-collapse: collapse; font-size: 13px; width: 100%; }
+      td, th { border: 1px solid #8885; padding: 3px 6px; text-align: left; }
+      .ok { color: #16a34a; font-weight: 600; } .bad { color: #dc2626; font-weight: 600; } .warn { color: #d97706; font-weight: 600; }
+      #counter { font: 600 22px/1.2 ui-monospace, monospace; padding: 10px; background: #8881; border-radius: 8px; }
+      #counter small { font: 13px system-ui; font-weight: 400; display: block; }
+      #banner { padding: 8px; border-radius: 8px; background: #8881; }
+      .muted { opacity: .7; font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <h1>Spike B: SQLite on OPFS, one Yjs document per scene</h1>
+    <div id="banner">Loading…</div>
+
+    <h2>1. Environment</h2>
+    <div id="env"></div>
+    <button id="btn-env">Refresh environment + probe storage layers</button>
+
+    <h2>2. Storage layer</h2>
+    <label>Layer <select id="vfs">
+      <option value="sahpool">official opfs-sahpool</option>
+      <option value="coop">wa-sqlite OPFSCoopSyncVFS</option>
+      <option value="opfs">official opfs (needs COOP/COEP)</option>
+      <option value="opfs-wl">official opfs-wl (needs COOP/COEP)</option>
+    </select></label>
+    <label>Pragmas <select id="profile"><option value="tuned">recommended</option><option value="default">library default</option><option value="sync-normal">synchronous=normal</option><option value="truncate">journal truncate</option><option value="wal-limit">WAL + exclusive, normal, size-limited</option><option value="wal">WAL + exclusive, normal, unlimited</option><option value="wal-full">WAL + exclusive, full</option></select></label>
+    <label>Batch ms <input id="batch" type="number" value="250" min="0" max="2000" step="50" style="width:80px" /></label>
+    <label>Tab lock <select id="lock"><option value="exclusive">Web Lock (wait)</option><option value="none">none</option></select></label>
+    <div>
+      <button id="btn-open" class="primary">Open database</button>
+      <button id="btn-import">Create 300,000-word fixture</button>
+      <button id="btn-sizes">Sizes</button>
+    </div>
+    <div id="dbstate" class="muted">No database open.</div>
+
+    <h2>3. Kill test (force-quit while this runs)</h2>
+    <div id="counter">sent – / durable –<small id="counter-sub">not running</small></div>
+    <div>
+      <button id="btn-kill-start" class="primary">Start typing (kill test)</button>
+      <button id="btn-kill-stop">Stop kill test</button>
+      <button id="btn-verify">Verify integrity now</button>
+      <button id="btn-kill-clear">Clear kill log</button>
+    </div>
+    <label>What I am about to do <select id="kill-note">
+      <option value="swipe away">swipe the app away</option>
+      <option value="lock 10 min">lock the phone for 10 minutes</option>
+      <option value="memory pressure">open heavy pages in other apps</option>
+      <option value="phone restart">restart the phone</option>
+      <option value="other">other</option>
+    </select></label>
+    <p class="muted">Start, wait a few seconds, note the two counters, then swipe the app away. Reopen it: the page verifies the database, adds a row below and resumes typing by itself. Repeat 20 times per storage layer. "Verify integrity now" also works while typing runs (use it after unlocking the phone).</p>
+    <div id="killlog"></div>
+
+    <h2>4. Measurements</h2>
+    <div>
+      <button id="btn-cold">Open project (load times)</button>
+      <button id="btn-search">Search</button>
+      <button id="btn-typing">Type for 5 minutes</button>
+      <button id="btn-typing-short">Type for 30 s</button>
+      <button id="btn-compact">Compaction curve</button>
+      <button id="btn-snap">Snapshot + restore</button>
+      <button id="btn-fts">Index size variants</button>
+      <button id="btn-all" class="primary">Run all (about 7 min)</button>
+    </div>
+
+    <h2>5. Results</h2>
+    <div>
+      <button id="btn-copy">Copy results as JSON</button>
+      <button id="btn-clear-results">Clear results</button>
+      <button id="btn-wipe" class="danger">Delete all stored data</button>
+    </div>
+    <div id="summary"></div>
+    <pre id="log"></pre>
+    <pre id="results"></pre>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

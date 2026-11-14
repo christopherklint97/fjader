@@ -1,0 +1,184 @@
+[chromium plain sahpool] userAgent ok (8 ms)
+[chromium plain sahpool] info ok (233 ms)
+[chromium plain sahpool] import ok (1482 ms)
+[chromium plain sahpool] diskAfterImport ok (3 ms)
+[chromium plain sahpool] integrityAfterImport ok (581 ms)
+[chromium plain sahpool] vacuumAfterImport ok (193 ms)
+[chromium plain sahpool] diskAfterVacuum ok (2 ms)
+[chromium plain sahpool] cold opens: nav->tree 335, 345, 358, 319, 305 ms
+[chromium plain sahpool] search ok (549 ms)
+[chromium plain sahpool] typing ok (300526 ms)
+[chromium plain sahpool] diskAfterTyping ok (1 ms)
+[chromium plain sahpool] verifyTypingScene ok (709 ms)
+[chromium plain sahpool] compaction ok (2780 ms)
+[chromium plain sahpool] snapshots ok (1616 ms)
+[chromium plain sahpool] ftsVariants ok (1703 ms)
+[chromium plain sahpool] sizesEnd ok (36 ms)
+[chromium plain sahpool] diskEnd ok (2 ms)
+[chromium plain sahpool] integrityEnd ok (602 ms)
+[chromium plain sahpool] vacuum ok (283 ms)
+[chromium plain sahpool] diskAfterFinalVacuum ok (2 ms)
+[chromium plain sahpool] heap ok (1 ms)
+[chromium plain coop] userAgent ok (8 ms)
+[chromium plain coop] info ok (200 ms)
+[chromium plain coop] import ok (1685 ms)
+[chromium plain coop] diskAfterImport ok (2 ms)
+[chromium plain coop] integrityAfterImport ok (713 ms)
+[chromium plain coop] vacuumAfterImport ok (566 ms)
+[chromium plain coop] diskAfterVacuum ok (2 ms)
+[chromium plain coop] cold opens: nav->tree 360, 341, 341, 363, 343 ms
+[chromium plain coop] search ok (746 ms)
+[chromium plain coop] typing ok (301100 ms)
+[chromium plain coop] diskAfterTyping ok (2 ms)
+[chromium plain coop] verifyTypingScene ok (1620 ms)
+[chromium plain coop] compaction ok (5713 ms)
+[chromium plain coop] snapshots ok (4561 ms)
+[chromium plain coop] ftsVariants ok (3626 ms)
+[chromium plain coop] sizesEnd ok (106 ms)
+[chromium plain coop] diskEnd ok (8 ms)
+[chromium plain coop] integrityEnd ok (1404 ms)
+[chromium plain coop] vacuum ok (1959 ms)
+[chromium plain coop] diskAfterFinalVacuum ok (1 ms)
+[chromium plain coop] heap ok (4 ms)
+[chromium plain sahpool] {"ok":10,"failures":0,"navToTreeMs":{"min":618.6,"median":790.9,"max":1373.9},"navToFirstDocMs":{"min":637.7,"median":810.1,"max":1394.8},"workerStartToTreeMs":{"min":393.9,"median":481.3,"max":883.2},"initMs":{"min":182.5,"median":240.6,"max":418.3},"wasmInitMs":{"min":88.2,"median":126.4,"max":220},"vfsInstallMs":{"min":13.4,"median":61,"max":89.8},"dbOpenMs":{"min":5.6,"median":8,"max":11.6},"pragmaMs":{"min":27,"median":70.8,"max":95.1},"schemaMs":{"min":1.2,"median":2.4,"max":15.7},"treeQueryMs":{"min":32.8,"median":104.2,"max":195.9},"firstDocMs":{"min":10.8,"median":19.3,"max":64.2},"warmTypicalDocMedianMs":{"min":0.8,"median":1.3,"max":2},"warmTypicalDocP95Ms":{"min":6.8,"median":29.4,"max":48.1},"warmBigDocMedianMs":{"min":2.3,"median":2.9,"max":8.6}}
+[chromium plain coop] {"ok":10,"failures":0,"navToTreeMs":{"min":612.9,"median":710.9,"max":1074.4},"navToFirstDocMs":{"min":651.7,"median":723.8,"max":1088.2},"workerStartToTreeMs":{"min":405.3,"median":477.3,"max":768},"initMs":{"min":200,"median":232.1,"max":415.1},"wasmInitMs":{"min":36.3,"median":85.3,"max":120.2},"vfsInstallMs":{"min":23.3,"median":34.6,"max":93.5},"dbOpenMs":{"min":18.4,"median":48.3,"max":71.3},"pragmaMs":{"min":0,"median":0.1,"max":0.2},"schemaMs":{"min":35.8,"median":81.7,"max":139.9},"treeQueryMs":{"min":30.4,"median":69.6,"max":93.2},"firstDocMs":{"min":9.7,"median":13.8,"max":66.4},"warmTypicalDocMedianMs":{"min":1.1,"median":1.3,"max":1.6},"warmTypicalDocP95Ms":{"min":6.5,"median":11.8,"max":52.3},"warmBigDocMedianMs":{"min":2.4,"median":3.6,"max":4.9}}
+[chromium plain sahpool] #1 sigkill-all/normal: sent 42 durable 42 -> recovered 42; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #2 sigkill-all/normal: sent 107 durable 105 -> recovered 105; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #3 sigkill-renderer/normal: sent 169 durable 168 -> recovered 171; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #4 sigkill-all/normal: sent 197 durable 195 -> recovered 195; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #5 page-close/normal: sent 252 durable 249 -> recovered 252; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #6 sigkill-all/normal: sent 278 durable 276 -> recovered 276; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #7 sigkill-renderer/normal: sent 302 durable 300 -> recovered 303; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #8 sigkill-all/normal: sent 355 durable 353 -> recovered 356; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #9 context-close/normal: sent 384 durable 384 -> recovered 384; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #10 sigkill-all/normal: sent 439 durable 438 -> recovered 438; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #11 sigkill-all/normal: sent 486 durable 483 -> recovered 483; lost 3 (300 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #12 sigkill-all/normal: sent 523 durable 522 -> recovered 522; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #13 sigkill-renderer/normal: sent 549 durable 546 -> recovered 549; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #14 sigkill-all/normal: sent 596 durable 594 -> recovered 594; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #15 page-close/normal: sent 659 durable 658 -> recovered 659; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #16 sigkill-all/normal: sent 685 durable 684 -> recovered 684; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #17 sigkill-renderer/normal: sent 746 durable 744 -> recovered 747; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #18 sigkill-all/normal: sent 795 durable 792 -> recovered 795; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #19 context-close/normal: sent 827 durable 825 -> recovered 825; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #20 sigkill-all/normal: sent 867 durable 865 -> recovered 865; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #21 sigkill-all/normal: sent 920 durable 920 -> recovered 920; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #22 sigkill-all/normal: sent 958 durable 956 -> recovered 956; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #23 sigkill-renderer/normal: sent 1007 durable 1007 -> recovered 1010; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #24 sigkill-all/normal: sent 1072 durable 1070 -> recovered 1070; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #25 page-close/normal: sent 1110 durable 1109 -> recovered 1110; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #26 sigkill-all/normal: sent 1144 durable 1143 -> recovered 1143; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #27 sigkill-renderer/normal: sent 1201 durable 1200 -> recovered 1203; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #28 sigkill-all/normal: sent 1253 durable 1251 -> recovered 1251; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #29 context-close/normal: sent 1301 durable 1299 -> recovered 1299; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #30 sigkill-all/normal: sent 1335 durable 1332 -> recovered 1335; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #31 sigkill-all/normal: sent 1380 durable 1377 -> recovered 1377; lost 3 (300 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #32 sigkill-all/normal: sent 1422 durable 1422 -> recovered 1422; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #33 sigkill-all/stress: sent 2640 durable 2640 -> recovered 2644; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #34 sigkill-all/stress: sent 3109 durable 3108 -> recovered 3114; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #35 sigkill-renderer/stress: sent 3955 durable 3953 -> recovered 3993; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #36 sigkill-all/stress: sent 4809 durable 4803 -> recovered 4815; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #37 page-close/stress: sent 5569 durable 5569 -> recovered 5570; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #38 sigkill-all/stress: sent 6279 durable 6279 -> recovered 6284; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #39 sigkill-renderer/stress: sent 7010 durable 7009 -> recovered 7076; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #40 sigkill-all/stress: sent 7728 durable 7727 -> recovered 7738; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #41 context-close/stress: sent 8378 durable 8378 -> recovered 8381; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #42 sigkill-all/stress: sent 9249 durable 9249 -> recovered 9256; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #43 sigkill-all/stress: sent 9689 durable 9689 -> recovered 9703; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #44 sigkill-all/stress: sent 10340 durable 10340 -> recovered 10349; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #45 sigkill-renderer/stress: sent 10670 durable 10670 -> recovered 10708; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #46 sigkill-all/stress: sent 11503 durable 11502 -> recovered 11511; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #47 page-close/stress: sent 12283 durable 12283 -> recovered 12286; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #48 sigkill-all/stress: sent 13294 durable 13294 -> recovered 13299; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #49 sigkill-renderer/stress: sent 14054 durable 14053 -> recovered 14123; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #50 sigkill-all/stress: sent 15001 durable 15001 -> recovered 15006; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #51 context-close/stress: sent 15511 durable 15511 -> recovered 15512; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #52 sigkill-all/stress: sent 16087 durable 16087 -> recovered 16098; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #53 sigkill-all/stress: sent 16819 durable 16807 -> recovered 16824; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #54 sigkill-all/stress: sent 17769 durable 17769 -> recovered 17774; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #55 sigkill-renderer/stress: sent 18420 durable 18419 -> recovered 18492; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #56 sigkill-all/stress: sent 18872 durable 18872 -> recovered 18878; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #57 page-close/stress: sent 19554 durable 19554 -> recovered 19556; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #58 sigkill-all/stress: sent 20169 durable 20169 -> recovered 20175; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #59 sigkill-renderer/stress: sent 20946 durable 20946 -> recovered 21007; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #60 sigkill-all/stress: sent 21449 durable 21449 -> recovered 21456; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #61 context-close/stress: sent 22007 durable 22007 -> recovered 22009; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #62 sigkill-all/stress: sent 22747 durable 22747 -> recovered 22756; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #63 sigkill-all/stress: sent 23274 durable 23273 -> recovered 23280; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] #64 sigkill-all/stress: sent 23635 durable 23634 -> recovered 23640; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain sahpool] summary {"all":{"runs":64,"failures":0,"ackedButLost":0,"maxLostMs":300,"medianLostMs":0,"maxReopenMs":800},"normal":{"runs":32,"failures":0,"ackedButLost":0,"maxLostMs":300,"medianLostMs":100,"maxReopenMs":800},"stress":{"runs":32,"failures":0,"ackedButLost":0,"maxLostMs":0,"medianLostMs":0,"maxReopenMs":577},"sigkillAllNormal":{"runs":20,"failures":0,"ackedButLost":0,"maxLostMs":300,"medianLostMs":200,"maxReopenMs":617},"sigkillRenderer":{"runs":12,"failures":0,"ackedButLost":0,"maxLostMs":0,"medianLostMs":0,"maxReopenMs":800},"localStorageLost":0,"localStorageMaxLagChanges":0}
+[chromium plain coop] #1 sigkill-all/normal: sent 27 durable 24 -> recovered 27; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #2 sigkill-all/normal: sent 68 durable 66 -> recovered 66; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain coop] #3 sigkill-renderer/normal: sent 120 durable 117 -> recovered 120; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #4 sigkill-all/normal: sent 173 durable 172 -> recovered 172; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #5 page-close/normal: sent 227 durable 226 -> recovered 226; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #6 sigkill-all/normal: sent 263 durable 262 -> recovered 262; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #7 sigkill-renderer/normal: sent 291 durable 289 -> recovered 292; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #8 sigkill-all/normal: sent 355 durable 355 -> recovered 355; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #9 context-close/normal: sent 412 durable 409 -> recovered 412; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #10 sigkill-all/normal: sent 458 durable 457 -> recovered 457; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #11 sigkill-all/normal: sent 521 durable 520 -> recovered 520; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #12 sigkill-all/normal: sent 573 durable 571 -> recovered 571; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain coop] #13 sigkill-renderer/normal: sent 612 durable 611 -> recovered 614; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #14 sigkill-all/normal: sent 674 durable 671 -> recovered 674; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #15 page-close/normal: sent 738 durable 737 -> recovered 737; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #16 sigkill-all/normal: sent 783 durable 782 -> recovered 782; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #17 sigkill-renderer/normal: sent 835 durable 833 -> recovered 836; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #18 sigkill-all/normal: sent 863 durable 860 -> recovered 863; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #19 context-close/normal: sent 927 durable 926 -> recovered 926; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #20 sigkill-all/normal: sent 968 durable 965 -> recovered 965; lost 3 (300 ms) ackedButLost 0 ok=true
+[chromium plain coop] #21 sigkill-all/normal: sent 1015 durable 1013 -> recovered 1013; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain coop] #22 sigkill-all/normal: sent 1062 durable 1061 -> recovered 1061; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #23 sigkill-renderer/normal: sent 1107 durable 1106 -> recovered 1109; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #24 sigkill-all/normal: sent 1136 durable 1136 -> recovered 1136; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #25 page-close/normal: sent 1165 durable 1163 -> recovered 1163; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain coop] #26 sigkill-all/normal: sent 1217 durable 1216 -> recovered 1216; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #27 sigkill-renderer/normal: sent 1243 durable 1240 -> recovered 1246; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #28 sigkill-all/normal: sent 1285 durable 1282 -> recovered 1285; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #29 context-close/normal: sent 1331 durable 1330 -> recovered 1330; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #30 sigkill-all/normal: sent 1394 durable 1393 -> recovered 1393; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #31 sigkill-all/normal: sent 1451 durable 1450 -> recovered 1450; lost 1 (100 ms) ackedButLost 0 ok=true
+[chromium plain coop] #32 sigkill-all/normal: sent 1500 durable 1498 -> recovered 1498; lost 2 (200 ms) ackedButLost 0 ok=true
+[chromium plain coop] #33 sigkill-all/stress: sent 1975 durable 1975 -> recovered 1981; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #34 sigkill-all/stress: sent 2442 durable 2438 -> recovered 2447; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #35 sigkill-renderer/stress: sent 3223 durable 3223 -> recovered 3288; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #36 sigkill-all/stress: sent 4132 durable 4131 -> recovered 4135; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #37 page-close/stress: sent 4695 durable 4694 -> recovered 4695; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #38 sigkill-all/stress: sent 5453 durable 5453 -> recovered 5458; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #39 sigkill-renderer/stress: sent 6464 durable 6464 -> recovered 6536; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #40 sigkill-all/stress: sent 7015 durable 7014 -> recovered 7019; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #41 context-close/stress: sent 7822 durable 7819 -> recovered 7823; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #42 sigkill-all/stress: sent 8673 durable 8673 -> recovered 8678; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #43 sigkill-all/stress: sent 9346 durable 9345 -> recovered 9351; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #44 sigkill-all/stress: sent 9861 durable 9860 -> recovered 9866; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #45 sigkill-renderer/stress: sent 10972 durable 10970 -> recovered 11036; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #46 sigkill-all/stress: sent 11595 durable 11594 -> recovered 11599; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #47 page-close/stress: sent 12391 durable 12391 -> recovered 12391; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #48 sigkill-all/stress: sent 13607 durable 13604 -> recovered 13612; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #49 sigkill-renderer/stress: sent 14672 durable 14672 -> recovered 14736; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #50 sigkill-all/stress: sent 15201 durable 15200 -> recovered 15206; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #51 context-close/stress: sent 15774 durable 15770 -> recovered 15774; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #52 sigkill-all/stress: sent 16349 durable 16347 -> recovered 16354; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #53 sigkill-all/stress: sent 17451 durable 17450 -> recovered 17457; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #54 sigkill-all/stress: sent 18055 durable 18054 -> recovered 18061; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #55 sigkill-renderer/stress: sent 18763 durable 18760 -> recovered 18806; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #56 sigkill-all/stress: sent 19363 durable 19360 -> recovered 19369; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #57 page-close/stress: sent 20151 durable 20149 -> recovered 20150; lost 1 (5 ms) ackedButLost 0 ok=true
+[chromium plain coop] #58 sigkill-all/stress: sent 21200 durable 21200 -> recovered 21205; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #59 sigkill-renderer/stress: sent 21580 durable 21578 -> recovered 21624; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #60 sigkill-all/stress: sent 22596 durable 22595 -> recovered 22604; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #61 context-close/stress: sent 23431 durable 23425 -> recovered 23425; lost 6 (30 ms) ackedButLost 0 ok=true
+[chromium plain coop] #62 sigkill-all/stress: sent 24154 durable 24152 -> recovered 24156; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #63 sigkill-all/stress: sent 24625 durable 24624 -> recovered 24628; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] #64 sigkill-all/stress: sent 25493 durable 25492 -> recovered 25495; lost 0 (0 ms) ackedButLost 0 ok=true
+[chromium plain coop] summary {"all":{"runs":64,"failures":0,"ackedButLost":0,"maxLostMs":300,"medianLostMs":0,"maxReopenMs":571},"normal":{"runs":32,"failures":0,"ackedButLost":0,"maxLostMs":300,"medianLostMs":100,"maxReopenMs":571},"stress":{"runs":32,"failures":0,"ackedButLost":0,"maxLostMs":30,"medianLostMs":0,"maxReopenMs":463},"sigkillAllNormal":{"runs":20,"failures":0,"ackedButLost":0,"maxLostMs":300,"medianLostMs":100,"maxReopenMs":571},"sigkillRenderer":{"runs":12,"failures":0,"ackedButLost":0,"maxLostMs":0,"medianLostMs":0,"maxReopenMs":346},"localStorageLost":0,"localStorageMaxLagChanges":0}
+[chromium plain sahpool] no lock: tab1 {"ok":true,"ms":402,"lockWaitMs":0} tab2 {"ok":false,"ms":214,"error":"Failed to execute 'createSyncAccessHandle' on 'FileSystemFileHandle': Access Handles cannot be created if there is another open Access Handle or Writable stream associated with the same file."}
+[chromium plain sahpool] web lock: waiting={"ready":false,"banner":"Another tab holds this database. Waiting for it to close (read-only until then)."} takeover 298 ms -> {"ok":true,"ms":2286,"lockWaitMs":1935} write {"changes":30,"storedEqualsLive":true}
+[chromium plain coop] no lock: tab1 {"ok":true,"ms":408,"lockWaitMs":0} tab2 {"ok":true,"ms":303,"lockWaitMs":0}
+[chromium plain coop] both typing: tab1 p95 42.09999990463257 max 335 errs 0; tab2 p95 43 max 130.39999961853027 errs 0; verify true/true; reads {"n":148,"median":1.8999996185302734,"p95":15.300000190734863,"max":50.19999980926514,"errors":0,"firstError":null}
+[chromium plain coop] web lock: waiting={"ready":false,"banner":"Another tab holds this database. Waiting for it to close (read-only until then)."} takeover 190 ms -> {"ok":true,"ms":2154,"lockWaitMs":1933} write {"changes":30,"storedEqualsLive":true}
+[chromium plain] sahpool/default FAILED page.evaluate: Target page, context or browser has been closed
+[chromium plain] sahpool/truncate FAILED page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:41741/b/?noprobe=1&nokill=1&vfs=sahpool&profile=truncate
+Call log:
+  - navigating to "http://127.0.0.1:41741/b/?noprobe=1&nokill=1&vfs=sahpool&profile=truncate", waiting until "load"
+

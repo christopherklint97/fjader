@@ -1,0 +1,1846 @@
+{
+ "browser": "chromium",
+ "mode": "plain",
+ "typingSeconds": 300,
+ "startedAt": "2026-11-11T06:50:14.459Z",
+ "vfs": {
+  "sahpool": {
+   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+   "info": {
+    "vfs": "sahpool",
+    "library": "@sqlite.org/sqlite-wasm 3.54.1",
+    "sqliteVersion": "3.54.1",
+    "fts5": true,
+    "dbstat": true,
+    "journalMode": "wal",
+    "synchronous": 1,
+    "lockingMode": "exclusive",
+    "pageSize": 8192,
+    "pragmas": [
+     "PRAGMA locking_mode=exclusive",
+     "PRAGMA journal_mode=wal",
+     "PRAGMA synchronous=normal",
+     "PRAGMA wal_autocheckpoint=128",
+     "PRAGMA journal_size_limit=1048576"
+    ],
+    "crossOriginIsolated": false,
+    "timings": {
+     "workerBootToInitMs": 0.6999998092651367,
+     "lockWaitMs": 0.5999999046325684,
+     "wasmInitMs": 51.5,
+     "vfsInstallMs": 26,
+     "dbOpenMs": 6,
+     "pragmaMs": 24.700000286102295,
+     "schemaMs": 38.69999980926514,
+     "initTotalMs": 147.80000019073486
+    }
+   },
+   "import": {
+    "scenes": 600,
+    "chapters": 150,
+    "words": 300000,
+    "textBytes": 2063981,
+    "stateBytes": 2190171,
+    "timings": {
+     "generateMs": 124.5,
+     "yjsEncodeMs": 193.00000429153442,
+     "sqlMs": 709.7999958992004,
+     "commitMs": 179.19999980926514,
+     "importTotalMs": 1206.5999999046326,
+     "importWithoutGenerateMs": 1082.0999999046326,
+     "ftsOptimizeMs": 218.19999980926514,
+     "walCheckpointMs": 0.9000000953674316
+    },
+    "sizesBeforeOptimize": {
+     "fileBytes": 11411456,
+     "freeBytes": 0,
+     "pageSize": 8192,
+     "payload": {
+      "docStateBytes": 2190171,
+      "docStateRows": 600,
+      "updateLogBytes": 0,
+      "updateLogRows": 0,
+      "plainTextBytes": 2063981,
+      "wordIndexBytes": 937299,
+      "trigramIndexBytes": 5212660,
+      "snapshotBytes": 0,
+      "snapshotRows": 0
+     },
+     "onDisk": {
+      "docState": 2547712,
+      "updateLog": 8192,
+      "plainText": 2375680,
+      "wordIndex": 983040,
+      "trigramIndex": 5382144,
+      "snapshots": 16384,
+      "tree": 81920,
+      "other": 16384
+     },
+     "estimate": {
+      "usage": 37750078,
+      "quota": 10775168318
+     }
+    },
+    "sizes": {
+     "fileBytes": 15458304,
+     "freeBytes": 4218880,
+     "pageSize": 8192,
+     "payload": {
+      "docStateBytes": 2190171,
+      "docStateRows": 600,
+      "updateLogBytes": 0,
+      "updateLogRows": 0,
+      "plainTextBytes": 2063981,
+      "wordIndexBytes": 866317,
+      "trigramIndexBytes": 5124660,
+      "snapshotBytes": 0,
+      "snapshotRows": 0
+     },
+     "onDisk": {
+      "docState": 2547712,
+      "updateLog": 8192,
+      "plainText": 2375680,
+      "wordIndex": 917504,
+      "trigramIndex": 5275648,
+      "snapshots": 16384,
+      "tree": 81920,
+      "other": 16384
+     },
+     "estimate": {
+      "usage": 37750078,
+      "quota": 10775168318
+     }
+    }
+   },
+   "diskAfterImport": {
+    "bytes": 15485827,
+    "files": 17,
+    "largest": [
+     "15.46 MB 00/00000001",
+     "0.00 MB 00/00000002",
+     "0.00 MB 00/00000003",
+     "0.00 MB 00/00000004"
+    ]
+   },
+   "integrityAfterImport": {
+    "ok": true,
+    "integrityCheck": "ok",
+    "fts": "ok",
+    "integrityMs": 242.39999961853027,
+    "ftsCheckMs": 335.1000003814697
+   },
+   "vacuumAfterImport": {
+    "ms": 180.5,
+    "fileBytes": 11198464,
+    "freeBytes": 0,
+    "onDisk": {
+     "docState": 2547712,
+     "updateLog": 8192,
+     "plainText": 2375680,
+     "wordIndex": 909312,
+     "trigramIndex": 5242880,
+     "snapshots": 16384,
+     "tree": 81920,
+     "other": 16384
+    },
+    "payload": {
+     "docStateBytes": 2190171,
+     "docStateRows": 600,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "plainTextBytes": 2063981,
+     "wordIndexBytes": 866317,
+     "trigramIndexBytes": 5124660,
+     "snapshotBytes": 0,
+     "snapshotRows": 0
+    },
+    "estimate": {
+     "usage": 37750078,
+     "quota": 10775168318
+    }
+   },
+   "diskAfterVacuum": {
+    "bytes": 11225987,
+    "files": 17,
+    "largest": [
+     "11.20 MB 00/00000001",
+     "0.00 MB 00/00000002",
+     "0.00 MB 00/00000003",
+     "0.00 MB 00/00000004"
+    ]
+   },
+   "cold": [
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.7999997138977051,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.7999997138977051,
+       "lockWaitMs": 0.5999999046325684,
+       "wasmInitMs": 57.299999713897705,
+       "vfsInstallMs": 10.300000190734863,
+       "dbOpenMs": 5.5,
+       "pragmaMs": 24.699999809265137,
+       "schemaMs": 2.5,
+       "initTotalMs": 101.09999990463257
+      },
+      "initDoneMs": 162.09999990463257,
+      "treeLoadedMs": 203.7999997138977,
+      "treeQueryMs": 40.5,
+      "treeRoundTripMs": 41.69999980926514,
+      "firstDocMs": 20.300000190734863,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 335.2999997138977,
+      "pageClockAtDocMs": 355.59999990463257
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 0.7,
+       "p95": 5.4,
+       "p99": 5.8,
+       "max": 5.8
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.2,
+       "p95": 0.5,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2.2,
+       "p95": 3.5,
+       "p99": 3.5,
+       "max": 3.5
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.7000002861022949,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.7000002861022949,
+       "lockWaitMs": 0.7999997138977051,
+       "wasmInitMs": 57.700000286102295,
+       "vfsInstallMs": 10.400000095367432,
+       "dbOpenMs": 5.399999618530273,
+       "pragmaMs": 24.800000190734863,
+       "schemaMs": 2.4000000953674316,
+       "initTotalMs": 101.59999990463257
+      },
+      "initDoneMs": 174,
+      "treeLoadedMs": 225.5,
+      "treeQueryMs": 34.40000009536743,
+      "treeRoundTripMs": 51.5,
+      "firstDocMs": 25.200000286102295,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 344.7999997138977,
+      "pageClockAtDocMs": 370
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 0.8,
+       "p95": 2.1,
+       "p99": 5.3,
+       "max": 5.3
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.2,
+       "p95": 0.8,
+       "p99": 3.4,
+       "max": 3.4
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2.7,
+       "p95": 18.1,
+       "p99": 18.1,
+       "max": 18.1
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.8000001907348633,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.8000001907348633,
+       "lockWaitMs": 0.5999999046325684,
+       "wasmInitMs": 58.59999990463257,
+       "vfsInstallMs": 15.199999809265137,
+       "dbOpenMs": 7.900000095367432,
+       "pragmaMs": 29.300000190734863,
+       "schemaMs": 2.6999998092651367,
+       "initTotalMs": 114.59999990463257
+      },
+      "initDoneMs": 176.5,
+      "treeLoadedMs": 236,
+      "treeQueryMs": 57.80000019073486,
+      "treeRoundTripMs": 59.5,
+      "firstDocMs": 17,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 357.59999990463257,
+      "pageClockAtDocMs": 374.59999990463257
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 0.9,
+       "p95": 2.4,
+       "p99": 7.1,
+       "max": 7.1
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.3,
+       "p95": 0.8,
+       "p99": 0.9,
+       "max": 0.9
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3.2,
+       "p95": 3.9,
+       "p99": 3.9,
+       "max": 3.9
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.8999996185302734,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.8999996185302734,
+       "lockWaitMs": 0.7000002861022949,
+       "wasmInitMs": 54.59999990463257,
+       "vfsInstallMs": 9.700000286102295,
+       "dbOpenMs": 7.299999713897705,
+       "pragmaMs": 26.300000190734863,
+       "schemaMs": 2.3000001907348633,
+       "initTotalMs": 101.10000038146973
+      },
+      "initDoneMs": 167,
+      "treeLoadedMs": 201.39999961853027,
+      "treeQueryMs": 32.09999990463257,
+      "treeRoundTripMs": 34.39999961853027,
+      "firstDocMs": 37.10000038146973,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 318.69999980926514,
+      "pageClockAtDocMs": 355.80000019073486
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 0.9,
+       "p95": 5.1,
+       "p99": 6.3,
+       "max": 6.3
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.3,
+       "p95": 0.6,
+       "p99": 1.1,
+       "max": 1.1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2,
+       "p95": 2.2,
+       "p99": 2.2,
+       "max": 2.2
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.7999997138977051,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.7999997138977051,
+       "lockWaitMs": 0.5999999046325684,
+       "wasmInitMs": 61.59999990463257,
+       "vfsInstallMs": 10,
+       "dbOpenMs": 5.5,
+       "pragmaMs": 24.700000286102295,
+       "schemaMs": 2.5999999046325684,
+       "initTotalMs": 105.30000019073486
+      },
+      "initDoneMs": 165.90000009536743,
+      "treeLoadedMs": 203.19999980926514,
+      "treeQueryMs": 34.700000286102295,
+      "treeRoundTripMs": 37.299999713897705,
+      "firstDocMs": 10.700000286102295,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 304.90000009536743,
+      "pageClockAtDocMs": 315.6000003814697
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 0.8,
+       "p95": 5.1,
+       "p99": 32.2,
+       "max": 32.2
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.2,
+       "p95": 0.4,
+       "p99": 0.7,
+       "max": 0.7
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2.5,
+       "p95": 2.8,
+       "p99": 2.8,
+       "max": 2.8
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    }
+   ],
+   "search": {
+    "wordCommon": {
+     "kind": "word",
+     "q": "the",
+     "hits": 599,
+     "matches": 0,
+     "sample": "…[The] kayming [the] where have [the] peapcrus frellslourer.\nWeardfreabness trae",
+     "allHits": {
+      "n": 15,
+      "first": 9.5,
+      "median": 1.5,
+      "p95": 9.5,
+      "max": 9.5
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 22.40000009536743,
+      "median": 11.099999904632568,
+      "p95": 22.40000009536743,
+      "max": 22.40000009536743
+     }
+    },
+    "wordRare": {
+     "kind": "word",
+     "q": "quillfeather",
+     "hits": 7,
+     "matches": 0,
+     "sample": "Made [quillfeather] who bassed in child, to streebsnorning to she…",
+     "allHits": {
+      "n": 15,
+      "first": 0.20000028610229492,
+      "median": 0.09999990463256836,
+      "p95": 0.20000028610229492,
+      "max": 0.20000028610229492
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 0.8999996185302734,
+      "median": 0.6999998092651367,
+      "p95": 0.8999996185302734,
+      "max": 0.8999996185302734
+     }
+    },
+    "phrase": {
+     "kind": "phrase",
+     "q": "lighthouse keeper's ledger",
+     "hits": 5,
+     "matches": 0,
+     "sample": "Joutneeded between three [lighthouse keeper's ledger] to a could…",
+     "allHits": {
+      "n": 15,
+      "first": 0.6999998092651367,
+      "median": 0.09999990463256836,
+      "p95": 0.6999998092651367,
+      "max": 0.6999998092651367
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 0.6999998092651367,
+      "median": 0.5999999046325684,
+      "p95": 0.6999998092651367,
+      "max": 0.6999998092651367
+     }
+    },
+    "substringTrigram": {
+     "kind": "substring",
+     "q": "illfeath",
+     "hits": 7,
+     "matches": 0,
+     "sample": "Made qu[illfe]…",
+     "allHits": {
+      "n": 15,
+      "first": 1.0999999046325684,
+      "median": 0.40000009536743164,
+      "p95": 1.0999999046325684,
+      "max": 1.0999999046325684
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 4,
+      "median": 2.5999999046325684,
+      "p95": 4,
+      "max": 4
+     }
+    },
+    "substringLikeScan": {
+     "kind": "like",
+     "q": "illfeath",
+     "hits": 7,
+     "matches": 0,
+     "sample": "",
+     "allHits": {
+      "n": 15,
+      "first": 16.199999809265137,
+      "median": 6.400000095367432,
+      "p95": 20.59999990463257,
+      "max": 20.59999990463257
+     },
+     "top20WithSnippet": null
+    },
+    "regexScan": {
+     "kind": "regex",
+     "q": "quill\\w+|keeper's\\s+led\\w+",
+     "hits": 11,
+     "matches": 12,
+     "sample": "quillfeather",
+     "allHits": {
+      "n": 15,
+      "first": 9.699999809265137,
+      "median": 7.700000286102295,
+      "p95": 9.699999809265137,
+      "max": 9.699999809265137
+     },
+     "top20WithSnippet": null
+    },
+    "expected": {
+     "wordRare": 7,
+     "phrase": 5,
+     "substring": 7,
+     "regexDocs": 11
+    },
+    "hitsCorrect": true
+   },
+   "typing": {
+    "docId": "sc0004",
+    "changes": 3000,
+    "elapsedMs": 300000,
+    "intervalMs": 100,
+    "durableSeq": 3000,
+    "storedEqualsLive": true,
+    "workerBatchMs": {
+     "n": 1000,
+     "first": 6.699999809265137,
+     "median": 0.3000001907348633,
+     "p95": 1.3000001907348633,
+     "max": 12
+    },
+    "workerBatchSize": {
+     "n": 1000,
+     "first": 3,
+     "median": 3,
+     "p95": 3,
+     "max": 3
+    },
+    "oldestChangeAgeAtCommitMs": {
+     "n": 1000,
+     "first": 257,
+     "median": 251,
+     "p95": 253,
+     "max": 263
+    },
+    "compactions": null,
+    "flushErrors": 0,
+    "mainAckLagMs": {
+     "n": 3000,
+     "median": 150.4,
+     "p95": 250.9,
+     "p99": 253.9,
+     "max": 262.3
+    },
+    "mainPerChangeMs": {
+     "n": 3000,
+     "median": 0.2,
+     "p95": 0.3,
+     "p99": 0.4,
+     "max": 3.7
+    },
+    "mainTimerDriftMs": {
+     "n": 3000,
+     "median": -0.3,
+     "p95": 0.1,
+     "p99": 0.2,
+     "max": 1.7
+    },
+    "updateBytes": {
+     "n": 3000,
+     "median": 12,
+     "p95": 18,
+     "p99": 27,
+     "max": 27
+    },
+    "screenWakeLock": false,
+    "batchIntervalMs": 250,
+    "sizeBefore": {
+     "fileBytes": 11198464,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "docStateBytes": 2190171
+    },
+    "sizeAfterTyping": {
+     "fileBytes": 11313152,
+     "updateLogBytes": 37347,
+     "updateLogRows": 3000,
+     "docStateBytes": 2190171
+    },
+    "compactAfterRun": {
+     "updates": 3000,
+     "bytesBefore": 38177,
+     "bytesAfter": 10140,
+     "mergeUpdatesBytes": 20477,
+     "readMs": 14.300000190734863,
+     "yjsDocMs": 64.69999980926514,
+     "yjsMergeUpdatesMs": 252.40000009536743,
+     "writeMs": 5.5,
+     "reindexMs": 4,
+     "totalMs": 109
+    },
+    "sizeAfterCompaction": {
+     "fileBytes": 11329536,
+     "freeBytes": 57344,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "docStateBytes": 2199481
+    }
+   },
+   "diskAfterTyping": {
+    "bytes": 12592217,
+    "files": 19,
+    "largest": [
+     "11.33 MB 00/00000001",
+     "1.24 MB 00/00000003",
+     "0.00 MB 00/00000002",
+     "0.00 MB 00/00000004"
+    ]
+   },
+   "verifyTypingScene": {
+    "durableSeq": 3000,
+    "stateSeq": 3000,
+    "pendingUpdates": 0,
+    "contiguous": true,
+    "textMatch": true,
+    "integrityOk": true,
+    "integrity": "ok",
+    "fts": "ok",
+    "ok": true,
+    "verifyMs": 705
+   },
+   "compaction": {
+    "typicalScene": [
+     {
+      "pendingUpdates": 100,
+      "loadWithLogMs": 2.3,
+      "loadAfterCompactMs": 0.6,
+      "logAndStateBytes": 8288,
+      "compactedBytes": 7544,
+      "mergeUpdatesBytes": 7793,
+      "compactTotalMs": 8.7,
+      "compactYjsMs": 2.9,
+      "compactReindexMs": 2.4,
+      "mergeUpdatesMs": 2
+     },
+     {
+      "pendingUpdates": 500,
+      "loadWithLogMs": 10.7,
+      "loadAfterCompactMs": 2.4,
+      "logAndStateBytes": 17350,
+      "compactedBytes": 9300,
+      "mergeUpdatesBytes": 12504,
+      "compactTotalMs": 21.9,
+      "compactYjsMs": 13.2,
+      "compactReindexMs": 3.3,
+      "mergeUpdatesMs": 12.9
+     },
+     {
+      "pendingUpdates": 1000,
+      "loadWithLogMs": 18.4,
+      "loadAfterCompactMs": 1.3,
+      "logAndStateBytes": 29532,
+      "compactedBytes": 13127,
+      "mergeUpdatesBytes": 19707,
+      "compactTotalMs": 32.4,
+      "compactYjsMs": 19.5,
+      "compactReindexMs": 2.2,
+      "mergeUpdatesMs": 38.9
+     },
+     {
+      "pendingUpdates": 3000,
+      "loadWithLogMs": 61.4,
+      "loadAfterCompactMs": 2.1,
+      "logAndStateBytes": 74722,
+      "compactedBytes": 26519,
+      "mergeUpdatesBytes": 45045,
+      "compactTotalMs": 78.7,
+      "compactYjsMs": 54.7,
+      "compactReindexMs": 3.1,
+      "mergeUpdatesMs": 314.4
+     }
+    ],
+    "bigScene": [
+     {
+      "pendingUpdates": 100,
+      "loadWithLogMs": 3.4,
+      "loadAfterCompactMs": 1.2,
+      "logAndStateBytes": 74464,
+      "compactedBytes": 73739,
+      "mergeUpdatesBytes": 73969,
+      "compactTotalMs": 56.2,
+      "compactYjsMs": 4.8,
+      "compactReindexMs": 19.4,
+      "mergeUpdatesMs": 3.3
+     },
+     {
+      "pendingUpdates": 500,
+      "loadWithLogMs": 10,
+      "loadAfterCompactMs": 1.2,
+      "logAndStateBytes": 83593,
+      "compactedBytes": 75571,
+      "mergeUpdatesBytes": 78747,
+      "compactTotalMs": 40.2,
+      "compactYjsMs": 9.8,
+      "compactReindexMs": 20.2,
+      "mergeUpdatesMs": 13.3
+     },
+     {
+      "pendingUpdates": 1000,
+      "loadWithLogMs": 19.7,
+      "loadAfterCompactMs": 1.9,
+      "logAndStateBytes": 95695,
+      "compactedBytes": 79283,
+      "mergeUpdatesBytes": 85870,
+      "compactTotalMs": 67.7,
+      "compactYjsMs": 20.2,
+      "compactReindexMs": 20.3,
+      "mergeUpdatesMs": 38.4
+     },
+     {
+      "pendingUpdates": 3000,
+      "loadWithLogMs": 59.1,
+      "loadAfterCompactMs": 3.3,
+      "logAndStateBytes": 140372,
+      "compactedBytes": 91938,
+      "mergeUpdatesBytes": 110695,
+      "compactTotalMs": 91.3,
+      "compactYjsMs": 50.3,
+      "compactReindexMs": 21.3,
+      "mergeUpdatesMs": 301.4
+     }
+    ]
+   },
+   "snapshots": {
+    "typicalScene": {
+     "snapshotBytes": 2110,
+     "snapshotMs": {
+      "n": 5,
+      "median": 0.6,
+      "p95": 1.3,
+      "p99": 1.3,
+      "max": 1.3
+     },
+     "snapshotWorkerMs": {
+      "n": 5,
+      "median": 0.4,
+      "p95": 1,
+      "p99": 1,
+      "max": 1
+     },
+     "restoreReplaceAndReloadMs": {
+      "n": 5,
+      "median": 3.5,
+      "p95": 25.5,
+      "p99": 25.5,
+      "max": 25.5
+     },
+     "restoreForwardAndReloadMs": {
+      "n": 5,
+      "median": 13.6,
+      "p95": 24.7,
+      "p99": 24.7,
+      "max": 24.7
+     },
+     "forwardUpdateBytes": 1825,
+     "restoredTextCorrect": true
+    },
+    "bigScene": {
+     "snapshotBytes": 99965,
+     "snapshotMs": {
+      "n": 5,
+      "median": 1.8,
+      "p95": 2.2,
+      "p99": 2.2,
+      "max": 2.2
+     },
+     "snapshotWorkerMs": {
+      "n": 5,
+      "median": 1.6,
+      "p95": 2.1,
+      "p99": 2.1,
+      "max": 2.1
+     },
+     "restoreReplaceAndReloadMs": {
+      "n": 5,
+      "median": 33.2,
+      "p95": 54.7,
+      "p99": 54.7,
+      "max": 54.7
+     },
+     "restoreForwardAndReloadMs": {
+      "n": 5,
+      "median": 73.7,
+      "p95": 107.4,
+      "p99": 107.4,
+      "max": 107.4
+     },
+     "forwardUpdateBytes": 86164,
+     "restoredTextCorrect": true
+    },
+    "snapshotAll": {
+     "ms": 55,
+     "workerMs": 54,
+     "docs": 600,
+     "fileBytesBefore": 13893632,
+     "fileBytesAfter": 15704064
+    }
+   },
+   "ftsVariants": {
+    "word detail=full": {
+     "bytes": 878827,
+     "buildMs": 123.19999980926514,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "word detail=column": {
+     "bytes": 582203,
+     "buildMs": 126.19999980926514,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "word detail=none": {
+     "bytes": 259457,
+     "buildMs": 89.5,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "trigram detail=full": {
+     "bytes": 5157954,
+     "buildMs": 692.8999996185303,
+     "substringLikeMs": 1.3999996185302734,
+     "substringHits": 7
+    },
+    "trigram detail=column": {
+     "bytes": 2033163,
+     "buildMs": 407.7000002861023,
+     "substringLikeMs": 2.700000286102295,
+     "substringHits": 7
+    },
+    "trigram detail=none": {
+     "bytes": 699383,
+     "buildMs": 242.90000009536743,
+     "substringLikeMs": 2.700000286102295,
+     "substringHits": 7
+    }
+   },
+   "sizesEnd": {
+    "fileBytes": 25231360,
+    "freeBytes": 9527296,
+    "pageSize": 8192,
+    "payload": {
+     "docStateBytes": 2251680,
+     "docStateRows": 600,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "plainTextBytes": 2079412,
+     "wordIndexBytes": 1013045,
+     "trigramIndexBytes": 5691553,
+     "snapshotBytes": 3204576,
+     "snapshotRows": 620
+    },
+    "onDisk": {
+     "docState": 2629632,
+     "updateLog": 8192,
+     "plainText": 2416640,
+     "wordIndex": 1089536,
+     "trigramIndex": 5873664,
+     "snapshots": 3588096,
+     "tree": 81920,
+     "other": 16384
+    },
+    "estimate": {
+     "usage": 34915646,
+     "quota": 10772333886
+    }
+   },
+   "diskEnd": {
+    "bytes": 26310185,
+    "files": 19,
+    "largest": [
+     "25.24 MB 00/00000001",
+     "1.05 MB 00/00000003",
+     "0.00 MB 00/00000002",
+     "0.00 MB 00/00000004"
+    ]
+   },
+   "integrityEnd": {
+    "ok": true,
+    "integrityCheck": "ok",
+    "fts": "ok",
+    "integrityMs": 238.59999990463257,
+    "ftsCheckMs": 353.90000009536743
+   },
+   "vacuum": {
+    "ms": 271.59999990463257,
+    "fileBytes": 15638528,
+    "freeBytes": 0,
+    "onDisk": {
+     "docState": 2621440,
+     "updateLog": 8192,
+     "plainText": 2400256,
+     "wordIndex": 1073152,
+     "trigramIndex": 5849088,
+     "snapshots": 3588096,
+     "tree": 81920,
+     "other": 16384
+    },
+    "estimate": {
+     "usage": 43304254,
+     "quota": 10780722494
+    }
+   },
+   "diskAfterFinalVacuum": {
+    "bytes": 15668777,
+    "files": 19,
+    "largest": [
+     "15.64 MB 00/00000001",
+     "0.00 MB 00/00000002",
+     "0.00 MB 00/00000003",
+     "0.00 MB 00/00000004"
+    ]
+   },
+   "heap": {
+    "usedJSHeapSize": 10000000
+   }
+  },
+  "coop": {
+   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+   "info": {
+    "vfs": "coop",
+    "library": "@journeyapps/wa-sqlite 2.0.10, SQLite 3.53.0",
+    "sqliteVersion": "3.53.0",
+    "fts5": true,
+    "dbstat": false,
+    "journalMode": "delete",
+    "synchronous": 2,
+    "lockingMode": "normal",
+    "pageSize": 4096,
+    "pragmas": [],
+    "crossOriginIsolated": false,
+    "timings": {
+     "workerBootToInitMs": 0.9000000953674316,
+     "lockWaitMs": 0.5999999046325684,
+     "wasmInitMs": 26,
+     "vfsInstallMs": 10.599999904632568,
+     "dbOpenMs": 13,
+     "pragmaMs": 0.10000038146972656,
+     "schemaMs": 92.2999997138977,
+     "initTotalMs": 142.69999980926514
+    }
+   },
+   "import": {
+    "scenes": 600,
+    "chapters": 150,
+    "words": 300000,
+    "textBytes": 2063981,
+    "stateBytes": 2190171,
+    "timings": {
+     "generateMs": 114.5,
+     "yjsEncodeMs": 202.39999628067017,
+     "sqlMs": 886.1000037193298,
+     "commitMs": 68,
+     "importTotalMs": 1271.3000001907349,
+     "importWithoutGenerateMs": 1156.8000001907349,
+     "ftsOptimizeMs": 275.09999990463257,
+     "walCheckpointMs": 0.3000001907348633
+    },
+    "sizesBeforeOptimize": {
+     "fileBytes": 11247616,
+     "freeBytes": 0,
+     "pageSize": 4096,
+     "payload": {
+      "docStateBytes": 2190171,
+      "docStateRows": 600,
+      "updateLogBytes": 0,
+      "updateLogRows": 0,
+      "plainTextBytes": 2063981,
+      "wordIndexBytes": 937299,
+      "trigramIndexBytes": 5212660,
+      "snapshotBytes": 0,
+      "snapshotRows": 0
+     },
+     "onDisk": null,
+     "estimate": {
+      "usage": 17828076,
+      "quota": 10755246316
+     }
+    },
+    "sizes": {
+     "fileBytes": 15302656,
+     "freeBytes": 4227072,
+     "pageSize": 4096,
+     "payload": {
+      "docStateBytes": 2190171,
+      "docStateRows": 600,
+      "updateLogBytes": 0,
+      "updateLogRows": 0,
+      "plainTextBytes": 2063981,
+      "wordIndexBytes": 866317,
+      "trigramIndexBytes": 5124660,
+      "snapshotBytes": 0,
+      "snapshotRows": 0
+     },
+     "onDisk": null,
+     "estimate": {
+      "usage": 18876652,
+      "quota": 10756294892
+     }
+    }
+   },
+   "diskAfterImport": {
+    "bytes": 15306551,
+    "files": 24,
+    "largest": [
+     "15.30 MB 00/00000010",
+     "0.00 MB Paths/000003.log",
+     "0.00 MB Paths/LOG",
+     "0.00 MB Origins/LOG"
+    ]
+   },
+   "integrityAfterImport": {
+    "ok": true,
+    "integrityCheck": "ok",
+    "fts": "ok",
+    "integrityMs": 332.2999997138977,
+    "ftsCheckMs": 376.2000002861023
+   },
+   "vacuumAfterImport": {
+    "ms": 529.2999997138977,
+    "fileBytes": 11063296,
+    "freeBytes": 0,
+    "onDisk": null,
+    "payload": {
+     "docStateBytes": 2190171,
+     "docStateRows": 600,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "plainTextBytes": 2063981,
+     "wordIndexBytes": 866317,
+     "trigramIndexBytes": 5124660,
+     "snapshotBytes": 0,
+     "snapshotRows": 0
+    },
+    "estimate": {
+     "usage": 50333932,
+     "quota": 10787752172
+    }
+   },
+   "diskAfterVacuum": {
+    "bytes": 11067191,
+    "files": 24,
+    "largest": [
+     "11.06 MB 00/00000010",
+     "0.00 MB Paths/000003.log",
+     "0.00 MB Paths/LOG",
+     "0.00 MB Origins/LOG"
+    ]
+   },
+   "cold": [
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.6999998092651367,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.6999998092651367,
+       "lockWaitMs": 0.6000003814697266,
+       "wasmInitMs": 24.59999990463257,
+       "vfsInstallMs": 14.5,
+       "dbOpenMs": 14.5,
+       "pragmaMs": 0.09999990463256836,
+       "schemaMs": 34,
+       "initTotalMs": 88.5
+      },
+      "initDoneMs": 172.2000002861023,
+      "treeLoadedMs": 237.40000009536743,
+      "treeQueryMs": 63.40000009536743,
+      "treeRoundTripMs": 65.19999980926514,
+      "firstDocMs": 9.400000095367432,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 360.09999990463257,
+      "pageClockAtDocMs": 369.5
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 6.6,
+       "p99": 20.8,
+       "max": 20.8
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.3,
+       "p95": 0.9,
+       "p99": 0.9,
+       "max": 0.9
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2.2,
+       "p95": 7,
+       "p99": 7,
+       "max": 7
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.7999997138977051,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.7999997138977051,
+       "lockWaitMs": 0.6000003814697266,
+       "wasmInitMs": 25,
+       "vfsInstallMs": 19.90000009536743,
+       "dbOpenMs": 11.899999618530273,
+       "pragmaMs": 0,
+       "schemaMs": 33.799999713897705,
+       "initTotalMs": 91.5
+      },
+      "initDoneMs": 149.19999980926514,
+      "treeLoadedMs": 196.39999961853027,
+      "treeQueryMs": 44.19999980926514,
+      "treeRoundTripMs": 47.19999980926514,
+      "firstDocMs": 21.300000190734863,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 340.69999980926514,
+      "pageClockAtDocMs": 362
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 0.9,
+       "p95": 7.6,
+       "p99": 24.2,
+       "max": 24.2
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.4,
+       "p95": 0.9,
+       "p99": 0.9,
+       "max": 0.9
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2.7,
+       "p95": 6.7,
+       "p99": 6.7,
+       "max": 6.7
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.8000001907348633,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.8000001907348633,
+       "lockWaitMs": 0.5999999046325684,
+       "wasmInitMs": 27.700000286102295,
+       "vfsInstallMs": 18.699999809265137,
+       "dbOpenMs": 11.800000190734863,
+       "pragmaMs": 0.09999990463256836,
+       "schemaMs": 30.100000381469727,
+       "initTotalMs": 89.30000019073486
+      },
+      "initDoneMs": 148.40000009536743,
+      "treeLoadedMs": 194.59999990463257,
+      "treeQueryMs": 23.100000381469727,
+      "treeRoundTripMs": 46.19999980926514,
+      "firstDocMs": 22.200000286102295,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 340.5,
+      "pageClockAtDocMs": 362.7000002861023
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 5.9,
+       "p99": 28.1,
+       "max": 28.1
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.4,
+       "p95": 1.2,
+       "p99": 1.7,
+       "max": 1.7
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2.4,
+       "p95": 9.5,
+       "p99": 9.5,
+       "max": 9.5
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 0.5,
+       "wasmInitMs": 25.899999618530273,
+       "vfsInstallMs": 16.600000381469727,
+       "dbOpenMs": 11.799999713897705,
+       "pragmaMs": 0.10000038146972656,
+       "schemaMs": 33.799999713897705,
+       "initTotalMs": 88.90000009536743
+      },
+      "initDoneMs": 156.90000009536743,
+      "treeLoadedMs": 216,
+      "treeQueryMs": 57.80000019073486,
+      "treeRoundTripMs": 59.09999990463257,
+      "firstDocMs": 9.699999809265137,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 362.80000019073486,
+      "pageClockAtDocMs": 372.5
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 0.9,
+       "p95": 5.2,
+       "p99": 31.6,
+       "max": 31.6
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.3,
+       "p95": 2.3,
+       "p99": 30.7,
+       "max": 30.7
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 1.9,
+       "p95": 2.3,
+       "p99": 2.3,
+       "max": 2.3
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.8000001907348633,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.8000001907348633,
+       "lockWaitMs": 0.5,
+       "wasmInitMs": 25.200000286102295,
+       "vfsInstallMs": 13.599999904632568,
+       "dbOpenMs": 15.199999809265137,
+       "pragmaMs": 0,
+       "schemaMs": 31.899999618530273,
+       "initTotalMs": 86.7999997138977
+      },
+      "initDoneMs": 166.5,
+      "treeLoadedMs": 218.80000019073486,
+      "treeQueryMs": 50.60000038146973,
+      "treeRoundTripMs": 52.30000019073486,
+      "firstDocMs": 19.90000009536743,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 342.80000019073486,
+      "pageClockAtDocMs": 362.7000002861023
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1,
+       "p95": 5.6,
+       "p99": 26.3,
+       "max": 26.3
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.4,
+       "p95": 0.8,
+       "p99": 1,
+       "max": 1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2.8,
+       "p95": 5.4,
+       "p99": 5.4,
+       "max": 5.4
+      },
+      "bigDocStateBytes": 73355
+     },
+     "error": ""
+    }
+   ],
+   "search": {
+    "wordCommon": {
+     "kind": "word",
+     "q": "the",
+     "hits": 599,
+     "matches": 0,
+     "sample": "…[The] kayming [the] where have [the] peapcrus frellslourer.\nWeardfreabness trae",
+     "allHits": {
+      "n": 15,
+      "first": 12.799999713897705,
+      "median": 1.200000286102295,
+      "p95": 12.799999713897705,
+      "max": 12.799999713897705
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 22.5,
+      "median": 11.099999904632568,
+      "p95": 22.5,
+      "max": 22.5
+     }
+    },
+    "wordRare": {
+     "kind": "word",
+     "q": "quillfeather",
+     "hits": 7,
+     "matches": 0,
+     "sample": "Made [quillfeather] who bassed in child, to streebsnorning to she…",
+     "allHits": {
+      "n": 15,
+      "first": 0.2999997138977051,
+      "median": 0.09999990463256836,
+      "p95": 0.2999997138977051,
+      "max": 0.2999997138977051
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 1,
+      "median": 0.7000002861022949,
+      "p95": 1,
+      "max": 1
+     }
+    },
+    "phrase": {
+     "kind": "phrase",
+     "q": "lighthouse keeper's ledger",
+     "hits": 5,
+     "matches": 0,
+     "sample": "Joutneeded between three [lighthouse keeper's ledger] to a could…",
+     "allHits": {
+      "n": 15,
+      "first": 0.9000000953674316,
+      "median": 0.19999980926513672,
+      "p95": 0.9000000953674316,
+      "max": 0.9000000953674316
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 1.5999999046325684,
+      "median": 0.5999999046325684,
+      "p95": 1.5999999046325684,
+      "max": 1.5999999046325684
+     }
+    },
+    "substringTrigram": {
+     "kind": "substring",
+     "q": "illfeath",
+     "hits": 7,
+     "matches": 0,
+     "sample": "Made qu[illfe]…",
+     "allHits": {
+      "n": 15,
+      "first": 1.299999713897705,
+      "median": 0.40000009536743164,
+      "p95": 1.299999713897705,
+      "max": 1.299999713897705
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 4.400000095367432,
+      "median": 2.5,
+      "p95": 4.400000095367432,
+      "max": 4.400000095367432
+     }
+    },
+    "substringLikeScan": {
+     "kind": "like",
+     "q": "illfeath",
+     "hits": 7,
+     "matches": 0,
+     "sample": "",
+     "allHits": {
+      "n": 15,
+      "first": 18.700000286102295,
+      "median": 14.100000381469727,
+      "p95": 18.700000286102295,
+      "max": 18.700000286102295
+     },
+     "top20WithSnippet": null
+    },
+    "regexScan": {
+     "kind": "regex",
+     "q": "quill\\w+|keeper's\\s+led\\w+",
+     "hits": 11,
+     "matches": 12,
+     "sample": "quillfeather",
+     "allHits": {
+      "n": 15,
+      "first": 16.5,
+      "median": 14.100000381469727,
+      "p95": 16.59999990463257,
+      "max": 16.59999990463257
+     },
+     "top20WithSnippet": null
+    },
+    "expected": {
+     "wordRare": 7,
+     "phrase": 5,
+     "substring": 7,
+     "regexDocs": 11
+    },
+    "hitsCorrect": true
+   },
+   "typing": {
+    "docId": "sc0004",
+    "changes": 3000,
+    "elapsedMs": 300003,
+    "intervalMs": 100,
+    "durableSeq": 3000,
+    "storedEqualsLive": true,
+    "workerBatchMs": {
+     "n": 1000,
+     "first": 8.299999713897705,
+     "median": 4.600000381469727,
+     "p95": 17.700000286102295,
+     "max": 42.5
+    },
+    "workerBatchSize": {
+     "n": 1000,
+     "first": 3,
+     "median": 3,
+     "p95": 3,
+     "max": 3
+    },
+    "oldestChangeAgeAtCommitMs": {
+     "n": 1000,
+     "first": 259,
+     "median": 255,
+     "p95": 280,
+     "max": 294
+    },
+    "compactions": null,
+    "flushErrors": 0,
+    "mainAckLagMs": {
+     "n": 3000,
+     "median": 155.4,
+     "p95": 265,
+     "p99": 282.2,
+     "max": 294.3
+    },
+    "mainPerChangeMs": {
+     "n": 3000,
+     "median": 0.2,
+     "p95": 0.4,
+     "p99": 1.2,
+     "max": 4.9
+    },
+    "mainTimerDriftMs": {
+     "n": 3000,
+     "median": -0.3,
+     "p95": 1.5,
+     "p99": 4,
+     "max": 5.7
+    },
+    "updateBytes": {
+     "n": 3000,
+     "median": 12,
+     "p95": 18,
+     "p99": 27,
+     "max": 27
+    },
+    "screenWakeLock": false,
+    "batchIntervalMs": 250,
+    "sizeBefore": {
+     "fileBytes": 11063296,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "docStateBytes": 2190171
+    },
+    "sizeAfterTyping": {
+     "fileBytes": 11182080,
+     "updateLogBytes": 37347,
+     "updateLogRows": 3000,
+     "docStateBytes": 2190171
+    },
+    "compactAfterRun": {
+     "updates": 3000,
+     "bytesBefore": 38177,
+     "bytesAfter": 10140,
+     "mergeUpdatesBytes": 20477,
+     "readMs": 19.700000286102295,
+     "yjsDocMs": 109,
+     "yjsMergeUpdatesMs": 505,
+     "writeMs": 7.299999713897705,
+     "reindexMs": 10.700000286102295,
+     "totalMs": 193.90000009536743
+    },
+    "sizeAfterCompaction": {
+     "fileBytes": 11194368,
+     "freeBytes": 86016,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "docStateBytes": 2199481
+    }
+   },
+   "diskAfterTyping": {
+    "bytes": 11216657,
+    "files": 26,
+    "largest": [
+     "11.19 MB 00/00000010",
+     "0.02 MB Paths/000003.log",
+     "0.00 MB Paths/LOG",
+     "0.00 MB Paths/LOG.old"
+    ]
+   },
+   "verifyTypingScene": {
+    "durableSeq": 3000,
+    "stateSeq": 3000,
+    "pendingUpdates": 0,
+    "contiguous": true,
+    "textMatch": true,
+    "integrityOk": true,
+    "integrity": "ok",
+    "fts": "ok",
+    "ok": true,
+    "verifyMs": 1616
+   },
+   "compaction": {
+    "typicalScene": [
+     {
+      "pendingUpdates": 100,
+      "loadWithLogMs": 3.3,
+      "loadAfterCompactMs": 0.7,
+      "logAndStateBytes": 8288,
+      "compactedBytes": 7544,
+      "mergeUpdatesBytes": 7793,
+      "compactTotalMs": 47,
+      "compactYjsMs": 2.6,
+      "compactReindexMs": 2.2,
+      "mergeUpdatesMs": 6.5
+     },
+     {
+      "pendingUpdates": 500,
+      "loadWithLogMs": 20.1,
+      "loadAfterCompactMs": 0.9,
+      "logAndStateBytes": 17350,
+      "compactedBytes": 9300,
+      "mergeUpdatesBytes": 12504,
+      "compactTotalMs": 77.4,
+      "compactYjsMs": 14.6,
+      "compactReindexMs": 2.7,
+      "mergeUpdatesMs": 13.2
+     },
+     {
+      "pendingUpdates": 1000,
+      "loadWithLogMs": 22.4,
+      "loadAfterCompactMs": 3.4,
+      "logAndStateBytes": 29532,
+      "compactedBytes": 13127,
+      "mergeUpdatesBytes": 19707,
+      "compactTotalMs": 98.6,
+      "compactYjsMs": 68.6,
+      "compactReindexMs": 3.1,
+      "mergeUpdatesMs": 85.9
+     },
+     {
+      "pendingUpdates": 3000,
+      "loadWithLogMs": 105.2,
+      "loadAfterCompactMs": 4.1,
+      "logAndStateBytes": 74722,
+      "compactedBytes": 26519,
+      "mergeUpdatesBytes": 45045,
+      "compactTotalMs": 192.6,
+      "compactYjsMs": 161.4,
+      "compactReindexMs": 3.5,
+      "mergeUpdatesMs": 534.1
+     }
+    ],
+    "bigScene": [
+     {
+      "pendingUpdates": 100,
+      "loadWithLogMs": 3,
+      "loadAfterCompactMs": 1.4,
+      "logAndStateBytes": 74464,
+      "compactedBytes": 73739,
+      "mergeUpdatesBytes": 73969,
+      "compactTotalMs": 103.9,
+      "compactYjsMs": 5.9,
+      "compactReindexMs": 22.6,
+      "mergeUpdatesMs": 3.7
+     },
+     {
+      "pendingUpdates": 500,
+      "loadWithLogMs": 11,
+      "loadAfterCompactMs": 1.7,
+      "logAndStateBytes": 83593,
+      "compactedBytes": 75571,
+      "mergeUpdatesBytes": 78747,
+      "compactTotalMs": 58.3,
+      "compactYjsMs": 12.7,
+      "compactReindexMs": 21.7,
+      "mergeUpdatesMs": 55.2
+     },
+     {
+      "pendingUpdates": 1000,
+      "loadWithLogMs": 22.9,
+      "loadAfterCompactMs": 2.3,
+      "logAndStateBytes": 95695,
+      "compactedBytes": 79283,
+      "mergeUpdatesBytes": 85870,
+      "compactTotalMs": 106.9,
+      "compactYjsMs": 21.5,
+      "compactReindexMs": 20.4,
+      "mergeUpdatesMs": 84.7
+     },
+     {
+      "pendingUpdates": 3000,
+      "loadWithLogMs": 102.3,
+      "loadAfterCompactMs": 3.6,
+      "logAndStateBytes": 140372,
+      "compactedBytes": 91938,
+      "mergeUpdatesBytes": 110695,
+      "compactTotalMs": 255,
+      "compactYjsMs": 158.1,
+      "compactReindexMs": 21.7,
+      "mergeUpdatesMs": 611.4
+     }
+    ]
+   },
+   "snapshots": {
+    "typicalScene": {
+     "snapshotBytes": 2129,
+     "snapshotMs": {
+      "n": 5,
+      "median": 9.6,
+      "p95": 52.8,
+      "p99": 52.8,
+      "max": 52.8
+     },
+     "snapshotWorkerMs": {
+      "n": 5,
+      "median": 9.2,
+      "p95": 52.3,
+      "p99": 52.3,
+      "max": 52.3
+     },
+     "restoreReplaceAndReloadMs": {
+      "n": 5,
+      "median": 57.2,
+      "p95": 63.1,
+      "p99": 63.1,
+      "max": 63.1
+     },
+     "restoreForwardAndReloadMs": {
+      "n": 5,
+      "median": 25.6,
+      "p95": 70.7,
+      "p99": 70.7,
+      "max": 70.7
+     },
+     "forwardUpdateBytes": 1825,
+     "restoredTextCorrect": true
+    },
+    "bigScene": {
+     "snapshotBytes": 99521,
+     "snapshotMs": {
+      "n": 5,
+      "median": 7,
+      "p95": 13.7,
+      "p99": 13.7,
+      "max": 13.7
+     },
+     "snapshotWorkerMs": {
+      "n": 5,
+      "median": 6.7,
+      "p95": 13.3,
+      "p99": 13.3,
+      "max": 13.3
+     },
+     "restoreReplaceAndReloadMs": {
+      "n": 5,
+      "median": 100.1,
+      "p95": 173.5,
+      "p99": 173.5,
+      "max": 173.5
+     },
+     "restoreForwardAndReloadMs": {
+      "n": 5,
+      "median": 157.3,
+      "p95": 254.9,
+      "p99": 254.9,
+      "max": 254.9
+     },
+     "forwardUpdateBytes": 86164,
+     "restoredTextCorrect": true
+    },
+    "snapshotAll": {
+     "ms": 99,
+     "workerMs": 99,
+     "docs": 600,
+     "fileBytesBefore": 13664256,
+     "fileBytesAfter": 15425536
+    }
+   },
+   "ftsVariants": {
+    "word detail=full": {
+     "bytes": 878827,
+     "buildMs": 235.59999990463257,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "word detail=column": {
+     "bytes": 582203,
+     "buildMs": 194.59999990463257,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "word detail=none": {
+     "bytes": 259457,
+     "buildMs": 172,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "trigram detail=full": {
+     "bytes": 5157954,
+     "buildMs": 1497,
+     "substringLikeMs": 1.9000000953674316,
+     "substringHits": 7
+    },
+    "trigram detail=column": {
+     "bytes": 2033163,
+     "buildMs": 894.4000000953674,
+     "substringLikeMs": 9.599999904632568,
+     "substringHits": 7
+    },
+    "trigram detail=none": {
+     "bytes": 699383,
+     "buildMs": 611.2000002861023,
+     "substringLikeMs": 6.200000286102295,
+     "substringHits": 7
+    }
+   },
+   "sizesEnd": {
+    "fileBytes": 24944640,
+    "freeBytes": 9519104,
+    "pageSize": 4096,
+    "payload": {
+     "docStateBytes": 2251255,
+     "docStateRows": 600,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "plainTextBytes": 2079412,
+     "wordIndexBytes": 1013045,
+     "trigramIndexBytes": 5691553,
+     "snapshotBytes": 3200280,
+     "snapshotRows": 620
+    },
+    "onDisk": null,
+    "estimate": {
+     "usage": 24590572,
+     "quota": 10762008812
+    }
+   },
+   "diskEnd": {
+    "bytes": 24966929,
+    "files": 26,
+    "largest": [
+     "24.94 MB 00/00000010",
+     "0.02 MB Paths/000003.log",
+     "0.00 MB Paths/LOG",
+     "0.00 MB Paths/LOG.old"
+    ]
+   },
+   "integrityEnd": {
+    "ok": true,
+    "integrityCheck": "ok",
+    "fts": "ok",
+    "integrityMs": 632.3999996185303,
+    "ftsCheckMs": 718.6000003814697
+   },
+   "vacuum": {
+    "ms": 1823.6999998092651,
+    "fileBytes": 15400960,
+    "freeBytes": 0,
+    "onDisk": null,
+    "estimate": {
+     "usage": 56047852,
+     "quota": 10793466092
+    }
+   },
+   "diskAfterFinalVacuum": {
+    "bytes": 15423249,
+    "files": 26,
+    "largest": [
+     "15.40 MB 00/00000010",
+     "0.02 MB Paths/000003.log",
+     "0.00 MB Paths/LOG",
+     "0.00 MB Paths/LOG.old"
+    ]
+   },
+   "heap": {
+    "usedJSHeapSize": 13400000
+   }
+  }
+ },
+ "finishedAt": "2026-11-11T07:00:57.553Z"
+}

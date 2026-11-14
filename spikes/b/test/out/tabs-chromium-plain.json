@@ -1,0 +1,182 @@
+{
+ "browser": "chromium",
+ "mode": "plain",
+ "seconds": 20,
+ "vfs": {
+  "sahpool": {
+   "noLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 402,
+     "lockWaitMs": 0
+    },
+    "tab2": {
+     "ok": false,
+     "ms": 214,
+     "error": "Failed to execute 'createSyncAccessHandle' on 'FileSystemFileHandle': Access Handles cannot be created if there is another open Access Handle or Writable stream associated with the same file."
+    }
+   },
+   "webLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 264,
+     "lockWaitMs": 3
+    },
+    "tab2WhileTab1Open": {
+     "ready": false,
+     "banner": "Another tab holds this database. Waiting for it to close (read-only until then)."
+    },
+    "tab2AfterTab1Closed": {
+     "ok": true,
+     "ms": 2286,
+     "lockWaitMs": 1935
+    },
+    "takeoverMs": 298,
+    "tab2CanWrite": {
+     "changes": 30,
+     "storedEqualsLive": true
+    },
+    "integrity": {
+     "ok": true,
+     "integrityCheck": "ok",
+     "fts": "ok",
+     "integrityMs": 294.40000009536743,
+     "ftsCheckMs": 337.8999996185303
+    }
+   }
+  },
+  "coop": {
+   "noLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 408,
+     "lockWaitMs": 0
+    },
+    "tab2": {
+     "ok": true,
+     "ms": 303,
+     "lockWaitMs": 0
+    },
+    "typingTab1": {
+     "changes": 200,
+     "storedEqualsLive": true,
+     "batchMs": {
+      "n": 66,
+      "first": 16.40000009536743,
+      "median": 6.900000095367432,
+      "p95": 42.09999990463257,
+      "max": 335
+     },
+     "ackLagMs": {
+      "n": 200,
+      "median": 158,
+      "p95": 300.1,
+      "p99": 541.5,
+      "max": 585.4
+     },
+     "flushErrors": 0
+    },
+    "typingTab2": {
+     "changes": 200,
+     "storedEqualsLive": true,
+     "batchMs": {
+      "n": 67,
+      "first": 47.09999990463257,
+      "median": 7.699999809265137,
+      "p95": 43,
+      "max": 130.39999961853027
+     },
+     "ackLagMs": {
+      "n": 200,
+      "median": 158.3,
+      "p95": 291.2,
+      "p99": 316.5,
+      "max": 383.6
+     },
+     "flushErrors": 0
+    },
+    "verifyTab1Scene": {
+     "durableSeq": 200,
+     "stateSeq": 200,
+     "pendingUpdates": 0,
+     "contiguous": true,
+     "textMatch": true,
+     "integrityOk": true,
+     "integrity": "ok",
+     "fts": "ok",
+     "ok": true,
+     "verifyMs": 1307
+    },
+    "verifyTab2Scene": {
+     "durableSeq": 200,
+     "stateSeq": 200,
+     "pendingUpdates": 0,
+     "contiguous": true,
+     "textMatch": true,
+     "integrityOk": true,
+     "integrity": "ok",
+     "fts": "ok",
+     "ok": true,
+     "verifyMs": 1284
+    },
+    "readWhileOtherTabWrites": {
+     "reads": {
+      "n": 148,
+      "median": 1.8999996185302734,
+      "p95": 15.300000190734863,
+      "max": 50.19999980926514,
+      "errors": 0,
+      "firstError": null
+     },
+     "writes": {
+      "changes": 80,
+      "storedEqualsLive": true,
+      "batchMs": {
+       "n": 27,
+       "first": 9,
+       "median": 6.599999904632568,
+       "p95": 27.700000286102295,
+       "max": 30.90000009536743
+      },
+      "ackLagMs": {
+       "n": 80,
+       "median": 157.4,
+       "p95": 273.4,
+       "p99": 285.8,
+       "max": 285.8
+      },
+      "flushErrors": 0
+     }
+    }
+   },
+   "webLock": {
+    "tab1": {
+     "ok": true,
+     "ms": 304,
+     "lockWaitMs": 1
+    },
+    "tab2WhileTab1Open": {
+     "ready": false,
+     "banner": "Another tab holds this database. Waiting for it to close (read-only until then)."
+    },
+    "tab2AfterTab1Closed": {
+     "ok": true,
+     "ms": 2154,
+     "lockWaitMs": 1933
+    },
+    "takeoverMs": 190,
+    "tab2CanWrite": {
+     "changes": 30,
+     "storedEqualsLive": true
+    },
+    "integrity": {
+     "ok": true,
+     "integrityCheck": "ok",
+     "fts": "ok",
+     "integrityMs": 609.5,
+     "ftsCheckMs": 557.0999999046326
+    }
+   }
+  }
+ }
+}

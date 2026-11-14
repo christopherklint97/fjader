@@ -1,0 +1,26 @@
+{
+  "name": "spike-b-storage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "vite build",
+    "serve": "node serve.mjs",
+    "typecheck": "tsc --noEmit",
+    "deploy:phone": "node deploy-phone.mjs",
+    "measure": "node test/measure.mjs",
+    "kill": "node test/kill.mjs",
+    "tabs": "node test/tabs.mjs"
+  },
+  "dependencies": {
+    "@journeyapps/wa-sqlite": "2.0.10",
+    "@sqlite.org/sqlite-wasm": "3.54.1-build1",
+    "yjs": "13.6.33"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1",
+    "typescript": "5.9.3",
+    "vite": "8.3.8"
+  }
+}

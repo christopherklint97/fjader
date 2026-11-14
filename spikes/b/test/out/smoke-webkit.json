@@ -1,0 +1,104 @@
+{
+ "/b/": {
+  "env": {
+   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+   "standalone": false,
+   "secureContext": true,
+   "crossOriginIsolated": false,
+   "sharedArrayBuffer": false,
+   "atomicsWaitAsync": true,
+   "webLocks": true,
+   "hardwareConcurrency": 4,
+   "deviceMemory": null,
+   "url": "/b/",
+   "opfs": true,
+   "opfsEntries": [],
+   "persistedBefore": false,
+   "persistResult": false,
+   "persistedAfter": false,
+   "estimate": {
+    "usage": 0,
+    "quota": 1048576000,
+    "usageMB": 0,
+    "quotaMB": 1049
+   }
+  },
+  "probes": [
+   {
+    "vfs": "sahpool",
+    "ok": true,
+    "initMs": 330,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   },
+   {
+    "vfs": "coop",
+    "ok": true,
+    "initMs": 251,
+    "fts5": true,
+    "sqlite": "3.53.0"
+   },
+   {
+    "vfs": "opfs",
+    "ok": false,
+    "error": "official \"opfs\" VFS did not install (needs SharedArrayBuffer, i.e. COOP/COEP headers)"
+   },
+   {
+    "vfs": "opfs-wl",
+    "ok": false,
+    "error": "official \"opfs-wl\" VFS did not install (needs SharedArrayBuffer and Atomics.waitAsync)"
+   }
+  ]
+ },
+ "/coi/b/": {
+  "env": {
+   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+   "standalone": false,
+   "secureContext": true,
+   "crossOriginIsolated": true,
+   "sharedArrayBuffer": true,
+   "atomicsWaitAsync": true,
+   "webLocks": true,
+   "hardwareConcurrency": 4,
+   "deviceMemory": null,
+   "url": "/coi/b/",
+   "opfs": true,
+   "opfsEntries": [],
+   "persistedBefore": false,
+   "persistResult": false,
+   "persistedAfter": false,
+   "estimate": {
+    "usage": 0,
+    "quota": 1048576000,
+    "usageMB": 0,
+    "quotaMB": 1049
+   }
+  },
+  "probes": [
+   {
+    "vfs": "sahpool",
+    "ok": true,
+    "initMs": 384,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   },
+   {
+    "vfs": "coop",
+    "ok": true,
+    "initMs": 133,
+    "fts5": true,
+    "sqlite": "3.53.0"
+   },
+   {
+    "vfs": "opfs",
+    "ok": false,
+    "error": "timeout after 20 s"
+   },
+   {
+    "vfs": "opfs-wl",
+    "ok": false,
+    "error": "timeout after 20 s"
+   }
+  ]
+ }
+}

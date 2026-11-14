@@ -1,0 +1,108 @@
+{
+ "/b/": {
+  "env": {
+   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+   "standalone": false,
+   "secureContext": true,
+   "crossOriginIsolated": false,
+   "sharedArrayBuffer": false,
+   "atomicsWaitAsync": true,
+   "webLocks": true,
+   "hardwareConcurrency": 4,
+   "deviceMemory": 8,
+   "url": "/b/",
+   "opfs": true,
+   "opfsEntries": [],
+   "persistedBefore": false,
+   "persistResult": false,
+   "persistedAfter": false,
+   "estimate": {
+    "usage": 0,
+    "quota": 4294967296,
+    "usageMB": 0,
+    "quotaMB": 4295
+   }
+  },
+  "probes": [
+   {
+    "vfs": "sahpool",
+    "ok": true,
+    "initMs": 148,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   },
+   {
+    "vfs": "coop",
+    "ok": true,
+    "initMs": 136,
+    "fts5": true,
+    "sqlite": "3.53.0"
+   },
+   {
+    "vfs": "opfs",
+    "ok": false,
+    "error": "official \"opfs\" VFS did not install (needs SharedArrayBuffer, i.e. COOP/COEP headers)"
+   },
+   {
+    "vfs": "opfs-wl",
+    "ok": false,
+    "error": "official \"opfs-wl\" VFS did not install (needs SharedArrayBuffer and Atomics.waitAsync)"
+   }
+  ]
+ },
+ "/coi/b/": {
+  "env": {
+   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+   "standalone": false,
+   "secureContext": true,
+   "crossOriginIsolated": true,
+   "sharedArrayBuffer": true,
+   "atomicsWaitAsync": true,
+   "webLocks": true,
+   "hardwareConcurrency": 4,
+   "deviceMemory": 8,
+   "url": "/coi/b/",
+   "opfs": true,
+   "opfsEntries": [],
+   "persistedBefore": false,
+   "persistResult": false,
+   "persistedAfter": false,
+   "estimate": {
+    "usage": 0,
+    "quota": 4294967296,
+    "usageMB": 0,
+    "quotaMB": 4295
+   }
+  },
+  "probes": [
+   {
+    "vfs": "sahpool",
+    "ok": true,
+    "initMs": 157,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   },
+   {
+    "vfs": "coop",
+    "ok": true,
+    "initMs": 113,
+    "fts5": true,
+    "sqlite": "3.53.0"
+   },
+   {
+    "vfs": "opfs",
+    "ok": true,
+    "initMs": 297,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   },
+   {
+    "vfs": "opfs-wl",
+    "ok": true,
+    "initMs": 323,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   }
+  ]
+ }
+}

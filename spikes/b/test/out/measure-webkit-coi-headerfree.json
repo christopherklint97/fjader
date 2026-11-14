@@ -1,0 +1,1716 @@
+{
+ "browser": "webkit",
+ "mode": "coi",
+ "typingSeconds": 60,
+ "startedAt": "2026-11-12T19:35:08.883Z",
+ "vfs": {
+  "sahpool": {
+   "load": {
+    "userAgent": "0.43 0.51",
+    "info": "0.43 0.51",
+    "import": "0.43 0.51",
+    "diskAfterImport": "0.56 0.53",
+    "integrityAfterImport": "0.56 0.53",
+    "vacuumAfterImport": "0.56 0.53",
+    "diskAfterVacuum": "0.56 0.53",
+    "search": "0.76 0.57",
+    "typing": "0.76 0.57",
+    "diskAfterTyping": "0.41 0.51",
+    "verifyTypingScene": "0.41 0.51",
+    "compaction": "0.41 0.51",
+    "snapshots": "0.54 0.54",
+    "ftsVariants": "0.54 0.54",
+    "sizesEnd": "0.54 0.54",
+    "diskEnd": "0.54 0.54",
+    "integrityEnd": "0.54 0.54",
+    "vacuum": "0.58 0.54",
+    "diskAfterFinalVacuum": "0.58 0.54",
+    "heap": "0.58 0.54"
+   },
+   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+   "info": {
+    "vfs": "sahpool",
+    "library": "@sqlite.org/sqlite-wasm 3.54.1",
+    "sqliteVersion": "3.54.1",
+    "fts5": true,
+    "dbstat": true,
+    "journalMode": "wal",
+    "synchronous": 1,
+    "lockingMode": "exclusive",
+    "pageSize": 8192,
+    "pragmas": [
+     "PRAGMA locking_mode=exclusive",
+     "PRAGMA journal_mode=wal",
+     "PRAGMA synchronous=normal",
+     "PRAGMA wal_autocheckpoint=128",
+     "PRAGMA journal_size_limit=1048576"
+    ],
+    "crossOriginIsolated": true,
+    "timings": {
+     "workerBootToInitMs": 1.0999999999999943,
+     "lockWaitMs": 0.6799999999999926,
+     "wasmInitMs": 149.18,
+     "vfsInstallMs": 14.879999999999995,
+     "dbOpenMs": 5.099999999999994,
+     "pragmaMs": 11.320000000000022,
+     "schemaMs": 23.41999999999996,
+     "initTotalMs": 205.15999999999997
+    }
+   },
+   "import": {
+    "scenes": 600,
+    "chapters": 150,
+    "words": 300000,
+    "textBytes": 2063981,
+    "stateBytes": 2190171,
+    "timings": {
+     "generateMs": 190.60000000000002,
+     "yjsEncodeMs": 194.58000000000106,
+     "sqlMs": 820.0599999999989,
+     "commitMs": 134.5,
+     "importTotalMs": 1340,
+     "importWithoutGenerateMs": 1149.4,
+     "ftsOptimizeMs": 171.3800000000001,
+     "walCheckpointMs": 0.9800000000000182
+    },
+    "sizesBeforeOptimize": {
+     "fileBytes": 11411456,
+     "freeBytes": 0,
+     "pageSize": 8192,
+     "payload": {
+      "docStateBytes": 2190171,
+      "docStateRows": 600,
+      "updateLogBytes": 0,
+      "updateLogRows": 0,
+      "plainTextBytes": 2063981,
+      "wordIndexBytes": 937299,
+      "trigramIndexBytes": 5212660,
+      "snapshotBytes": 0,
+      "snapshotRows": 0
+     },
+     "onDisk": {
+      "docState": 2547712,
+      "updateLog": 8192,
+      "plainText": 2375680,
+      "wordIndex": 983040,
+      "trigramIndex": 5382144,
+      "snapshots": 16384,
+      "tree": 81920,
+      "other": 16384
+     },
+     "estimate": {
+      "usage": 37748736,
+      "quota": 1048576000
+     }
+    },
+    "sizes": {
+     "fileBytes": 15458304,
+     "freeBytes": 4218880,
+     "pageSize": 8192,
+     "payload": {
+      "docStateBytes": 2190171,
+      "docStateRows": 600,
+      "updateLogBytes": 0,
+      "updateLogRows": 0,
+      "plainTextBytes": 2063981,
+      "wordIndexBytes": 866317,
+      "trigramIndexBytes": 5124660,
+      "snapshotBytes": 0,
+      "snapshotRows": 0
+     },
+     "onDisk": {
+      "docState": 2547712,
+      "updateLog": 8192,
+      "plainText": 2375680,
+      "wordIndex": 917504,
+      "trigramIndex": 5275648,
+      "snapshots": 16384,
+      "tree": 81920,
+      "other": 16384
+     },
+     "estimate": {
+      "usage": 37748736,
+      "quota": 1048576000
+     }
+    }
+   },
+   "diskAfterImport": {
+    "bytes": 15482880,
+    "files": 6,
+    "largest": [
+     "15.46 MB .opaque/xys1t2rtmj",
+     "0.00 MB .opaque/2fs3ed281xe",
+     "0.00 MB .opaque/aycijow8aeg",
+     "0.00 MB .opaque/cw9of6v9579"
+    ]
+   },
+   "integrityAfterImport": {
+    "ok": true,
+    "integrityCheck": "ok",
+    "fts": "ok",
+    "integrityMs": 198.9000000000001,
+    "ftsCheckMs": 234.67999999999984
+   },
+   "vacuumAfterImport": {
+    "ms": 136.6800000000003,
+    "fileBytes": 11198464,
+    "freeBytes": 0,
+    "onDisk": {
+     "docState": 2547712,
+     "updateLog": 8192,
+     "plainText": 2375680,
+     "wordIndex": 909312,
+     "trigramIndex": 5242880,
+     "snapshots": 16384,
+     "tree": 81920,
+     "other": 16384
+    },
+    "payload": {
+     "docStateBytes": 2190171,
+     "docStateRows": 600,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "plainTextBytes": 2063981,
+     "wordIndexBytes": 866317,
+     "trigramIndexBytes": 5124660,
+     "snapshotBytes": 0,
+     "snapshotRows": 0
+    },
+    "estimate": {
+     "usage": 37748736,
+     "quota": 1048576000
+    }
+   },
+   "diskAfterVacuum": {
+    "bytes": 11223040,
+    "files": 6,
+    "largest": [
+     "11.20 MB .opaque/xys1t2rtmj",
+     "0.00 MB .opaque/2fs3ed281xe",
+     "0.00 MB .opaque/aycijow8aeg",
+     "0.00 MB .opaque/cw9of6v9579"
+    ]
+   },
+   "cold": [
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1.2399999999999949,
+      "initBreakdown": {
+       "workerBootToInitMs": 1.2399999999999949,
+       "lockWaitMs": 0.6800000000000068,
+       "wasmInitMs": 191.32,
+       "vfsInstallMs": 7.199999999999989,
+       "dbOpenMs": 3.420000000000016,
+       "pragmaMs": 6.779999999999973,
+       "schemaMs": 3.259999999999991,
+       "initTotalMs": 213.21999999999997
+      },
+      "initDoneMs": 295.08000000000004,
+      "treeLoadedMs": 331.48,
+      "treeQueryMs": 34.360000000000014,
+      "treeRoundTripMs": 36.39999999999998,
+      "firstDocMs": 14.659999999999968,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 627.12,
+      "pageClockAtDocMs": 641.78
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1.24,
+       "p95": 15.62,
+       "p99": 17.24,
+       "max": 17.24
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.36,
+       "p95": 0.78,
+       "p99": 0.8,
+       "max": 0.8
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3.92,
+       "p95": 4.8,
+       "p99": 4.8,
+       "max": 4.8
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 11.519999999999982
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.9799999999999969,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.9799999999999969,
+       "lockWaitMs": 0.740000000000002,
+       "wasmInitMs": 175.42,
+       "vfsInstallMs": 7.340000000000003,
+       "dbOpenMs": 3.460000000000008,
+       "pragmaMs": 6.719999999999999,
+       "schemaMs": 3.6399999999999864,
+       "initTotalMs": 197.9
+      },
+      "initDoneMs": 249.09999999999997,
+      "treeLoadedMs": 290.44,
+      "treeQueryMs": 39.099999999999994,
+      "treeRoundTripMs": 41.34000000000003,
+      "firstDocMs": 9.5,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 655.74,
+      "pageClockAtDocMs": 665.24
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 0.9,
+       "p95": 3.14,
+       "p99": 5.94,
+       "max": 5.94
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.28,
+       "p95": 0.56,
+       "p99": 0.58,
+       "max": 0.58
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2.68,
+       "p95": 4.1,
+       "p99": 4.1,
+       "max": 4.1
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 8.680000000000007
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1.0399999999999991,
+      "initBreakdown": {
+       "workerBootToInitMs": 1.0399999999999991,
+       "lockWaitMs": 0.759999999999998,
+       "wasmInitMs": 157.54,
+       "vfsInstallMs": 7.439999999999998,
+       "dbOpenMs": 4.340000000000003,
+       "pragmaMs": 27.039999999999992,
+       "schemaMs": 2.8799999999999955,
+       "initTotalMs": 200.59999999999997
+      },
+      "initDoneMs": 270.78,
+      "treeLoadedMs": 312.08000000000004,
+      "treeQueryMs": 38.920000000000016,
+      "treeRoundTripMs": 41.30000000000007,
+      "firstDocMs": 9.43999999999994,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 619.46,
+      "pageClockAtDocMs": 628.9
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 0.98,
+       "p95": 4.08,
+       "p99": 8.32,
+       "max": 8.32
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.28,
+       "p95": 0.66,
+       "p99": 1.1,
+       "max": 1.1
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 2.82,
+       "p95": 2.9,
+       "p99": 2.9,
+       "max": 2.9
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 8.659999999999968
+     },
+     "error": ""
+    }
+   ],
+   "search": {
+    "cpuCalibrationMs": 10.300000000000011,
+    "wordCommon": {
+     "kind": "word",
+     "q": "the",
+     "hits": 599,
+     "matches": 0,
+     "sample": "…[The] kayming [the] where have [the] peapcrus frellslourer.\nWeardfreabness trae",
+     "allHits": {
+      "n": 15,
+      "first": 8.240000000000009,
+      "median": 2.259999999999991,
+      "p95": 32.860000000000014,
+      "max": 32.860000000000014
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 134.08000000000004,
+      "median": 12.879999999999995,
+      "p95": 134.08000000000004,
+      "max": 134.08000000000004
+     }
+    },
+    "wordRare": {
+     "kind": "word",
+     "q": "quillfeather",
+     "hits": 7,
+     "matches": 0,
+     "sample": "Made [quillfeather] who bassed in child, to streebsnorning to she…",
+     "allHits": {
+      "n": 15,
+      "first": 0.20000000000004547,
+      "median": 0.09999999999990905,
+      "p95": 0.20000000000004547,
+      "max": 0.20000000000004547
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 0.9600000000000364,
+      "median": 0.6399999999999864,
+      "p95": 0.9600000000000364,
+      "max": 0.9600000000000364
+     }
+    },
+    "phrase": {
+     "kind": "phrase",
+     "q": "lighthouse keeper's ledger",
+     "hits": 5,
+     "matches": 0,
+     "sample": "Joutneeded between three [lighthouse keeper's ledger] to a could…",
+     "allHits": {
+      "n": 15,
+      "first": 0.34000000000003183,
+      "median": 0.10000000000002274,
+      "p95": 0.34000000000003183,
+      "max": 0.34000000000003183
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 0.9399999999999409,
+      "median": 0.4800000000000182,
+      "p95": 0.9399999999999409,
+      "max": 0.9399999999999409
+     }
+    },
+    "substringTrigram": {
+     "kind": "substring",
+     "q": "illfeath",
+     "hits": 7,
+     "matches": 0,
+     "sample": "Made qu[illfe]…",
+     "allHits": {
+      "n": 15,
+      "first": 1.419999999999959,
+      "median": 0.34000000000003183,
+      "p95": 1.419999999999959,
+      "max": 1.419999999999959
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 4.259999999999991,
+      "median": 1.8600000000000136,
+      "p95": 4.259999999999991,
+      "max": 4.259999999999991
+     }
+    },
+    "substringLikeScan": {
+     "kind": "like",
+     "q": "illfeath",
+     "hits": 7,
+     "matches": 0,
+     "sample": "",
+     "allHits": {
+      "n": 15,
+      "first": 14.139999999999986,
+      "median": 6.5200000000000955,
+      "p95": 14.139999999999986,
+      "max": 14.139999999999986
+     },
+     "top20WithSnippet": null
+    },
+    "regexScan": {
+     "kind": "regex",
+     "q": "quill\\w+|keeper's\\s+led\\w+",
+     "hits": 11,
+     "matches": 12,
+     "sample": "quillfeather",
+     "allHits": {
+      "n": 15,
+      "first": 10.959999999999809,
+      "median": 10.519999999999982,
+      "p95": 12.419999999999845,
+      "max": 12.419999999999845
+     },
+     "top20WithSnippet": null
+    },
+    "expected": {
+     "wordRare": 7,
+     "phrase": 5,
+     "substring": 7,
+     "regexDocs": 11
+    },
+    "hitsCorrect": true
+   },
+   "typing": {
+    "docId": "sc0004",
+    "changes": 600,
+    "elapsedMs": 60001,
+    "intervalMs": 100,
+    "durableSeq": 600,
+    "storedEqualsLive": true,
+    "workerBatchMs": {
+     "n": 200,
+     "first": 4.440000000000055,
+     "median": 0.31999999999970896,
+     "p95": 0.6600000000000819,
+     "max": 8.060000000004948
+    },
+    "workerBatchSize": {
+     "n": 200,
+     "first": 3,
+     "median": 3,
+     "p95": 3,
+     "max": 3
+    },
+    "oldestChangeAgeAtCommitMs": {
+     "n": 200,
+     "first": 256,
+     "median": 250,
+     "p95": 251,
+     "max": 266
+    },
+    "compactions": null,
+    "flushErrors": 0,
+    "mainAckLagMs": {
+     "n": 600,
+     "median": 150.7,
+     "p95": 250.94,
+     "p99": 252.92,
+     "max": 266
+    },
+    "mainPerChangeMs": {
+     "n": 600,
+     "median": 0.22,
+     "p95": 0.46,
+     "p99": 0.8,
+     "max": 4.1
+    },
+    "mainTimerDriftMs": {
+     "n": 600,
+     "median": 0.74,
+     "p95": 0.78,
+     "p99": 0.84,
+     "max": 0.9
+    },
+    "updateBytes": {
+     "n": 600,
+     "median": 12,
+     "p95": 18,
+     "p99": 25,
+     "max": 27
+    },
+    "cpuCalibrationMs": {
+     "n": 12,
+     "median": 15.3,
+     "p95": 16.32,
+     "p99": 16.32,
+     "max": 16.32
+    },
+    "screenWakeLock": true,
+    "batchIntervalMs": 250,
+    "sizeBefore": {
+     "fileBytes": 11198464,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "docStateBytes": 2190171
+    },
+    "sizeAfterTyping": {
+     "fileBytes": 11223040,
+     "updateLogBytes": 7279,
+     "updateLogRows": 600,
+     "docStateBytes": 2190171
+    },
+    "compactAfterRun": {
+     "updates": 600,
+     "bytesBefore": 8109,
+     "bytesAfter": 2611,
+     "mergeUpdatesBytes": 4647,
+     "readMs": 6.3400000000037835,
+     "yjsDocMs": 69.5,
+     "yjsMergeUpdatesMs": 24.839999999996508,
+     "writeMs": 3.2000000000043656,
+     "reindexMs": 3.3799999999973807,
+     "totalMs": 85.32000000000698
+    },
+    "sizeAfterCompaction": {
+     "fileBytes": 11231232,
+     "freeBytes": 0,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "docStateBytes": 2191952
+    }
+   },
+   "diskAfterTyping": {
+    "bytes": 12288000,
+    "files": 6,
+    "largest": [
+     "11.22 MB .opaque/xys1t2rtmj",
+     "1.05 MB .opaque/sy5fvyu21b",
+     "0.00 MB .opaque/2fs3ed281xe",
+     "0.00 MB .opaque/aycijow8aeg"
+    ]
+   },
+   "verifyTypingScene": {
+    "durableSeq": 600,
+    "stateSeq": 600,
+    "pendingUpdates": 0,
+    "contiguous": true,
+    "textMatch": true,
+    "integrityOk": true,
+    "integrity": "ok",
+    "fts": "ok",
+    "ok": true,
+    "verifyMs": 1267
+   },
+   "compaction": {
+    "cpuCalibrationMs": 10.319999999999709,
+    "typicalScene": [
+     {
+      "pendingUpdates": 100,
+      "loadWithLogMs": 5.02,
+      "loadAfterCompactMs": 1.64,
+      "logAndStateBytes": 8288,
+      "compactedBytes": 7544,
+      "mergeUpdatesBytes": 7793,
+      "compactTotalMs": 13.28,
+      "compactYjsMs": 5.76,
+      "compactReindexMs": 3.06,
+      "mergeUpdatesMs": 2.28
+     },
+     {
+      "pendingUpdates": 500,
+      "loadWithLogMs": 19.22,
+      "loadAfterCompactMs": 1.4,
+      "logAndStateBytes": 17350,
+      "compactedBytes": 9300,
+      "mergeUpdatesBytes": 12504,
+      "compactTotalMs": 64.74,
+      "compactYjsMs": 56.36,
+      "compactReindexMs": 2.5,
+      "mergeUpdatesMs": 23.32
+     },
+     {
+      "pendingUpdates": 1000,
+      "loadWithLogMs": 26.54,
+      "loadAfterCompactMs": 2.22,
+      "logAndStateBytes": 29532,
+      "compactedBytes": 13127,
+      "mergeUpdatesBytes": 19707,
+      "compactTotalMs": 39.68,
+      "compactYjsMs": 28.54,
+      "compactReindexMs": 2.96,
+      "mergeUpdatesMs": 29.32
+     },
+     {
+      "pendingUpdates": 3000,
+      "loadWithLogMs": 76.76,
+      "loadAfterCompactMs": 4.3,
+      "logAndStateBytes": 74722,
+      "compactedBytes": 26519,
+      "mergeUpdatesBytes": 45045,
+      "compactTotalMs": 118.4,
+      "compactYjsMs": 80.62,
+      "compactReindexMs": 3.2,
+      "mergeUpdatesMs": 221.14
+     }
+    ],
+    "bigScene": [
+     {
+      "pendingUpdates": 100,
+      "loadWithLogMs": 4.26,
+      "loadAfterCompactMs": 2.24,
+      "logAndStateBytes": 74464,
+      "compactedBytes": 73739,
+      "mergeUpdatesBytes": 73969,
+      "compactTotalMs": 26.12,
+      "compactYjsMs": 5.02,
+      "compactReindexMs": 15.4,
+      "mergeUpdatesMs": 3.6
+     },
+     {
+      "pendingUpdates": 500,
+      "loadWithLogMs": 14.08,
+      "loadAfterCompactMs": 3,
+      "logAndStateBytes": 83593,
+      "compactedBytes": 75571,
+      "mergeUpdatesBytes": 78747,
+      "compactTotalMs": 67.72,
+      "compactYjsMs": 15.52,
+      "compactReindexMs": 19.92,
+      "mergeUpdatesMs": 11.52
+     },
+     {
+      "pendingUpdates": 1000,
+      "loadWithLogMs": 37.46,
+      "loadAfterCompactMs": 3.24,
+      "logAndStateBytes": 93762,
+      "compactedBytes": 79123,
+      "mergeUpdatesBytes": 84935,
+      "compactTotalMs": 80.16,
+      "compactYjsMs": 52.84,
+      "compactReindexMs": 15.78,
+      "mergeUpdatesMs": 67.78
+     },
+     {
+      "pendingUpdates": 3000,
+      "loadWithLogMs": 80.38,
+      "loadAfterCompactMs": 5.18,
+      "logAndStateBytes": 140170,
+      "compactedBytes": 91716,
+      "mergeUpdatesBytes": 110493,
+      "compactTotalMs": 151.22,
+      "compactYjsMs": 98.66,
+      "compactReindexMs": 16.58,
+      "mergeUpdatesMs": 204.68
+     }
+    ]
+   },
+   "snapshots": {
+    "cpuCalibrationMs": 10.220000000001164,
+    "typicalScene": {
+     "snapshotBytes": 2127,
+     "snapshotMs": {
+      "n": 5,
+      "median": 0.48,
+      "p95": 3.16,
+      "p99": 3.16,
+      "max": 3.16
+     },
+     "snapshotWorkerMs": {
+      "n": 5,
+      "median": 0.3,
+      "p95": 2.58,
+      "p99": 2.58,
+      "max": 2.58
+     },
+     "restoreReplaceAndReloadMs": {
+      "n": 5,
+      "median": 4.68,
+      "p95": 10.48,
+      "p99": 10.48,
+      "max": 10.48
+     },
+     "restoreForwardAndReloadMs": {
+      "n": 5,
+      "median": 19.78,
+      "p95": 21.16,
+      "p99": 21.16,
+      "max": 21.16
+     },
+     "forwardUpdateBytes": 1825,
+     "restoredTextCorrect": true
+    },
+    "bigScene": {
+     "snapshotBytes": 99939,
+     "snapshotMs": {
+      "n": 5,
+      "median": 11.4,
+      "p95": 12.9,
+      "p99": 12.9,
+      "max": 12.9
+     },
+     "snapshotWorkerMs": {
+      "n": 5,
+      "median": 11.12,
+      "p95": 12.52,
+      "p99": 12.52,
+      "max": 12.52
+     },
+     "restoreReplaceAndReloadMs": {
+      "n": 5,
+      "median": 31.96,
+      "p95": 40.12,
+      "p99": 40.12,
+      "max": 40.12
+     },
+     "restoreForwardAndReloadMs": {
+      "n": 5,
+      "median": 71.48,
+      "p95": 92.52,
+      "p99": 92.52,
+      "max": 92.52
+     },
+     "forwardUpdateBytes": 86164,
+     "restoredTextCorrect": true
+    },
+    "snapshotAll": {
+     "ms": 40,
+     "workerMs": 40,
+     "docs": 600,
+     "fileBytesBefore": 13860864,
+     "fileBytesAfter": 15654912
+    }
+   },
+   "ftsVariants": {
+    "word detail=full": {
+     "bytes": 877127,
+     "buildMs": 101.81999999999243,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "word detail=column": {
+     "bytes": 581208,
+     "buildMs": 59.61999999999534,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "word detail=none": {
+     "bytes": 258841,
+     "buildMs": 42.419999999998254,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "trigram detail=full": {
+     "bytes": 5152359,
+     "buildMs": 503.59999999999127,
+     "substringLikeMs": 1.0399999999935972,
+     "substringHits": 7
+    },
+    "trigram detail=column": {
+     "bytes": 2031713,
+     "buildMs": 331.9400000000023,
+     "substringLikeMs": 2.5800000000017462,
+     "substringHits": 7
+    },
+    "trigram detail=none": {
+     "bytes": 698821,
+     "buildMs": 224.36000000000058,
+     "substringLikeMs": 2.7199999999866122,
+     "substringHits": 7
+    }
+   },
+   "sizesEnd": {
+    "fileBytes": 25165824,
+    "freeBytes": 9510912,
+    "pageSize": 8192,
+    "payload": {
+     "docStateBytes": 2244142,
+     "docStateRows": 600,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "plainTextBytes": 2076612,
+     "wordIndexBytes": 1011162,
+     "trigramIndexBytes": 5686843,
+     "snapshotBytes": 3196422,
+     "snapshotRows": 620
+    },
+    "onDisk": {
+     "docState": 2621440,
+     "updateLog": 8192,
+     "plainText": 2408448,
+     "wordIndex": 1073152,
+     "trigramIndex": 5857280,
+     "snapshots": 3588096,
+     "tree": 81920,
+     "other": 16384
+    },
+    "estimate": {
+     "usage": 53166080,
+     "quota": 1048576000
+    }
+   },
+   "diskEnd": {
+    "bytes": 26238976,
+    "files": 6,
+    "largest": [
+     "25.17 MB .opaque/xys1t2rtmj",
+     "1.05 MB .opaque/sy5fvyu21b",
+     "0.00 MB .opaque/2fs3ed281xe",
+     "0.00 MB .opaque/aycijow8aeg"
+    ]
+   },
+   "integrityEnd": {
+    "ok": true,
+    "integrityCheck": "ok",
+    "fts": "ok",
+    "integrityMs": 213.74000000000524,
+    "ftsCheckMs": 253.47999999999593
+   },
+   "vacuum": {
+    "ms": 179.08000000000175,
+    "fileBytes": 15622144,
+    "freeBytes": 0,
+    "onDisk": {
+     "docState": 2621440,
+     "updateLog": 8192,
+     "plainText": 2392064,
+     "wordIndex": 1073152,
+     "trigramIndex": 5840896,
+     "snapshots": 3588096,
+     "tree": 81920,
+     "other": 16384
+    },
+    "estimate": {
+     "usage": 61554688,
+     "quota": 1048576000
+    }
+   },
+   "diskAfterFinalVacuum": {
+    "bytes": 15646720,
+    "files": 6,
+    "largest": [
+     "15.63 MB .opaque/xys1t2rtmj",
+     "0.00 MB .opaque/2fs3ed281xe",
+     "0.00 MB .opaque/aycijow8aeg",
+     "0.00 MB .opaque/cw9of6v9579"
+    ]
+   },
+   "heap": null
+  },
+  "coop": {
+   "load": {
+    "userAgent": "0.58 0.54",
+    "info": "0.58 0.54",
+    "import": "0.58 0.54",
+    "diskAfterImport": "0.58 0.54",
+    "integrityAfterImport": "0.58 0.54",
+    "vacuumAfterImport": "0.58 0.54",
+    "diskAfterVacuum": "0.58 0.54",
+    "search": "0.93 0.62",
+    "typing": "0.93 0.62",
+    "diskAfterTyping": "0.44 0.53",
+    "verifyTypingScene": "0.44 0.53",
+    "compaction": "0.40 0.52",
+    "snapshots": "0.40 0.52",
+    "ftsVariants": "0.53 0.55",
+    "sizesEnd": "0.53 0.55",
+    "diskEnd": "0.53 0.55",
+    "integrityEnd": "0.53 0.55",
+    "vacuum": "0.53 0.55",
+    "diskAfterFinalVacuum": "0.53 0.55",
+    "heap": "0.53 0.55"
+   },
+   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+   "info": {
+    "vfs": "coop",
+    "library": "@journeyapps/wa-sqlite 2.0.10, SQLite 3.53.0",
+    "sqliteVersion": "3.53.0",
+    "fts5": true,
+    "dbstat": false,
+    "journalMode": "delete",
+    "synchronous": 2,
+    "lockingMode": "normal",
+    "pageSize": 4096,
+    "pragmas": [],
+    "crossOriginIsolated": true,
+    "timings": {
+     "workerBootToInitMs": 1.019999999999996,
+     "lockWaitMs": 4.800000000000004,
+     "wasmInitMs": 98.84,
+     "vfsInstallMs": 17.5,
+     "dbOpenMs": 48.84,
+     "pragmaMs": 0.09999999999999432,
+     "schemaMs": 62.70000000000002,
+     "initTotalMs": 233.42000000000002
+    }
+   },
+   "import": {
+    "scenes": 600,
+    "chapters": 150,
+    "words": 300000,
+    "textBytes": 2063981,
+    "stateBytes": 2190171,
+    "timings": {
+     "generateMs": 132.89999999999998,
+     "yjsEncodeMs": 183.1200000000024,
+     "sqlMs": 853.7399999999975,
+     "commitMs": 59.440000000000055,
+     "importTotalMs": 1229.6599999999999,
+     "importWithoutGenerateMs": 1096.76,
+     "ftsOptimizeMs": 204.39999999999986,
+     "walCheckpointMs": 0.22000000000002728
+    },
+    "sizesBeforeOptimize": {
+     "fileBytes": 11247616,
+     "freeBytes": 0,
+     "pageSize": 4096,
+     "payload": {
+      "docStateBytes": 2190171,
+      "docStateRows": 600,
+      "updateLogBytes": 0,
+      "updateLogRows": 0,
+      "plainTextBytes": 2063981,
+      "wordIndexBytes": 937299,
+      "trigramIndexBytes": 5212660,
+      "snapshotBytes": 0,
+      "snapshotRows": 0
+     },
+     "onDisk": null,
+     "estimate": {
+      "usage": 17825792,
+      "quota": 1048576000
+     }
+    },
+    "sizes": {
+     "fileBytes": 15302656,
+     "freeBytes": 4227072,
+     "pageSize": 4096,
+     "payload": {
+      "docStateBytes": 2190171,
+      "docStateRows": 600,
+      "updateLogBytes": 0,
+      "updateLogRows": 0,
+      "plainTextBytes": 2063981,
+      "wordIndexBytes": 866317,
+      "trigramIndexBytes": 5124660,
+      "snapshotBytes": 0,
+      "snapshotRows": 0
+     },
+     "onDisk": null,
+     "estimate": {
+      "usage": 18874368,
+      "quota": 1048576000
+     }
+    }
+   },
+   "diskAfterImport": {
+    "bytes": 15302656,
+    "files": 13,
+    "largest": [
+     "15.30 MB FileSystem/spikeb-coop.db",
+     "0.00 MB .ahp-ov5hvomxuv/0.tmp",
+     "0.00 MB .ahp-ov5hvomxuv/1.tmp",
+     "0.00 MB .ahp-ov5hvomxuv/2.tmp"
+    ]
+   },
+   "integrityAfterImport": {
+    "ok": true,
+    "integrityCheck": "ok",
+    "fts": "ok",
+    "integrityMs": 271.15999999999985,
+    "ftsCheckMs": 283.62000000000035
+   },
+   "vacuumAfterImport": {
+    "ms": 325.5799999999999,
+    "fileBytes": 11063296,
+    "freeBytes": 0,
+    "onDisk": null,
+    "payload": {
+     "docStateBytes": 2190171,
+     "docStateRows": 600,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "plainTextBytes": 2063981,
+     "wordIndexBytes": 866317,
+     "trigramIndexBytes": 5124660,
+     "snapshotBytes": 0,
+     "snapshotRows": 0
+    },
+    "estimate": {
+     "usage": 50331648,
+     "quota": 1048576000
+    }
+   },
+   "diskAfterVacuum": {
+    "bytes": 11063296,
+    "files": 13,
+    "largest": [
+     "11.06 MB FileSystem/spikeb-coop.db",
+     "0.00 MB .ahp-ov5hvomxuv/0.tmp",
+     "0.00 MB .ahp-ov5hvomxuv/1.tmp",
+     "0.00 MB .ahp-ov5hvomxuv/2.tmp"
+    ]
+   },
+   "cold": [
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1.0599999999999952,
+      "initBreakdown": {
+       "workerBootToInitMs": 1.0599999999999952,
+       "lockWaitMs": 0.6799999999999997,
+       "wasmInitMs": 86.36000000000001,
+       "vfsInstallMs": 10.95999999999998,
+       "dbOpenMs": 19.80000000000001,
+       "pragmaMs": 0.14000000000001478,
+       "schemaMs": 20.180000000000007,
+       "initTotalMs": 138.78000000000003
+      },
+      "initDoneMs": 230.64,
+      "treeLoadedMs": 262.65999999999997,
+      "treeQueryMs": 29.379999999999967,
+      "treeRoundTripMs": 32.01999999999998,
+      "firstDocMs": 9.06000000000006,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 572.02,
+      "pageClockAtDocMs": 581.08
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1.46,
+       "p95": 12.52,
+       "p99": 17.02,
+       "max": 17.02
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.58,
+       "p95": 0.98,
+       "p99": 1.04,
+       "max": 1.04
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3.72,
+       "p95": 5.16,
+       "p99": 5.16,
+       "max": 5.16
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 10.439999999999998
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 0.980000000000004,
+      "initBreakdown": {
+       "workerBootToInitMs": 0.980000000000004,
+       "lockWaitMs": 33.699999999999996,
+       "wasmInitMs": 52.97999999999999,
+       "vfsInstallMs": 47.32000000000002,
+       "dbOpenMs": 20.639999999999986,
+       "pragmaMs": 0.2599999999999909,
+       "schemaMs": 15.620000000000005,
+       "initTotalMs": 171.64
+      },
+      "initDoneMs": 220.92000000000007,
+      "treeLoadedMs": 238.30000000000007,
+      "treeQueryMs": 15.439999999999998,
+      "treeRoundTripMs": 17.379999999999995,
+      "firstDocMs": 9.240000000000009,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 594.2,
+      "pageClockAtDocMs": 603.44
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1.14,
+       "p95": 4.04,
+       "p99": 14.5,
+       "max": 14.5
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.5,
+       "p95": 0.78,
+       "p99": 0.8,
+       "max": 0.8
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3.1,
+       "p95": 5.7,
+       "p99": 5.7,
+       "max": 5.7
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 10.419999999999959
+     },
+     "error": ""
+    },
+    {
+     "open": {
+      "treeRows": 750,
+      "workerStartToInitMs": 1,
+      "initBreakdown": {
+       "workerBootToInitMs": 1,
+       "lockWaitMs": 0.6199999999999903,
+       "wasmInitMs": 101.64,
+       "vfsInstallMs": 17.539999999999992,
+       "dbOpenMs": 8.880000000000024,
+       "pragmaMs": 0.1599999999999966,
+       "schemaMs": 15.419999999999987,
+       "initTotalMs": 145
+      },
+      "initDoneMs": 218.27999999999997,
+      "treeLoadedMs": 234.77999999999997,
+      "treeQueryMs": 14.420000000000016,
+      "treeRoundTripMs": 16.5,
+      "firstDocMs": 9.460000000000036,
+      "firstDocChars": 1442,
+      "pageClockAtTreeMs": 579.68,
+      "pageClockAtDocMs": 589.14
+     },
+     "docLoad": {
+      "typicalDocMs": {
+       "n": 40,
+       "median": 1.14,
+       "p95": 3.92,
+       "p99": 5.52,
+       "max": 5.52
+      },
+      "typicalWorkerQueryMs": {
+       "n": 40,
+       "median": 0.52,
+       "p95": 0.76,
+       "p99": 1.3,
+       "max": 1.3
+      },
+      "bigDocMs": {
+       "n": 5,
+       "median": 3.4,
+       "p95": 6.2,
+       "p99": 6.2,
+       "max": 6.2
+      },
+      "bigDocStateBytes": 73355,
+      "cpuCalibrationMs": 8.759999999999991
+     },
+     "error": ""
+    }
+   ],
+   "search": {
+    "cpuCalibrationMs": 13.839999999999975,
+    "wordCommon": {
+     "kind": "word",
+     "q": "the",
+     "hits": 599,
+     "matches": 0,
+     "sample": "…[The] kayming [the] where have [the] peapcrus frellslourer.\nWeardfreabness trae",
+     "allHits": {
+      "n": 15,
+      "first": 5.119999999999948,
+      "median": 2.3199999999999363,
+      "p95": 39.77999999999997,
+      "max": 39.77999999999997
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 126.89999999999998,
+      "median": 14.100000000000023,
+      "p95": 126.89999999999998,
+      "max": 126.89999999999998
+     }
+    },
+    "wordRare": {
+     "kind": "word",
+     "q": "quillfeather",
+     "hits": 7,
+     "matches": 0,
+     "sample": "Made [quillfeather] who bassed in child, to streebsnorning to she…",
+     "allHits": {
+      "n": 15,
+      "first": 0.2599999999999909,
+      "median": 0.1999999999999318,
+      "p95": 0.2999999999999545,
+      "max": 0.2999999999999545
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 1.1800000000000637,
+      "median": 0.7800000000000864,
+      "p95": 1.1800000000000637,
+      "max": 1.1800000000000637
+     }
+    },
+    "phrase": {
+     "kind": "phrase",
+     "q": "lighthouse keeper's ledger",
+     "hits": 5,
+     "matches": 0,
+     "sample": "Joutneeded between three [lighthouse keeper's ledger] to a could…",
+     "allHits": {
+      "n": 15,
+      "first": 0.4199999999999591,
+      "median": 0.15999999999996817,
+      "p95": 0.4199999999999591,
+      "max": 0.4199999999999591
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 1.0200000000000955,
+      "median": 0.5800000000000409,
+      "p95": 1.0200000000000955,
+      "max": 1.0200000000000955
+     }
+    },
+    "substringTrigram": {
+     "kind": "substring",
+     "q": "illfeath",
+     "hits": 7,
+     "matches": 0,
+     "sample": "Made qu[illfe]…",
+     "allHits": {
+      "n": 15,
+      "first": 1.7600000000001046,
+      "median": 0.37999999999999545,
+      "p95": 1.7600000000001046,
+      "max": 1.7600000000001046
+     },
+     "top20WithSnippet": {
+      "n": 15,
+      "first": 4.539999999999964,
+      "median": 1.8999999999999773,
+      "p95": 4.539999999999964,
+      "max": 4.539999999999964
+     }
+    },
+    "substringLikeScan": {
+     "kind": "like",
+     "q": "illfeath",
+     "hits": 7,
+     "matches": 0,
+     "sample": "",
+     "allHits": {
+      "n": 15,
+      "first": 16.779999999999973,
+      "median": 14.639999999999873,
+      "p95": 16.779999999999973,
+      "max": 16.779999999999973
+     },
+     "top20WithSnippet": null
+    },
+    "regexScan": {
+     "kind": "regex",
+     "q": "quill\\w+|keeper's\\s+led\\w+",
+     "hits": 11,
+     "matches": 12,
+     "sample": "quillfeather",
+     "allHits": {
+      "n": 15,
+      "first": 15.879999999999882,
+      "median": 15.220000000000027,
+      "p95": 23,
+      "max": 23
+     },
+     "top20WithSnippet": null
+    },
+    "expected": {
+     "wordRare": 7,
+     "phrase": 5,
+     "substring": 7,
+     "regexDocs": 11
+    },
+    "hitsCorrect": true
+   },
+   "typing": {
+    "docId": "sc0004",
+    "changes": 600,
+    "elapsedMs": 60002,
+    "intervalMs": 100,
+    "durableSeq": 600,
+    "storedEqualsLive": true,
+    "workerBatchMs": {
+     "n": 200,
+     "first": 7.519999999999982,
+     "median": 5.139999999999418,
+     "p95": 6.960000000000036,
+     "max": 7.779999999999745
+    },
+    "workerBatchSize": {
+     "n": 200,
+     "first": 3,
+     "median": 3,
+     "p95": 3,
+     "max": 3
+    },
+    "oldestChangeAgeAtCommitMs": {
+     "n": 200,
+     "first": 264,
+     "median": 256,
+     "p95": 258,
+     "max": 272
+    },
+    "compactions": null,
+    "flushErrors": 0,
+    "mainAckLagMs": {
+     "n": 600,
+     "median": 155.52,
+     "p95": 256.86,
+     "p99": 258,
+     "max": 272.02
+    },
+    "mainPerChangeMs": {
+     "n": 600,
+     "median": 0.22,
+     "p95": 0.44,
+     "p99": 0.78,
+     "max": 9.32
+    },
+    "mainTimerDriftMs": {
+     "n": 600,
+     "median": 1.52,
+     "p95": 1.56,
+     "p99": 1.6,
+     "max": 1.62
+    },
+    "updateBytes": {
+     "n": 600,
+     "median": 12,
+     "p95": 18,
+     "p99": 25,
+     "max": 27
+    },
+    "cpuCalibrationMs": {
+     "n": 12,
+     "median": 16.3,
+     "p95": 17.7,
+     "p99": 17.7,
+     "max": 17.7
+    },
+    "screenWakeLock": true,
+    "batchIntervalMs": 250,
+    "sizeBefore": {
+     "fileBytes": 11063296,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "docStateBytes": 2190171
+    },
+    "sizeAfterTyping": {
+     "fileBytes": 11087872,
+     "updateLogBytes": 7279,
+     "updateLogRows": 600,
+     "docStateBytes": 2190171
+    },
+    "compactAfterRun": {
+     "updates": 600,
+     "bytesBefore": 8109,
+     "bytesAfter": 2611,
+     "mergeUpdatesBytes": 4647,
+     "readMs": 3.599999999998545,
+     "yjsDocMs": 45.700000000004366,
+     "yjsMergeUpdatesMs": 24.219999999993888,
+     "writeMs": 3.5,
+     "reindexMs": 3.9200000000055297,
+     "totalMs": 63.9800000000032
+    },
+    "sizeAfterCompaction": {
+     "fileBytes": 11091968,
+     "freeBytes": 16384,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "docStateBytes": 2191952
+    }
+   },
+   "diskAfterTyping": {
+    "bytes": 11091968,
+    "files": 13,
+    "largest": [
+     "11.09 MB FileSystem/spikeb-coop.db",
+     "0.00 MB .ahp-p5x5zvdt2tj/0.tmp",
+     "0.00 MB .ahp-p5x5zvdt2tj/1.tmp",
+     "0.00 MB .ahp-p5x5zvdt2tj/2.tmp"
+    ]
+   },
+   "verifyTypingScene": {
+    "durableSeq": 600,
+    "stateSeq": 600,
+    "pendingUpdates": 0,
+    "contiguous": true,
+    "textMatch": true,
+    "integrityOk": true,
+    "integrity": "ok",
+    "fts": "ok",
+    "ok": true,
+    "verifyMs": 1411
+   },
+   "compaction": {
+    "cpuCalibrationMs": 10.220000000001164,
+    "typicalScene": [
+     {
+      "pendingUpdates": 100,
+      "loadWithLogMs": 4,
+      "loadAfterCompactMs": 0.68,
+      "logAndStateBytes": 8288,
+      "compactedBytes": 7544,
+      "mergeUpdatesBytes": 7793,
+      "compactTotalMs": 23.78,
+      "compactYjsMs": 10.16,
+      "compactReindexMs": 2.98,
+      "mergeUpdatesMs": 2.94
+     },
+     {
+      "pendingUpdates": 500,
+      "loadWithLogMs": 18.26,
+      "loadAfterCompactMs": 1.44,
+      "logAndStateBytes": 17350,
+      "compactedBytes": 9300,
+      "mergeUpdatesBytes": 12504,
+      "compactTotalMs": 56.08,
+      "compactYjsMs": 44.12,
+      "compactReindexMs": 2.36,
+      "mergeUpdatesMs": 16.08
+     },
+     {
+      "pendingUpdates": 1000,
+      "loadWithLogMs": 24.36,
+      "loadAfterCompactMs": 3.28,
+      "logAndStateBytes": 29532,
+      "compactedBytes": 13127,
+      "mergeUpdatesBytes": 19707,
+      "compactTotalMs": 48.14,
+      "compactYjsMs": 31.74,
+      "compactReindexMs": 2.88,
+      "mergeUpdatesMs": 28.74
+     },
+     {
+      "pendingUpdates": 3000,
+      "loadWithLogMs": 68.6,
+      "loadAfterCompactMs": 3.82,
+      "logAndStateBytes": 74722,
+      "compactedBytes": 26519,
+      "mergeUpdatesBytes": 45045,
+      "compactTotalMs": 136.64,
+      "compactYjsMs": 107.52,
+      "compactReindexMs": 3.2,
+      "mergeUpdatesMs": 213.2
+     }
+    ],
+    "bigScene": [
+     {
+      "pendingUpdates": 100,
+      "loadWithLogMs": 3.84,
+      "loadAfterCompactMs": 2.04,
+      "logAndStateBytes": 74464,
+      "compactedBytes": 73739,
+      "mergeUpdatesBytes": 73969,
+      "compactTotalMs": 35.62,
+      "compactYjsMs": 5.6,
+      "compactReindexMs": 16.86,
+      "mergeUpdatesMs": 3.38
+     },
+     {
+      "pendingUpdates": 500,
+      "loadWithLogMs": 12.48,
+      "loadAfterCompactMs": 2.82,
+      "logAndStateBytes": 83593,
+      "compactedBytes": 75571,
+      "mergeUpdatesBytes": 78747,
+      "compactTotalMs": 58.5,
+      "compactYjsMs": 16.12,
+      "compactReindexMs": 18.22,
+      "mergeUpdatesMs": 11.04
+     },
+     {
+      "pendingUpdates": 1000,
+      "loadWithLogMs": 43.02,
+      "loadAfterCompactMs": 2.84,
+      "logAndStateBytes": 95695,
+      "compactedBytes": 79283,
+      "mergeUpdatesBytes": 85870,
+      "compactTotalMs": 103.6,
+      "compactYjsMs": 65.64,
+      "compactReindexMs": 17,
+      "mergeUpdatesMs": 67.94
+     },
+     {
+      "pendingUpdates": 3000,
+      "loadWithLogMs": 66.58,
+      "loadAfterCompactMs": 5.26,
+      "logAndStateBytes": 140372,
+      "compactedBytes": 91938,
+      "mergeUpdatesBytes": 110695,
+      "compactTotalMs": 132.74,
+      "compactYjsMs": 92.26,
+      "compactReindexMs": 16.46,
+      "mergeUpdatesMs": 210.66
+     }
+    ]
+   },
+   "snapshots": {
+    "cpuCalibrationMs": 10.279999999998836,
+    "typicalScene": {
+     "snapshotBytes": 2111,
+     "snapshotMs": {
+      "n": 5,
+      "median": 3.8,
+      "p95": 5.36,
+      "p99": 5.36,
+      "max": 5.36
+     },
+     "snapshotWorkerMs": {
+      "n": 5,
+      "median": 3.56,
+      "p95": 4.62,
+      "p99": 4.62,
+      "max": 4.62
+     },
+     "restoreReplaceAndReloadMs": {
+      "n": 5,
+      "median": 6.66,
+      "p95": 10.56,
+      "p99": 10.56,
+      "max": 10.56
+     },
+     "restoreForwardAndReloadMs": {
+      "n": 5,
+      "median": 20.98,
+      "p95": 29.62,
+      "p99": 29.62,
+      "max": 29.62
+     },
+     "forwardUpdateBytes": 1825,
+     "restoredTextCorrect": true
+    },
+    "bigScene": {
+     "snapshotBytes": 99516,
+     "snapshotMs": {
+      "n": 5,
+      "median": 5.62,
+      "p95": 6.42,
+      "p99": 6.42,
+      "max": 6.42
+     },
+     "snapshotWorkerMs": {
+      "n": 5,
+      "median": 5.28,
+      "p95": 5.86,
+      "p99": 5.86,
+      "max": 5.86
+     },
+     "restoreReplaceAndReloadMs": {
+      "n": 5,
+      "median": 37.22,
+      "p95": 56.54,
+      "p99": 56.54,
+      "max": 56.54
+     },
+     "restoreForwardAndReloadMs": {
+      "n": 5,
+      "median": 81.02,
+      "p95": 99,
+      "p99": 99,
+      "max": 99
+     },
+     "forwardUpdateBytes": 86164,
+     "restoredTextCorrect": true
+    },
+    "snapshotAll": {
+     "ms": 33,
+     "workerMs": 33,
+     "docs": 600,
+     "fileBytesBefore": 13639680,
+     "fileBytesAfter": 15400960
+    }
+   },
+   "ftsVariants": {
+    "word detail=full": {
+     "bytes": 877127,
+     "buildMs": 118.25999999999476,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "word detail=column": {
+     "bytes": 581208,
+     "buildMs": 69.09999999999127,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "word detail=none": {
+     "bytes": 258841,
+     "buildMs": 65.36000000000058,
+     "substringLikeMs": null,
+     "substringHits": null
+    },
+    "trigram detail=full": {
+     "bytes": 5152359,
+     "buildMs": 612.0599999999977,
+     "substringLikeMs": 1.4199999999982538,
+     "substringHits": 7
+    },
+    "trigram detail=column": {
+     "bytes": 2031713,
+     "buildMs": 368.25999999999476,
+     "substringLikeMs": 5.239999999990687,
+     "substringHits": 7
+    },
+    "trigram detail=none": {
+     "bytes": 698821,
+     "buildMs": 237.54000000000815,
+     "substringLikeMs": 4.540000000008149,
+     "substringHits": 7
+    }
+   },
+   "sizesEnd": {
+    "fileBytes": 24911872,
+    "freeBytes": 9510912,
+    "pageSize": 4096,
+    "payload": {
+     "docStateBytes": 2243699,
+     "docStateRows": 600,
+     "updateLogBytes": 0,
+     "updateLogRows": 0,
+     "plainTextBytes": 2076612,
+     "wordIndexBytes": 1011162,
+     "trigramIndexBytes": 5686843,
+     "snapshotBytes": 3192531,
+     "snapshotRows": 620
+    },
+    "onDisk": null,
+    "estimate": {
+     "usage": 46714880,
+     "quota": 1048576000
+    }
+   },
+   "diskEnd": {
+    "bytes": 24911872,
+    "files": 13,
+    "largest": [
+     "24.91 MB FileSystem/spikeb-coop.db",
+     "0.00 MB .ahp-p5x5zvdt2tj/0.tmp",
+     "0.00 MB .ahp-p5x5zvdt2tj/1.tmp",
+     "0.00 MB .ahp-p5x5zvdt2tj/2.tmp"
+    ]
+   },
+   "integrityEnd": {
+    "ok": true,
+    "integrityCheck": "ok",
+    "fts": "ok",
+    "integrityMs": 287.75999999999476,
+    "ftsCheckMs": 292.0599999999977
+   },
+   "vacuum": {
+    "ms": 493.7600000000093,
+    "fileBytes": 15372288,
+    "freeBytes": 0,
+    "onDisk": null,
+    "estimate": {
+     "usage": 78172160,
+     "quota": 1048576000
+    }
+   },
+   "diskAfterFinalVacuum": {
+    "bytes": 15372288,
+    "files": 13,
+    "largest": [
+     "15.37 MB FileSystem/spikeb-coop.db",
+     "0.00 MB .ahp-p5x5zvdt2tj/0.tmp",
+     "0.00 MB .ahp-p5x5zvdt2tj/1.tmp",
+     "0.00 MB .ahp-p5x5zvdt2tj/2.tmp"
+    ]
+   },
+   "heap": null
+  }
+ },
+ "finishedAt": "2026-11-12T19:37:44.973Z"
+}

@@ -1,0 +1,70 @@
+{
+ "/b/": {
+  "coi": false,
+  "opfs": true,
+  "probes": [
+   {
+    "vfs": "sahpool",
+    "ok": true,
+    "initMs": 248,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   },
+   {
+    "vfs": "coop",
+    "ok": true,
+    "initMs": 273,
+    "fts5": true,
+    "sqlite": "3.53.0"
+   },
+   {
+    "vfs": "opfs",
+    "ok": false,
+    "error": "official \"opfs\" VFS did not install (needs SharedArrayBuffer, i.e. COOP/COEP headers)"
+   },
+   {
+    "vfs": "opfs-wl",
+    "ok": false,
+    "error": "official \"opfs-wl\" VFS did not install (needs SharedArrayBuffer and Atomics.waitAsync)"
+   }
+  ],
+  "title": "B plain",
+  "failed": []
+ },
+ "/coi/b/": {
+  "coi": true,
+  "opfs": true,
+  "probes": [
+   {
+    "vfs": "sahpool",
+    "ok": true,
+    "initMs": 312,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   },
+   {
+    "vfs": "coop",
+    "ok": true,
+    "initMs": 182,
+    "fts5": true,
+    "sqlite": "3.53.0"
+   },
+   {
+    "vfs": "opfs",
+    "ok": true,
+    "initMs": 495,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   },
+   {
+    "vfs": "opfs-wl",
+    "ok": true,
+    "initMs": 516,
+    "fts5": true,
+    "sqlite": "3.54.1"
+   }
+  ],
+  "title": "B isolated",
+  "failed": []
+ }
+}
