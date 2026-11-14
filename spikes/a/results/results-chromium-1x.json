@@ -1,0 +1,1039 @@
+{
+  "started": "2026-11-12T18:48:40.403Z",
+  "browser": "chromium",
+  "browserVersion": "156.0.8078.4",
+  "cpuThrottle": 1,
+  "viewport": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "deviceScaleFactor": 2,
+    "hasTouch": true
+  },
+  "host": {
+    "model": "Raspberry Pi 5 Model B Rev 1.1",
+    "cpus": 4,
+    "arch": "arm64",
+    "loadAverageStart": [
+      1.37,
+      1.46,
+      0.93
+    ],
+    "loadAverageEnd": [
+      1.16,
+      1.05,
+      0.91
+    ],
+    "cgroupThrottledMs": 865.6410000000033
+  },
+  "typing": {
+    "chars": 500,
+    "delayMs": 80
+  },
+  "variants": {
+    "1": {
+      "variant": 1,
+      "load": {
+        "sinceNavigationMs": {
+          "n": 5,
+          "min": 702.6999998092651,
+          "p50": 713.1000003814697,
+          "p95": 763.2000002861023,
+          "p99": 763.2000002861023,
+          "max": 763.2000002861023
+        },
+        "totalMs": {
+          "n": 5,
+          "min": 587,
+          "p50": 591.6000003814697,
+          "p95": 607.5,
+          "p99": 607.5,
+          "max": 607.5
+        },
+        "generateMs": {
+          "n": 5,
+          "min": 45.80000019073486,
+          "p50": 46.19999980926514,
+          "p95": 47,
+          "p99": 47,
+          "max": 47
+        },
+        "buildMs": {
+          "n": 5,
+          "min": 65.40000009536743,
+          "p50": 67,
+          "p95": 71.59999990463257,
+          "p99": 71.59999990463257,
+          "max": 71.59999990463257
+        },
+        "cursorMs": {
+          "n": 5,
+          "min": 340.8999996185303,
+          "p50": 342.5,
+          "p95": 353.5,
+          "p99": 353.5,
+          "max": 353.5
+        },
+        "editable": true
+      },
+      "afterLoad": {
+        "dom": {
+          "elements": 6861,
+          "textNodes": 6548
+        },
+        "mounted": 1,
+        "jsHeapUsedMB": 6.3525238037109375,
+        "jsHeapTotalMB": 6.578125,
+        "cdpNodes": 13465,
+        "rendererRssMB": 204.390625
+      },
+      "typingMid": {
+        "scene": 300,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 51578,
+        "frame": {
+          "n": 500,
+          "min": 24.800000190734863,
+          "p50": 25.899999618530273,
+          "p95": 32.40000009536743,
+          "p99": 37.69999980926514,
+          "max": 41.30000019073486
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 27.199999809265137,
+          "p50": 27.40000009536743,
+          "p95": 36.30000019073486,
+          "p99": 40.5,
+          "max": 48.5,
+          "reported": 500,
+          "under16ms": 0
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 1,
+        "cgroupThrottledMs": 0
+      },
+      "typingBig": {
+        "scene": 420,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 52356,
+        "frame": {
+          "n": 500,
+          "min": 25.799999713897705,
+          "p50": 26.90000009536743,
+          "p95": 34,
+          "p99": 57.5,
+          "max": 97.09999990463257
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 28.199999809265137,
+          "p50": 32.299999713897705,
+          "p95": 40.30000019073486,
+          "p99": 65.59999990463257,
+          "max": 104,
+          "reported": 500,
+          "under16ms": 0
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 1,
+        "cgroupThrottledMs": 15.994999999995343
+      },
+      "jump": {
+        "last": {
+          "firstVisit": 6.899999618530273,
+          "n": 5,
+          "min": 6.400000095367432,
+          "p50": 6.899999618530273,
+          "p95": 7.5,
+          "p99": 7.5,
+          "max": 7.5,
+          "values": [
+            6.899999618530273,
+            7.100000381469727,
+            7.5,
+            6.5,
+            6.400000095367432
+          ]
+        },
+        "first": {
+          "firstVisit": 5.200000286102295,
+          "n": 5,
+          "min": 5.200000286102295,
+          "p50": 5.5,
+          "p95": 6.900000095367432,
+          "p99": 6.900000095367432,
+          "max": 6.900000095367432,
+          "values": [
+            5.200000286102295,
+            6.900000095367432,
+            5.5,
+            5.899999618530273,
+            5.5
+          ]
+        },
+        "middle": {
+          "firstVisit": 7,
+          "n": 5,
+          "min": 6,
+          "p50": 6.799999713897705,
+          "p95": 7.099999904632568,
+          "p99": 7.099999904632568,
+          "max": 7.099999904632568,
+          "values": [
+            7,
+            6.799999713897705,
+            6,
+            6.5,
+            7.099999904632568
+          ]
+        },
+        "big10k": {
+          "firstVisit": 6,
+          "n": 5,
+          "min": 6,
+          "p50": 6.700000286102295,
+          "p95": 7.799999713897705,
+          "p99": 7.799999713897705,
+          "max": 7.799999713897705,
+          "values": [
+            6,
+            7.799999713897705,
+            6.5,
+            7.099999904632568,
+            6.700000286102295
+          ]
+        },
+        "neverVisited": {
+          "firstVisit": 6.200000286102295,
+          "n": 5,
+          "min": 6.200000286102295,
+          "p50": 6.699999809265137,
+          "p95": 14.699999809265137,
+          "p99": 14.699999809265137,
+          "max": 14.699999809265137,
+          "values": [
+            6.200000286102295,
+            14.699999809265137,
+            7.099999904632568,
+            6.699999809265137,
+            6.299999713897705
+          ]
+        }
+      },
+      "find": {
+        "query": "the",
+        "count": 25044,
+        "computeMs": {
+          "n": 5,
+          "min": 7.5,
+          "p50": 7.800000190734863,
+          "p95": 11.400000095367432,
+          "p99": 11.400000095367432,
+          "max": 11.400000095367432
+        },
+        "paintedMs": {
+          "n": 5,
+          "min": 46,
+          "p50": 49.30000019073486,
+          "p95": 52,
+          "p99": 52,
+          "max": 52
+        }
+      },
+      "scroll": {
+        "slow": {
+          "kind": "slow",
+          "frames": 1432,
+          "samples": 1431,
+          "distancePx": 14400,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.70000000001164,
+          "frameMax": 66.69999999999709,
+          "durationMs": 24001.79999980927,
+          "layoutShiftEntries": 0
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 703,
+          "samples": 702,
+          "distancePx": 28521,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 33.30000000001746,
+          "frameMax": 66.69999999998254,
+          "durationMs": 12724.000000095373,
+          "layoutShiftEntries": 0
+        },
+        "touchFling": {
+          "kind": "touch-fling",
+          "frames": 455,
+          "samples": 454,
+          "distancePx": 28906,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.79999999998836,
+          "frameMax": 33.30000000001746,
+          "durationMs": 7611.200000286102,
+          "layoutShiftEntries": 0,
+          "scrolledUpPx": -14629,
+          "scrolledDownPx": 14277
+        }
+      },
+      "debugAfterScroll": {
+        "buildDoc": 8.599999904632568,
+        "createView": 56.30000019073486,
+        "docSize": 1715781,
+        "chapters": 150
+      },
+      "afterUse": {
+        "jsHeapUsedMB": 7.885951995849609,
+        "jsHeapTotalMB": 8.578125,
+        "cdpNodes": 13465,
+        "rendererRssMB": 217.703125,
+        "mounted": 1
+      }
+    },
+    "2": {
+      "variant": 2,
+      "load": {
+        "sinceNavigationMs": {
+          "n": 5,
+          "min": 266.30000019073486,
+          "p50": 275.80000019073486,
+          "p95": 286.09999990463257,
+          "p99": 286.09999990463257,
+          "max": 286.09999990463257
+        },
+        "totalMs": {
+          "n": 5,
+          "min": 154.19999980926514,
+          "p50": 156.2999997138977,
+          "p95": 162.7000002861023,
+          "p99": 162.7000002861023,
+          "max": 162.7000002861023
+        },
+        "generateMs": {
+          "n": 5,
+          "min": 46,
+          "p50": 46.59999990463257,
+          "p95": 54.30000019073486,
+          "p99": 54.30000019073486,
+          "max": 54.30000019073486
+        },
+        "buildMs": {
+          "n": 5,
+          "min": 64.90000009536743,
+          "p50": 65.90000009536743,
+          "p95": 67.5,
+          "p99": 67.5,
+          "max": 67.5
+        },
+        "cursorMs": {
+          "n": 5,
+          "min": 11,
+          "p50": 11.300000190734863,
+          "p95": 11.599999904632568,
+          "p99": 11.599999904632568,
+          "max": 11.599999904632568
+        },
+        "editable": true
+      },
+      "afterLoad": {
+        "dom": {
+          "elements": 6861,
+          "textNodes": 6548
+        },
+        "mounted": 1,
+        "jsHeapUsedMB": 6.341011047363281,
+        "jsHeapTotalMB": 6.828125,
+        "cdpNodes": 13423,
+        "rendererRssMB": 132.328125
+      },
+      "typingMid": {
+        "scene": 300,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 42804,
+        "frame": {
+          "n": 500,
+          "min": 3.6999998092651367,
+          "p50": 4.5,
+          "p95": 6.900000095367432,
+          "p99": 13.199999809265137,
+          "max": 15.600000381469727
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 16,
+          "p50": 16,
+          "p95": 16,
+          "p99": 17.5,
+          "max": 19.09999990463257,
+          "reported": 18,
+          "under16ms": 482
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 1,
+        "cgroupThrottledMs": 0
+      },
+      "typingBig": {
+        "scene": 420,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 43080,
+        "frame": {
+          "n": 500,
+          "min": 4.599999904632568,
+          "p50": 6,
+          "p95": 8.599999904632568,
+          "p99": 16.200000286102295,
+          "max": 18.899999618530273
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 16,
+          "p50": 16,
+          "p95": 16,
+          "p99": 19,
+          "max": 24.5,
+          "reported": 24,
+          "under16ms": 476
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 1,
+        "cgroupThrottledMs": 0
+      },
+      "jump": {
+        "last": {
+          "firstVisit": 12.399999618530273,
+          "n": 5,
+          "min": 4.699999809265137,
+          "p50": 5,
+          "p95": 12.399999618530273,
+          "p99": 12.399999618530273,
+          "max": 12.399999618530273,
+          "values": [
+            12.399999618530273,
+            6.199999809265137,
+            5,
+            4.699999809265137,
+            4.699999809265137
+          ]
+        },
+        "first": {
+          "firstVisit": 8.700000286102295,
+          "n": 5,
+          "min": 3.5999999046325684,
+          "p50": 4.699999809265137,
+          "p95": 8.700000286102295,
+          "p99": 8.700000286102295,
+          "max": 8.700000286102295,
+          "values": [
+            8.700000286102295,
+            4.699999809265137,
+            3.5999999046325684,
+            3.6999998092651367,
+            6.399999618530273
+          ]
+        },
+        "middle": {
+          "firstVisit": 4.800000190734863,
+          "n": 5,
+          "min": 3.3999996185302734,
+          "p50": 4.800000190734863,
+          "p95": 5.099999904632568,
+          "p99": 5.099999904632568,
+          "max": 5.099999904632568,
+          "values": [
+            4.800000190734863,
+            5.099999904632568,
+            3.8000001907348633,
+            3.3999996185302734,
+            5.099999904632568
+          ]
+        },
+        "big10k": {
+          "firstVisit": 7.399999618530273,
+          "n": 5,
+          "min": 5.599999904632568,
+          "p50": 5.799999713897705,
+          "p95": 7.799999713897705,
+          "p99": 7.799999713897705,
+          "max": 7.799999713897705,
+          "values": [
+            7.399999618530273,
+            7.799999713897705,
+            5.599999904632568,
+            5.599999904632568,
+            5.799999713897705
+          ]
+        },
+        "neverVisited": {
+          "firstVisit": 15.299999713897705,
+          "n": 5,
+          "min": 7.399999618530273,
+          "p50": 9.900000095367432,
+          "p95": 15.299999713897705,
+          "p99": 15.299999713897705,
+          "max": 15.299999713897705,
+          "values": [
+            15.299999713897705,
+            9.900000095367432,
+            10.300000190734863,
+            8.900000095367432,
+            7.399999618530273
+          ]
+        }
+      },
+      "find": {
+        "query": "the",
+        "count": 25044,
+        "computeMs": {
+          "n": 5,
+          "min": 8.400000095367432,
+          "p50": 9.399999618530273,
+          "p95": 13.199999809265137,
+          "p99": 13.199999809265137,
+          "max": 13.199999809265137
+        },
+        "paintedMs": {
+          "n": 5,
+          "min": 15.400000095367432,
+          "p50": 18.09999990463257,
+          "p95": 25.5,
+          "p99": 25.5,
+          "max": 25.5
+        }
+      },
+      "scroll": {
+        "slow": {
+          "kind": "slow",
+          "frames": 1442,
+          "samples": 1441,
+          "distancePx": 14400,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.70000000001164,
+          "frameMax": 16.80000000000291,
+          "durationMs": 24014.499999904627,
+          "layoutShiftEntries": 0
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 765,
+          "samples": 764,
+          "distancePx": 28658,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.70000000001164,
+          "frameMax": 16.800000000017462,
+          "durationMs": 12719.700000190729,
+          "layoutShiftEntries": 0
+        },
+        "touchFling": {
+          "kind": "touch-fling",
+          "frames": 459,
+          "samples": 458,
+          "distancePx": 24346,
+          "maxShiftPx": 28,
+          "shiftsOver1px": 1,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.70000000001164,
+          "frameMax": 16.800000000017462,
+          "durationMs": 7624.599999904633,
+          "layoutShiftEntries": 0,
+          "scrolledUpPx": -12957,
+          "scrolledDownPx": 11389
+        }
+      },
+      "debugAfterScroll": {
+        "buildDoc": 9.299999713897705,
+        "createView": 59.60000038146973,
+        "docSize": 1715781,
+        "chapters": 150
+      },
+      "afterUse": {
+        "jsHeapUsedMB": 7.604705810546875,
+        "jsHeapTotalMB": 8.578125,
+        "cdpNodes": 13439,
+        "rendererRssMB": 155.796875,
+        "mounted": 1
+      }
+    },
+    "3": {
+      "variant": 3,
+      "load": {
+        "sinceNavigationMs": {
+          "n": 5,
+          "min": 218.7000002861023,
+          "p50": 229.40000009536743,
+          "p95": 256.30000019073486,
+          "p99": 256.30000019073486,
+          "max": 256.30000019073486
+        },
+        "totalMs": {
+          "n": 5,
+          "min": 109.40000009536743,
+          "p50": 110.7999997138977,
+          "p95": 117.30000019073486,
+          "p99": 117.30000019073486,
+          "max": 117.30000019073486
+        },
+        "generateMs": {
+          "n": 5,
+          "min": 46.299999713897705,
+          "p50": 47,
+          "p95": 48.799999713897705,
+          "p99": 48.799999713897705,
+          "max": 48.799999713897705
+        },
+        "buildMs": {
+          "n": 5,
+          "min": 29,
+          "p50": 29.09999990463257,
+          "p95": 37.59999990463257,
+          "p99": 37.59999990463257,
+          "max": 37.59999990463257
+        },
+        "cursorMs": {
+          "n": 5,
+          "min": 12.5,
+          "p50": 13,
+          "p95": 16.40000009536743,
+          "p99": 16.40000009536743,
+          "max": 16.40000009536743
+        },
+        "editable": true
+      },
+      "afterLoad": {
+        "dom": {
+          "elements": 840,
+          "textNodes": 228
+        },
+        "mounted": 3,
+        "jsHeapUsedMB": 5.5183258056640625,
+        "jsHeapTotalMB": 6.078125,
+        "cdpNodes": 1082,
+        "rendererRssMB": 128.828125
+      },
+      "typingMid": {
+        "scene": 300,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 42851,
+        "frame": {
+          "n": 500,
+          "min": 3.799999713897705,
+          "p50": 5.099999904632568,
+          "p95": 7.200000286102295,
+          "p99": 14.5,
+          "max": 18.59999990463257
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 16,
+          "p50": 16,
+          "p95": 16,
+          "p99": 17.59999990463257,
+          "max": 24.300000190734863,
+          "reported": 17,
+          "under16ms": 483
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 3,
+        "cgroupThrottledMs": 0
+      },
+      "typingBig": {
+        "scene": 420,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 43249,
+        "frame": {
+          "n": 500,
+          "min": 4.699999809265137,
+          "p50": 6.299999713897705,
+          "p95": 8.099999904632568,
+          "p99": 13.5,
+          "max": 16.799999713897705
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 16,
+          "p50": 16,
+          "p95": 16,
+          "p99": 18,
+          "max": 18.800000190734863,
+          "reported": 25,
+          "under16ms": 475
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 2,
+        "cgroupThrottledMs": 0
+      },
+      "jump": {
+        "last": {
+          "firstVisit": 12.699999809265137,
+          "n": 5,
+          "min": 9.599999904632568,
+          "p50": 9.900000095367432,
+          "p95": 12.699999809265137,
+          "p99": 12.699999809265137,
+          "max": 12.699999809265137,
+          "values": [
+            12.699999809265137,
+            9.699999809265137,
+            9.900000095367432,
+            10.399999618530273,
+            9.599999904632568
+          ]
+        },
+        "first": {
+          "firstVisit": 7.900000095367432,
+          "n": 5,
+          "min": 7.099999904632568,
+          "p50": 7.599999904632568,
+          "p95": 8,
+          "p99": 8,
+          "max": 8,
+          "values": [
+            7.900000095367432,
+            8,
+            7.599999904632568,
+            7.099999904632568,
+            7.399999618530273
+          ]
+        },
+        "middle": {
+          "firstVisit": 9.099999904632568,
+          "n": 5,
+          "min": 9.099999904632568,
+          "p50": 9.099999904632568,
+          "p95": 9.400000095367432,
+          "p99": 9.400000095367432,
+          "max": 9.400000095367432,
+          "values": [
+            9.099999904632568,
+            9.199999809265137,
+            9.400000095367432,
+            9.099999904632568,
+            9.099999904632568
+          ]
+        },
+        "big10k": {
+          "firstVisit": 27.299999713897705,
+          "n": 5,
+          "min": 22.90000009536743,
+          "p50": 26.699999809265137,
+          "p95": 27.299999713897705,
+          "p99": 27.299999713897705,
+          "max": 27.299999713897705,
+          "values": [
+            27.299999713897705,
+            23.5,
+            27,
+            22.90000009536743,
+            26.699999809265137
+          ]
+        },
+        "neverVisited": {
+          "firstVisit": 14.599999904632568,
+          "n": 5,
+          "min": 10.899999618530273,
+          "p50": 12.800000190734863,
+          "p95": 21,
+          "p99": 21,
+          "max": 21,
+          "values": [
+            14.599999904632568,
+            21,
+            10.899999618530273,
+            12.800000190734863,
+            12.5
+          ]
+        }
+      },
+      "find": {
+        "query": "the",
+        "count": 25044,
+        "computeMs": {
+          "n": 5,
+          "min": 3.5999999046325684,
+          "p50": 3.700000286102295,
+          "p95": 14.599999904632568,
+          "p99": 14.599999904632568,
+          "max": 14.599999904632568
+        },
+        "paintedMs": {
+          "n": 5,
+          "min": 4.800000190734863,
+          "p50": 8.599999904632568,
+          "p95": 19.700000286102295,
+          "p99": 19.700000286102295,
+          "max": 19.700000286102295
+        }
+      },
+      "scroll": {
+        "slow": {
+          "kind": "slow",
+          "frames": 1442,
+          "samples": 1441,
+          "distancePx": 14400,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.70000000001164,
+          "frameMax": 16.80000000000291,
+          "durationMs": 24004.20000009537,
+          "mounts": 5,
+          "unmounts": 5,
+          "corrections": 2,
+          "layoutShiftEntries": 2
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 765,
+          "samples": 764,
+          "distancePx": 28642,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.79999999998836,
+          "frameMax": 16.800000000017462,
+          "durationMs": 12720.600000190723,
+          "mounts": 15,
+          "unmounts": 15,
+          "corrections": 5,
+          "layoutShiftEntries": 4
+        },
+        "into10k": {
+          "kind": "up",
+          "frames": 302,
+          "samples": 301,
+          "distancePx": 7500,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.79999999998836,
+          "frameMax": 16.800000000017462,
+          "durationMs": 5006.6000002860965,
+          "mounts": 1,
+          "unmounts": 0,
+          "corrections": 0,
+          "bigSceneMountedBefore": false,
+          "bigSceneMountedAfter": true
+        },
+        "touchFling": {
+          "kind": "touch-fling",
+          "frames": 451,
+          "samples": 450,
+          "distancePx": 71270,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.79999999998836,
+          "frameMax": 50,
+          "durationMs": 7607.099999904633,
+          "mounts": 41,
+          "unmounts": 38,
+          "corrections": 9,
+          "layoutShiftEntries": 8,
+          "scrolledUpPx": -28834,
+          "scrolledDownPx": 42492
+        }
+      },
+      "debugAfterScroll": {
+        "mounts": 138,
+        "unmounts": 131,
+        "mountMs": 64.99999618530273,
+        "maxMountMs": 5.299999713897705,
+        "lastMountMs": 0.5999999046325684,
+        "compensations": 25,
+        "maxCompPx": 56,
+        "mounted": [
+          329,
+          330,
+          331,
+          336,
+          337,
+          338,
+          339
+        ],
+        "focused": 330,
+        "cross": null,
+        "comp": 112,
+        "docsBuilt": 76,
+        "manualAnchor": true
+      },
+      "afterUse": {
+        "jsHeapUsedMB": 9.954914093017578,
+        "jsHeapTotalMB": 11.328125,
+        "cdpNodes": 1111,
+        "rendererRssMB": 148.296875,
+        "mounted": 7
+      },
+      "afterVisitingAll": {
+        "visitAllMs": 3050.5999999046326,
+        "jsHeapUsedMB": 9.806148529052734,
+        "jsHeapTotalMB": 10.328125,
+        "cdpNodes": 1067,
+        "rendererRssMB": 155.796875,
+        "mounted": 3,
+        "docsBuilt": 600
+      },
+      "selectAllCopy": {
+        "ms": 7.599999904632568,
+        "chars": 1709360
+      },
+      "scrollNativeAnchor": {
+        "slow": {
+          "kind": "slow",
+          "frames": 1330,
+          "samples": 1329,
+          "distancePx": 14400,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 33.29999999999927,
+          "frameMax": 66.70000000000073,
+          "durationMs": 24003.800000190735,
+          "mounts": 5,
+          "unmounts": 5,
+          "corrections": 0,
+          "layoutShiftEntries": 0
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 753,
+          "samples": 752,
+          "distancePx": 28593,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.799999999999272,
+          "frameMax": 50,
+          "durationMs": 12721.900000000001,
+          "mounts": 15,
+          "unmounts": 15,
+          "corrections": 0,
+          "layoutShiftEntries": 0
+        },
+        "into10k": {
+          "kind": "up",
+          "frames": 275,
+          "samples": 274,
+          "distancePx": 7500,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 33.299999999995634,
+          "frameMax": 66.60000000000582,
+          "durationMs": 5011.199999999997,
+          "mounts": 1,
+          "unmounts": 0,
+          "corrections": 0,
+          "bigSceneMountedBefore": false,
+          "bigSceneMountedAfter": true
+        },
+        "touchFling": {
+          "kind": "touch-fling",
+          "frames": 458,
+          "samples": 457,
+          "distancePx": 29287,
+          "maxShiftPx": 28,
+          "shiftsOver1px": 3,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.799999999995634,
+          "frameMax": 16.80000000000291,
+          "durationMs": 7620.800000190735,
+          "mounts": 16,
+          "unmounts": 16,
+          "corrections": 0,
+          "layoutShiftEntries": 0,
+          "scrolledUpPx": -12798,
+          "scrolledDownPx": 16489
+        }
+      },
+      "scrollNoAnchorControl": {
+        "slow": {
+          "kind": "slow",
+          "frames": 1442,
+          "samples": 1441,
+          "distancePx": 14400,
+          "maxShiftPx": 28,
+          "shiftsOver1px": 2,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.799999999999272,
+          "frameMax": 16.80000000000291,
+          "durationMs": 24001.700000095367,
+          "mounts": 5,
+          "unmounts": 5,
+          "corrections": 0
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 765,
+          "samples": 764,
+          "distancePx": 28626,
+          "maxShiftPx": 28,
+          "shiftsOver1px": 5,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 16.799999999995634,
+          "frameMax": 16.80000000000291,
+          "durationMs": 12720.79999990463,
+          "mounts": 15,
+          "unmounts": 15,
+          "corrections": 0
+        }
+      }
+    }
+  },
+  "finished": "2026-11-12T18:57:55.457Z"
+}

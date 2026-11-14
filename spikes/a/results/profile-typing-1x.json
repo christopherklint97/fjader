@@ -1,0 +1,107 @@
+[
+  {
+    "variant": 1,
+    "throttle": 1,
+    "chars": 100,
+    "cpuMsPerKey": {
+      "RunTask": 39.43,
+      "EventDispatch": 50.32,
+      "FunctionCall": 3.8,
+      "UpdateLayoutTree": 0,
+      "Layout": 1.19,
+      "PrePaint": 8.47,
+      "Paint": 1.48,
+      "Layerize": 0.27,
+      "Commit": 1.94,
+      "HitTest": 0.27,
+      "MinorGC": 0,
+      "MajorGC": 0,
+      "FireAnimationFrame": 0.26,
+      "IntersectionObserverController::computeIntersections": 0
+    },
+    "largestOtherEvents": [
+      "Editor::HandleKeyboardEvent=23.58",
+      "TypingCommand::InsertText=23.23",
+      "FrameSelection::SetSelection=16.69",
+      "Editor::SyncSelection=16.64",
+      "ProxyMain::BeginMainFrame=13.08",
+      "WebFrameWidgetImpl::BeginMainFrame=9.20",
+      "EventHandler::handleMouseMoveEvent=8.88",
+      "LayoutView::HitTest=8.81",
+      "LocalFrameView::RunCompositingInputsLifecyclePhase=8.17",
+      "Blink.CompositingInputs.UpdateTime=8.16",
+      "v8.callFunction=6.13",
+      "GetSelectionOffsets=2.59"
+    ]
+  },
+  {
+    "variant": 2,
+    "throttle": 1,
+    "chars": 100,
+    "cpuMsPerKey": {
+      "RunTask": 8.26,
+      "EventDispatch": 8.24,
+      "FunctionCall": 2.58,
+      "UpdateLayoutTree": 0,
+      "Layout": 0.47,
+      "PrePaint": 0.35,
+      "Paint": 0.95,
+      "Layerize": 0.25,
+      "Commit": 0.26,
+      "HitTest": 0.21,
+      "MinorGC": 0.06,
+      "MajorGC": 0,
+      "FireAnimationFrame": 0.2,
+      "IntersectionObserverController::computeIntersections": 0.28
+    },
+    "largestOtherEvents": [
+      "v8.callFunction=4.09",
+      "Editor::HandleKeyboardEvent=3.05",
+      "ProxyMain::BeginMainFrame=2.86",
+      "TypingCommand::InsertText=2.78",
+      "AsyncTask Run=1.63",
+      "WebFrameWidgetImpl::UpdateLifecycle=1.54",
+      "Document::UpdateStyleAndLayout=1.08",
+      "LocalFrameView::RunPaintLifecyclePhase=0.97",
+      "WebFrameWidgetImpl::BeginMainFrame=0.94",
+      "Blink.ForcedStyleAndLayout.UpdateTime=0.88",
+      "LocalFrameView::UpdateStyleAndLayout=0.75",
+      "Blink.Paint.UpdateTime=0.70"
+    ]
+  },
+  {
+    "variant": 3,
+    "throttle": 1,
+    "chars": 100,
+    "cpuMsPerKey": {
+      "RunTask": 7.26,
+      "EventDispatch": 7.86,
+      "FunctionCall": 1.88,
+      "UpdateLayoutTree": 0,
+      "Layout": 0.98,
+      "PrePaint": 0.63,
+      "Paint": 1.3,
+      "Layerize": 0.22,
+      "Commit": 0.21,
+      "HitTest": 0.04,
+      "MinorGC": 0,
+      "MajorGC": 0,
+      "FireAnimationFrame": 0.19,
+      "IntersectionObserverController::computeIntersections": 0
+    },
+    "largestOtherEvents": [
+      "v8.callFunction=3.13",
+      "Editor::HandleKeyboardEvent=2.99",
+      "TypingCommand::InsertText=2.75",
+      "ProxyMain::BeginMainFrame=2.49",
+      "Document::UpdateStyleAndLayout=1.52",
+      "AsyncTask Run=1.41",
+      "Blink.ForcedStyleAndLayout.UpdateTime=1.33",
+      "LocalFrameView::UpdateStyleAndLayout=1.23",
+      "WebFrameWidgetImpl::UpdateLifecycle=1.18",
+      "LocalFrameView::RunPaintLifecyclePhase=1.07",
+      "Blink.Layout.UpdateTime=1.00",
+      "WebFrameWidgetImpl::BeginMainFrame=0.99"
+    ]
+  }
+]

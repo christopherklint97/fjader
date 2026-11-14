@@ -1,0 +1,955 @@
+{
+  "started": "2026-11-12T18:57:56.133Z",
+  "browser": "webkit",
+  "browserVersion": "27.2",
+  "cpuThrottle": "not available",
+  "viewport": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "deviceScaleFactor": 2,
+    "hasTouch": true
+  },
+  "host": {
+    "model": "Raspberry Pi 5 Model B Rev 1.1",
+    "cpus": 4,
+    "arch": "arm64",
+    "loadAverageStart": [
+      1.16,
+      1.05,
+      0.91
+    ],
+    "loadAverageEnd": [
+      3.09,
+      2.65,
+      1.78
+    ],
+    "cgroupThrottledMs": 6846.994999999995
+  },
+  "typing": {
+    "chars": 500,
+    "delayMs": 80
+  },
+  "variants": {
+    "1": {
+      "variant": 1,
+      "load": {
+        "sinceNavigationMs": {
+          "n": 5,
+          "min": 927,
+          "p50": 1087,
+          "p95": 1267,
+          "p99": 1267,
+          "max": 1267
+        },
+        "totalMs": {
+          "n": 5,
+          "min": 768,
+          "p50": 898,
+          "p95": 1083,
+          "p99": 1083,
+          "max": 1083
+        },
+        "generateMs": {
+          "n": 5,
+          "min": 63,
+          "p50": 83,
+          "p95": 104,
+          "p99": 104,
+          "max": 104
+        },
+        "buildMs": {
+          "n": 5,
+          "min": 109,
+          "p50": 192,
+          "p95": 211,
+          "p99": 211,
+          "max": 211
+        },
+        "cursorMs": {
+          "n": 5,
+          "min": 539,
+          "p50": 550,
+          "p95": 731,
+          "p99": 731,
+          "max": 731
+        },
+        "editable": true
+      },
+      "afterLoad": {
+        "dom": {
+          "elements": 6861,
+          "textNodes": 6548
+        },
+        "mounted": 1,
+        "jsHeapUsedMB": null,
+        "note": "no heap API in WebKit automation",
+        "rendererRssMB": null
+      },
+      "typingMid": {
+        "scene": 300,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 51335,
+        "frame": {
+          "n": 500,
+          "min": 15,
+          "p50": 16,
+          "p95": 19,
+          "p99": 23,
+          "max": 38
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 16,
+          "p50": 18,
+          "p95": 19,
+          "p99": 24,
+          "max": 40,
+          "reported": 500,
+          "under16ms": 0
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 1,
+        "cgroupThrottledMs": 120.50299999999697
+      },
+      "typingBig": {
+        "scene": 420,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 52402,
+        "frame": {
+          "n": 500,
+          "min": 17,
+          "p50": 18,
+          "p95": 22,
+          "p99": 26,
+          "max": 32
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 17,
+          "p50": 18,
+          "p95": 19,
+          "p99": 24,
+          "max": 28,
+          "reported": 500,
+          "under16ms": 0
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 1,
+        "cgroupThrottledMs": 19.34299999999348
+      },
+      "jump": {
+        "last": {
+          "firstVisit": 46,
+          "n": 5,
+          "min": 18,
+          "p50": 29,
+          "p95": 46,
+          "p99": 46,
+          "max": 46,
+          "values": [
+            46,
+            18,
+            29,
+            26,
+            32
+          ]
+        },
+        "first": {
+          "firstVisit": 25,
+          "n": 5,
+          "min": 11,
+          "p50": 20,
+          "p95": 25,
+          "p99": 25,
+          "max": 25,
+          "values": [
+            25,
+            11,
+            20,
+            23,
+            15
+          ]
+        },
+        "middle": {
+          "firstVisit": 23,
+          "n": 5,
+          "min": 14,
+          "p50": 21,
+          "p95": 29,
+          "p99": 29,
+          "max": 29,
+          "values": [
+            23,
+            21,
+            14,
+            29,
+            17
+          ]
+        },
+        "big10k": {
+          "firstVisit": 20,
+          "n": 5,
+          "min": 20,
+          "p50": 23,
+          "p95": 28,
+          "p99": 28,
+          "max": 28,
+          "values": [
+            20,
+            23,
+            28,
+            25,
+            23
+          ]
+        },
+        "neverVisited": {
+          "firstVisit": 15,
+          "n": 5,
+          "min": 14,
+          "p50": 15,
+          "p95": 28,
+          "p99": 28,
+          "max": 28,
+          "values": [
+            15,
+            21,
+            28,
+            15,
+            14
+          ]
+        }
+      },
+      "find": {
+        "query": "the",
+        "count": 25044,
+        "computeMs": {
+          "n": 5,
+          "min": 12,
+          "p50": 16,
+          "p95": 28,
+          "p99": 28,
+          "max": 28
+        },
+        "paintedMs": {
+          "n": 5,
+          "min": 20,
+          "p50": 26,
+          "p95": 81,
+          "p99": 81,
+          "max": 81
+        }
+      },
+      "scroll": {
+        "slow": {
+          "kind": "slow",
+          "frames": 275,
+          "samples": 274,
+          "distancePx": 14011,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 103,
+          "frameMax": 204,
+          "durationMs": 24006,
+          "layoutShiftEntries": 0
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 156,
+          "samples": 155,
+          "distancePx": 28219,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 100,
+          "frameMax": 111,
+          "durationMs": 12749,
+          "layoutShiftEntries": 0
+        }
+      },
+      "debugAfterScroll": {
+        "buildDoc": 14,
+        "createView": 127,
+        "docSize": 1715781,
+        "chapters": 150
+      },
+      "afterUse": {
+        "jsHeapUsedMB": null,
+        "note": "no heap API in WebKit automation",
+        "rendererRssMB": null,
+        "mounted": 1
+      }
+    },
+    "2": {
+      "variant": 2,
+      "load": {
+        "sinceNavigationMs": {
+          "n": 5,
+          "min": 493,
+          "p50": 605,
+          "p95": 616,
+          "p99": 616,
+          "max": 616
+        },
+        "totalMs": {
+          "n": 5,
+          "min": 348,
+          "p50": 433,
+          "p95": 456,
+          "p99": 456,
+          "max": 456
+        },
+        "generateMs": {
+          "n": 5,
+          "min": 62,
+          "p50": 74,
+          "p95": 108,
+          "p99": 108,
+          "max": 108
+        },
+        "buildMs": {
+          "n": 5,
+          "min": 130,
+          "p50": 188,
+          "p95": 208,
+          "p99": 208,
+          "max": 208
+        },
+        "cursorMs": {
+          "n": 5,
+          "min": 110,
+          "p50": 118,
+          "p95": 133,
+          "p99": 133,
+          "max": 133
+        },
+        "editable": true
+      },
+      "afterLoad": {
+        "dom": {
+          "elements": 6861,
+          "textNodes": 6548
+        },
+        "mounted": 1,
+        "jsHeapUsedMB": null,
+        "note": "no heap API in WebKit automation",
+        "rendererRssMB": null
+      },
+      "typingMid": {
+        "scene": 300,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 44724,
+        "frame": {
+          "n": 500,
+          "min": 7,
+          "p50": 10,
+          "p95": 17,
+          "p99": 19,
+          "max": 24
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 16,
+          "p50": 16,
+          "p95": 18,
+          "p99": 19,
+          "max": 24,
+          "reported": 157,
+          "under16ms": 343
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 1,
+        "cgroupThrottledMs": 74.24899999999616
+      },
+      "typingBig": {
+        "scene": 420,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 45205,
+        "frame": {
+          "n": 500,
+          "min": 7,
+          "p50": 10,
+          "p95": 17,
+          "p99": 18,
+          "max": 22
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 16,
+          "p50": 16,
+          "p95": 18,
+          "p99": 19,
+          "max": 24,
+          "reported": 173,
+          "under16ms": 327
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 1,
+        "cgroupThrottledMs": 52.13199999999779
+      },
+      "jump": {
+        "last": {
+          "firstVisit": 40,
+          "n": 5,
+          "min": 10,
+          "p50": 12,
+          "p95": 40,
+          "p99": 40,
+          "max": 40,
+          "values": [
+            40,
+            10,
+            23,
+            12,
+            12
+          ]
+        },
+        "first": {
+          "firstVisit": 20,
+          "n": 5,
+          "min": 10,
+          "p50": 12,
+          "p95": 20,
+          "p99": 20,
+          "max": 20,
+          "values": [
+            20,
+            11,
+            12,
+            10,
+            19
+          ]
+        },
+        "middle": {
+          "firstVisit": 17,
+          "n": 5,
+          "min": 9,
+          "p50": 16,
+          "p95": 17,
+          "p99": 17,
+          "max": 17,
+          "values": [
+            17,
+            11,
+            9,
+            17,
+            16
+          ]
+        },
+        "big10k": {
+          "firstVisit": 19,
+          "n": 5,
+          "min": 18,
+          "p50": 19,
+          "p95": 20,
+          "p99": 20,
+          "max": 20,
+          "values": [
+            19,
+            18,
+            19,
+            20,
+            19
+          ]
+        },
+        "neverVisited": {
+          "firstVisit": 24,
+          "n": 5,
+          "min": 15,
+          "p50": 16,
+          "p95": 24,
+          "p99": 24,
+          "max": 24,
+          "values": [
+            24,
+            16,
+            21,
+            16,
+            15
+          ]
+        }
+      },
+      "find": {
+        "query": "the",
+        "count": 25044,
+        "computeMs": {
+          "n": 5,
+          "min": 14,
+          "p50": 33,
+          "p95": 56,
+          "p99": 56,
+          "max": 56
+        },
+        "paintedMs": {
+          "n": 5,
+          "min": 38,
+          "p50": 58,
+          "p95": 72,
+          "p99": 72,
+          "max": 72
+        }
+      },
+      "scroll": {
+        "slow": {
+          "kind": "slow",
+          "frames": 251,
+          "samples": 250,
+          "distancePx": 14054,
+          "maxShiftPx": 28,
+          "shiftsOver1px": 1,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 111,
+          "frameMax": 152,
+          "durationMs": 24066,
+          "layoutShiftEntries": 0
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 128,
+          "samples": 127,
+          "distancePx": 24378,
+          "maxShiftPx": 28,
+          "shiftsOver1px": 1,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 152,
+          "frameMax": 194,
+          "durationMs": 12795,
+          "layoutShiftEntries": 0
+        }
+      },
+      "debugAfterScroll": {
+        "buildDoc": 13,
+        "createView": 138,
+        "docSize": 1715781,
+        "chapters": 150
+      },
+      "afterUse": {
+        "jsHeapUsedMB": null,
+        "note": "no heap API in WebKit automation",
+        "rendererRssMB": null,
+        "mounted": 1
+      }
+    },
+    "3": {
+      "variant": 3,
+      "load": {
+        "sinceNavigationMs": {
+          "n": 5,
+          "min": 491,
+          "p50": 613,
+          "p95": 623,
+          "p99": 623,
+          "max": 623
+        },
+        "totalMs": {
+          "n": 5,
+          "min": 274,
+          "p50": 377,
+          "p95": 391,
+          "p99": 391,
+          "max": 391
+        },
+        "generateMs": {
+          "n": 5,
+          "min": 82,
+          "p50": 160,
+          "p95": 169,
+          "p99": 169,
+          "max": 169
+        },
+        "buildMs": {
+          "n": 5,
+          "min": 111,
+          "p50": 130,
+          "p95": 163,
+          "p99": 163,
+          "max": 163
+        },
+        "cursorMs": {
+          "n": 5,
+          "min": 29,
+          "p50": 56,
+          "p95": 62,
+          "p99": 62,
+          "max": 62
+        },
+        "editable": true
+      },
+      "afterLoad": {
+        "dom": {
+          "elements": 840,
+          "textNodes": 228
+        },
+        "mounted": 3,
+        "jsHeapUsedMB": null,
+        "note": "no heap API in WebKit automation",
+        "rendererRssMB": null
+      },
+      "typingMid": {
+        "scene": 300,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 45112,
+        "frame": {
+          "n": 496,
+          "min": 3,
+          "p50": 12,
+          "p95": 25,
+          "p99": 97,
+          "max": 119
+        },
+        "eventTiming": {
+          "n": 496,
+          "min": 16,
+          "p50": 16,
+          "p95": 25,
+          "p99": 83,
+          "max": 121,
+          "reported": 221,
+          "under16ms": 275
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 3,
+        "cgroupThrottledMs": 75.0789999999979
+      },
+      "typingBig": {
+        "scene": 420,
+        "chars": 500,
+        "delayMs": 80,
+        "wallMs": 43237,
+        "frame": {
+          "n": 500,
+          "min": 4,
+          "p50": 9,
+          "p95": 16,
+          "p99": 17,
+          "max": 25
+        },
+        "eventTiming": {
+          "n": 500,
+          "min": 16,
+          "p50": 16,
+          "p95": 18,
+          "p99": 19,
+          "max": 19,
+          "reported": 153,
+          "under16ms": 347
+        },
+        "intact": true,
+        "grewBy": 500,
+        "mounted": 2,
+        "cgroupThrottledMs": 23.081999999994878
+      },
+      "jump": {
+        "last": {
+          "firstVisit": 21,
+          "n": 5,
+          "min": 10,
+          "p50": 15,
+          "p95": 21,
+          "p99": 21,
+          "max": 21,
+          "values": [
+            21,
+            15,
+            10,
+            18,
+            11
+          ]
+        },
+        "first": {
+          "firstVisit": 20,
+          "n": 5,
+          "min": 9,
+          "p50": 10,
+          "p95": 20,
+          "p99": 20,
+          "max": 20,
+          "values": [
+            20,
+            10,
+            15,
+            9,
+            9
+          ]
+        },
+        "middle": {
+          "firstVisit": 25,
+          "n": 5,
+          "min": 9,
+          "p50": 11,
+          "p95": 25,
+          "p99": 25,
+          "max": 25,
+          "values": [
+            25,
+            11,
+            9,
+            10,
+            19
+          ]
+        },
+        "big10k": {
+          "firstVisit": 130,
+          "n": 5,
+          "min": 22,
+          "p50": 23,
+          "p95": 130,
+          "p99": 130,
+          "max": 130,
+          "values": [
+            130,
+            24,
+            23,
+            22,
+            23
+          ]
+        },
+        "neverVisited": {
+          "firstVisit": 17,
+          "n": 5,
+          "min": 15,
+          "p50": 16,
+          "p95": 18,
+          "p99": 18,
+          "max": 18,
+          "values": [
+            17,
+            16,
+            18,
+            16,
+            15
+          ]
+        }
+      },
+      "find": {
+        "query": "the",
+        "count": 25044,
+        "computeMs": {
+          "n": 5,
+          "min": 2,
+          "p50": 3,
+          "p95": 16,
+          "p99": 16,
+          "max": 16
+        },
+        "paintedMs": {
+          "n": 5,
+          "min": 27,
+          "p50": 31,
+          "p95": 81,
+          "p99": 81,
+          "max": 81
+        }
+      },
+      "scroll": {
+        "slow": {
+          "kind": "slow",
+          "frames": 285,
+          "samples": 284,
+          "distancePx": 14335,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 100,
+          "frameMax": 111,
+          "durationMs": 24025,
+          "mounts": 5,
+          "unmounts": 5,
+          "corrections": 2,
+          "layoutShiftEntries": 0
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 150,
+          "samples": 149,
+          "distancePx": 28506,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 100,
+          "frameMax": 104,
+          "durationMs": 12756,
+          "mounts": 14,
+          "unmounts": 14,
+          "corrections": 6,
+          "layoutShiftEntries": 0
+        },
+        "into10k": {
+          "kind": "up",
+          "frames": 62,
+          "samples": 61,
+          "distancePx": 7466,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 100,
+          "frameMax": 104,
+          "durationMs": 5066,
+          "mounts": 1,
+          "unmounts": 0,
+          "corrections": 0,
+          "bigSceneMountedBefore": false,
+          "bigSceneMountedAfter": true
+        }
+      },
+      "debugAfterScroll": {
+        "mounts": 92,
+        "unmounts": 88,
+        "mountMs": 92,
+        "maxMountMs": 16,
+        "lastMountMs": 4,
+        "compensations": 17,
+        "maxCompPx": 56,
+        "mounted": [
+          420,
+          421,
+          422,
+          423
+        ],
+        "focused": 422,
+        "cross": null,
+        "comp": 196,
+        "docsBuilt": 46,
+        "manualAnchor": true
+      },
+      "afterUse": {
+        "jsHeapUsedMB": null,
+        "note": "no heap API in WebKit automation",
+        "rendererRssMB": null,
+        "mounted": 4
+      },
+      "afterVisitingAll": {
+        "visitAllMs": 2621,
+        "jsHeapUsedMB": null,
+        "note": "no heap API in WebKit automation",
+        "rendererRssMB": null,
+        "mounted": 3,
+        "docsBuilt": 600
+      },
+      "selectAllCopy": {
+        "ms": 7,
+        "chars": 1709360
+      },
+      "scrollNativeAnchor": {
+        "slow": {
+          "kind": "slow",
+          "frames": 286,
+          "samples": 285,
+          "distancePx": 14347,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 100,
+          "frameMax": 108,
+          "durationMs": 24063,
+          "mounts": 5,
+          "unmounts": 5,
+          "corrections": 0,
+          "layoutShiftEntries": 0
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 152,
+          "samples": 151,
+          "distancePx": 28055,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 101,
+          "frameMax": 113,
+          "durationMs": 12804,
+          "mounts": 14,
+          "unmounts": 14,
+          "corrections": 0,
+          "layoutShiftEntries": 0
+        },
+        "into10k": {
+          "kind": "up",
+          "frames": 62,
+          "samples": 61,
+          "distancePx": 7447,
+          "maxShiftPx": 0,
+          "shiftsOver1px": 0,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 98,
+          "frameMax": 118,
+          "durationMs": 5095,
+          "mounts": 1,
+          "unmounts": 0,
+          "corrections": 0,
+          "bigSceneMountedBefore": false,
+          "bigSceneMountedAfter": true
+        }
+      },
+      "scrollNoAnchorControl": {
+        "slow": {
+          "kind": "slow",
+          "frames": 285,
+          "samples": 284,
+          "distancePx": 14331,
+          "maxShiftPx": 28,
+          "shiftsOver1px": 2,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 99,
+          "frameMax": 111,
+          "durationMs": 24016,
+          "mounts": 5,
+          "unmounts": 5,
+          "corrections": 0
+        },
+        "fling": {
+          "kind": "fling",
+          "frames": 151,
+          "samples": 150,
+          "distancePx": 28211,
+          "maxShiftPx": 28,
+          "shiftsOver1px": 6,
+          "maxBlankMs": 0,
+          "blankFrames": 0,
+          "maxBlankPx": 0,
+          "frameP95": 101,
+          "frameMax": 148,
+          "durationMs": 12785,
+          "mounts": 14,
+          "unmounts": 14,
+          "corrections": 0
+        }
+      }
+    }
+  },
+  "finished": "2026-11-12T19:07:00.386Z"
+}

@@ -1,0 +1,239 @@
+:root {
+  color-scheme: light;
+  --vvh: 100dvh;
+  --vvtop: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* The shell follows the visual viewport, so the bottom toolbar sits on top of
+   the on-screen keyboard without position tricks of its own. */
+#app {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: var(--vvh);
+  transform: translateY(var(--vvtop));
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #1c1c1c;
+}
+
+header {
+  flex: none;
+  padding: calc(4px + env(safe-area-inset-top)) 6px 4px;
+  border-bottom: 1px solid #ccc;
+  background: #f4f4f1;
+  font-size: 13px;
+}
+.row {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+button {
+  font: inherit;
+  font-size: 13px;
+  padding: 6px 8px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  background: #fff;
+  color: inherit;
+  min-height: 32px;
+  touch-action: manipulation;
+}
+button.on {
+  background: #1c4f8a;
+  border-color: #1c4f8a;
+  color: #fff;
+}
+button:disabled {
+  opacity: 0.5;
+}
+input[type='search'],
+input[type='text'] {
+  font: inherit;
+  font-size: 16px; /* below 16px iOS zooms the page on focus */
+  padding: 4px 6px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  min-width: 0;
+  flex: 1 1 90px;
+  height: 32px;
+}
+.results {
+  max-height: 180px;
+  overflow: auto;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background: #fff;
+  margin-bottom: 4px;
+}
+.results button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  border-radius: 0;
+}
+.readout {
+  font: 10.5px/1.35 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  white-space: pre-wrap;
+  margin: 0;
+  color: #222;
+  max-height: 30vh;
+  overflow: auto;
+}
+.count {
+  font-variant-numeric: tabular-nums;
+  min-width: 64px;
+  text-align: center;
+}
+
+#scroller {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+/* Variant 3 corrects scrollTop itself; the browser must not correct it too. */
+#scroller.manual-anchor {
+  overflow-anchor: none;
+}
+#doc {
+  max-width: 680px;
+  margin: 0 auto;
+  font: 17px/28px Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+}
+.empty {
+  padding: 24px 16px;
+  font: 15px/1.5 system-ui, sans-serif;
+  color: #444;
+}
+
+footer {
+  flex: none;
+  display: flex;
+  gap: 4px;
+  padding: 4px 6px calc(4px + env(safe-area-inset-bottom));
+  border-top: 1px solid #ccc;
+  background: #f4f4f1;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+footer button {
+  flex: none;
+}
+
+/* ---- text ---------------------------------------------------------------- */
+.ProseMirror {
+  outline: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  -webkit-user-select: text;
+  user-select: text;
+}
+#doc p,
+#doc h3 {
+  margin: 0 0 12px;
+  font-size: 17px;
+  line-height: 28px;
+  min-height: 28px;
+}
+#doc h3 {
+  font-weight: 700;
+}
+#doc blockquote {
+  margin: 0;
+  padding: 0 0 0 32px;
+}
+#doc hr {
+  border: 0;
+  height: 28px;
+  margin: 0 0 12px;
+  position: relative;
+}
+#doc hr::after {
+  content: '* * *';
+  position: absolute;
+  inset: 0;
+  text-align: center;
+  color: #777;
+}
+#doc h2 {
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0;
+  padding: 40px 16px 28px;
+  height: 96px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.find-current {
+  background: #ffd24d;
+}
+
+/* ---- variants 1 and 2: one editor --------------------------------------- */
+#doc .scene {
+  padding: 20px 16px;
+  box-shadow: inset 0 1px 0 #ddd;
+}
+#doc.cv .chapter {
+  content-visibility: auto;
+}
+
+/* ---- variant 3: one editor per scene ------------------------------------- */
+#doc.windowed .slot {
+  box-shadow: inset 0 1px 0 #ddd;
+}
+#doc.windowed .slot > .ProseMirror {
+  padding: 20px 16px;
+}
+#doc.windowed .slot:not(.mounted) {
+  background: repeating-linear-gradient(180deg, #f6f6f3 0 28px, #fff 28px 40px);
+}
+.xsel,
+.xsel-block {
+  background: rgba(60, 130, 255, 0.3);
+}
+#doc.xsel-on ::selection {
+  background: transparent;
+}
+
+.help {
+  flex: none;
+  max-height: 45%;
+  overflow: auto;
+  padding: 6px 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  background: #fffbe6;
+  border-bottom: 1px solid #ccc;
+}
+.help ol {
+  margin: 4px 0;
+  padding-left: 20px;
+}
+.help p {
+  margin: 4px 0;
+}

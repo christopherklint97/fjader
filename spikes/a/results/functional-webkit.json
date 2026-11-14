@@ -1,0 +1,127 @@
+[
+  {
+    "name": "jump puts the caret at the end of the scene",
+    "pass": true,
+    "detail": "{\"focused\":120,\"head\":1075,\"size\":1076}"
+  },
+  {
+    "name": "ArrowRight at scene end moves to the next scene start",
+    "pass": true,
+    "detail": "{\"focused\":121,\"head\":1,\"anchor\":1,\"size\":5390,\"mounted\":[119,120,121],\"cross\":null,\"domFocusScene\":\"121\"}"
+  },
+  {
+    "name": "ArrowLeft at scene start moves to the previous scene end",
+    "pass": true,
+    "detail": "{\"focused\":120,\"head\":1075,\"size\":1076}"
+  },
+  {
+    "name": "ArrowDown on the last line moves into the next scene",
+    "pass": true,
+    "detail": "{\"focused\":121,\"head\":16}"
+  },
+  {
+    "name": "ArrowUp on the first line moves into the previous scene",
+    "pass": true,
+    "detail": "{\"focused\":120,\"head\":1075,\"size\":1076}"
+  },
+  {
+    "name": "typing after crossing lands in the scene that has the caret",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Backspace at scene start joins the first paragraph onto the previous scene",
+    "pass": true,
+    "detail": "{\"prevGrew\":155,\"firstPara\":155,\"focused\":120}"
+  },
+  {
+    "name": "one undo reverts a cross-scene join in both scenes (expected to fail: history is per scene)",
+    "pass": false,
+    "detail": "{\"prevRestored\":false,\"curRestored\":false}"
+  },
+  {
+    "name": "native drag selection stays inside the scene it started in (browser clamps at the editing host)",
+    "pass": true,
+    "detail": "{\"anchorScene\":\"200\",\"focusScene\":\"200\",\"nativeChars\":64}"
+  },
+  {
+    "name": "mouse drag from one scene into the next makes a cross-scene selection",
+    "pass": true,
+    "detail": "{\"anchor\":{\"scene\":200,\"pos\":1777},\"head\":{\"scene\":201,\"pos\":134},\"goalX\":null}"
+  },
+  {
+    "name": "copy of a cross-scene selection returns the model text",
+    "pass": true,
+    "detail": "chars=199"
+  },
+  {
+    "name": "cross-scene selection is drawn in both scenes",
+    "pass": true,
+    "detail": "decorated nodes=2"
+  },
+  {
+    "name": "typing over a cross-scene selection deletes it through the model and inserts the character",
+    "pass": true,
+    "detail": "{\"aEndsWithQ\":true,\"removed\":196,\"selected\":197,\"focused\":200}"
+  },
+  {
+    "name": "Shift+ArrowRight past the scene end extends the selection into the next scene",
+    "pass": true,
+    "detail": "{\"nativeSel\":5,\"cross\":{\"anchor\":{\"scene\":260,\"pos\":4622},\"head\":{\"scene\":261,\"pos\":7},\"goalX\":null}}"
+  },
+  {
+    "name": "Shift+ArrowDown keeps extending inside the next scene; copy matches the model",
+    "pass": true,
+    "detail": "head={\"scene\":261,\"pos\":96} chars=97"
+  },
+  {
+    "name": "Shift+ArrowUp back into the first scene returns to a native selection",
+    "pass": true,
+    "detail": "{\"cross\":null,\"focused\":260}"
+  },
+  {
+    "name": "select-all then copy returns the whole project from the model",
+    "pass": true,
+    "detail": "chars=1708007 words=299937 modelReadMs=5.0 editorsMounted=3 (before 3) wall=442ms"
+  },
+  {
+    "name": "find counts every match in the model, mounted or not",
+    "pass": true,
+    "detail": "count=25009 independent=25009 ms=12.0 painted=71.0"
+  },
+  {
+    "name": "find jumps to a match in a scene that was not mounted",
+    "pass": true,
+    "detail": "{\"wasMounted\":false,\"ms\":104,\"text\":\"the\",\"visible\":true,\"scene\":599}"
+  },
+  {
+    "name": "browser find-in-page reaches the whole project (expected to fail: only mounted text is in the DOM)",
+    "pass": false,
+    "detail": "{\"wordsInDom\":3832}"
+  },
+  {
+    "name": "the scene holding the selection stays mounted after scrolling 60,000 px away",
+    "pass": true,
+    "detail": "mounted=[49,50,77,78]"
+  },
+  {
+    "name": "typing while the caret scene is off screen still edits that scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "a scene with an active composition is not unmounted (not testable here: no IME control in WebKit automation)",
+    "pass": true,
+    "detail": "skipped"
+  },
+  {
+    "name": "variant 2: text typed after a jump lands at the caret (selection repair off)",
+    "pass": false,
+    "detail": "landed in the right scene: [false,false,false]"
+  },
+  {
+    "name": "variant 2: text typed after a jump lands at the caret (selection repair on)",
+    "pass": true,
+    "detail": "landed in the right scene: [true,true,true]"
+  }
+]

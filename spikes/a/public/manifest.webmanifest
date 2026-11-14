@@ -1,0 +1,9 @@
+{
+  "name": "Spike A: editing at scale",
+  "short_name": "Spike A",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
